@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { GoSearch } from "react-icons/go";
 import QuickviewCard from "@/components/Cards/Quickview/Card";
+import SwiperSlides from "@/components/Swiper/Swiper";
 
 export default function Home() {
 	return (
@@ -36,32 +37,32 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			<section className="grid items-start gap-8 pt-32 mx-auto sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
-				<QuickviewCard
-					image="/alex.jpg"
-					propertyTitle="1234 Main St"
-					propertyPrice="$123,456"
-				/>
-				<QuickviewCard
-					image="/alex.jpg"
-					propertyTitle="1234 Main St"
-					propertyPrice="$123,456"
-				/>
-				<QuickviewCard
-					image="/alex.jpg"
-					propertyTitle="ur moms"
-					propertyPrice="$69,420"
-				/>
-				<QuickviewCard
-					image="/alex.jpg"
-					propertyTitle="ur moms"
-					propertyPrice="$69,420"
-				/>
-				<QuickviewCard
-					image="/alex.jpg"
-					propertyTitle="ur moms"
-					propertyPrice="$69,420"
-				/>
+			<section className="py-24">
+				<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
+					<div className="space-y-2">
+						<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+							Featured Listings
+						</h2>
+						<p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+							Explore our handpicked selection of the finest properties
+							available.
+						</p>
+					</div>
+				</div>
+				<SwiperSlides />
+			</section>
+			<section className="pb-24">
+				<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
+					<div className="space-y-2">
+						<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+							Open Houses
+						</h2>
+						<p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+							Explore Open Houses happening in your area.
+						</p>
+					</div>
+				</div>
+				<SwiperSlides />
 			</section>
 		</main>
 	);
