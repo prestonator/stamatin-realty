@@ -71,6 +71,16 @@ export default function Home() {
 				<SwiperSlides />
 			</section>
 			<section className="container px-4 py-8 mx-auto">
+				<div class="flex flex-col items-center justify-center space-y-4 text-center mb-8">
+					<div class="space-y-2">
+						<h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
+							About Me
+						</h2>
+						<p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+							Get to know your trusted realtor.
+						</p>
+					</div>
+				</div>
 				<div className="flex flex-col items-center p-8 bg-white rounded-lg shadow justify-evenly md:flex-row">
 					<div className="relative w-[15vw] h-[15vw]">
 						<Image
@@ -81,35 +91,31 @@ export default function Home() {
 						/>
 					</div>
 					<div className="mt-4 md:w-2/3 md:mt-0">
-						<h2 className="text-xl font-semibold leading-tight">John Doe</h2>
-						<p className="mt-2 text-gray-600 dark:text-gray-300">
-							Licensed Real Estate Agent
-						</p>
+						<h2 className="text-xl font-semibold leading-tight">Alex Stamatin</h2>
+						<p className="mt-2 text-gray-600">Licensed Real Estate Agent</p>
 						<div className="flex items-center mt-1">
 							<IoMdHelpCircleOutline className="w-4 h-4 mr-2 text-gray-600" />
-							<p className="text-gray-600">
-								Serving the Greater Los Angeles area
-							</p>
+							<p className="text-gray-600">Serving the Greater Oklahoma area</p>
 						</div>
 						<hr className="my-4 border-gray-300 dark:border-gray-700" />
 						<p className="text-gray-800">
-							With over 10 years of experience in the real estate industry, I
+							With over 0.5 years of experience in the real estate industry, I
 							have the expertise and local knowledge to help you find your dream
 							home. I am passionate about helping families relocate and making
 							the home buying or selling process as smooth as possible.
 						</p>
 						<div className="flex flex-col items-center mt-4 md:flex-row">
 							<button
-								className="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700 dark:bg-blue-600 dark:hover:bg-blue-800 focus:outline-none focus:shadow-outline"
+								className="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline"
 								type="button"
 							>
 								Contact Me
 							</button>
 							<div className="flex mt-4 md:mt-0 md:ml-4">
-								<span className="inline-block px-3 py-1 mr-2 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
+								<span className="inline-block px-3 py-1 mr-2 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full">
 									Expert Negotiator
 								</span>
-								<span className="inline-block px-3 py-1 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
+								<span className="inline-block px-3 py-1 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full">
 									Luxury Properties
 								</span>
 							</div>
@@ -142,9 +148,7 @@ export default function Home() {
 						</div>
 						<div className="flex mt-4">
 							<div className="mr-2 text-yellow-400">★ ★ ★ ★ ☆</div>
-							<p className="text-gray-600 dark:text-gray-300">
-								50+ Client Testimonials
-							</p>
+							<p className="text-gray-600">50+ Client Testimonials</p>
 						</div>
 					</div>
 				</div>
