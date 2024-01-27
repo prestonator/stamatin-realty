@@ -12,8 +12,8 @@ import headshotTransparent from "@/public/headshotTrans.png";
 export default function Home() {
 	return (
 		<main className="min-h-screen bg-[#efefef]">
-			<section className="pt-32">
-				<div className="flex flex-col items-center justify-center gap-4">
+			<section className="py-32">
+				<div className="relative flex flex-col items-center justify-center gap-4">
 					<div>
 						<h1 className="text-3xl font-bold text-center">
 							Make A Move For <br /> Your Future.
@@ -71,12 +71,12 @@ export default function Home() {
 				<SwiperSlides />
 			</section>
 			<section className="container px-4 py-8 mx-auto">
-				<div class="flex flex-col items-center justify-center space-y-4 text-center mb-8">
-					<div class="space-y-2">
-						<h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
+				<div className="flex flex-col items-center justify-center mb-8 space-y-4 text-center">
+					<div className="space-y-2">
+						<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
 							About Me
 						</h2>
-						<p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+						<p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
 							Get to know your trusted realtor.
 						</p>
 					</div>
@@ -91,7 +91,9 @@ export default function Home() {
 						/>
 					</div>
 					<div className="mt-4 md:w-2/3 md:mt-0">
-						<h2 className="text-xl font-semibold leading-tight">Alex Stamatin</h2>
+						<h2 className="text-xl font-semibold leading-tight">
+							Alex Stamatin
+						</h2>
 						<p className="mt-2 text-gray-600">Licensed Real Estate Agent</p>
 						<div className="flex items-center mt-1">
 							<IoMdHelpCircleOutline className="w-4 h-4 mr-2 text-gray-600" />
