@@ -54,7 +54,7 @@ const Footer = ({}) => {
 							Ready to find your dream home? Click below to schedule a
 							consultation with one of our experienced realtors.
 						</p>
-						<button class="w-full px-4 py-2 font-bold rounded bg-gray-900 text-white hover:bg-gray-700">
+						<button className="w-full px-4 py-2 font-bold rounded bg-gray-900 text-white hover:bg-gray-700">
 							Schedule Now
 						</button>
 					</div>
