@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import Image from "next/image";
 import {
@@ -8,6 +9,7 @@ import {
 	LuCamera,
 	LuStar,
 } from "react-icons/lu";
+import QuickviewModal from "./Modal";
 
 const CardTop = ({ image, howRecent, imageCount }) => {
 	return (
@@ -83,6 +85,11 @@ const CardBottom = ({ bedrooms, bathrooms, parkingSpaces, squareFootage }) => {
 };
 
 const QuickviewCard = ({ image, ...props }) => {
+	const [isModalOpen, setModalOpen] = useState(false);
+
+	const toggleModal = () => {
+		setModalOpen(!isModalOpen);
+	};
 	return (
 		<>
 			<div
@@ -95,11 +102,15 @@ const QuickviewCard = ({ image, ...props }) => {
 						<CardMiddle {...props} />
 						<CardBottom {...props} />
 					</div>
-					<button className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-200 hover:bg-gray-700 hover:text-gray-300">
+					<button
+						onClick={toggleModal}
+						className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-200 hover:bg-gray-700 hover:text-gray-300"
+					>
 						View Details
 					</button>
 				</div>
 			</div>
+			{isModalOpen && <QuickviewModal {...props} onClose={toggleModal} />}
 		</>
 	);
 };

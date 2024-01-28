@@ -1,9 +1,9 @@
-const QuickviewModal = ({ image, propertyTitle, propertyPrice, onClose }) => {
+const QuickviewModal = ({ image, propertyType, propertyPrice, onClose }) => {
 	return (
 		<div className="fixed inset-0 z-50 flex overflow-auto bg-smoke-light">
 			<div className="relative flex flex-col w-full max-w-md p-8 m-auto bg-white rounded-lg">
 				{/* Modal content here */}
-				<h2>{propertyTitle}</h2>
+				<h2>{propertyType}</h2>
 				<p>{propertyPrice}</p>
 				{/* Image, details, etc. */}
 				<button
