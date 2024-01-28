@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { LuStar } from "react-icons/lu";
+import Image from "next/image";
 
 const About = () => {
 	return (
@@ -19,14 +20,14 @@ const About = () => {
 		>
 			<main className="flex-1">
 				<section className="w-full py-12 md:py-24 lg:py-32">
-					<div className="container px-4 md:px-6">
+					<div className="container px-32">
 						<div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
-							<img
+							<Image
 								alt="Realtor"
 								className="object-cover mx-auto overflow-hidden rounded-full aspect-square sm:w-full lg:order-last"
-								height="500"
+								height={500}
 								src="/alex.jpg"
-								width="500"
+								width={500}
 							/>
 							<div className="flex flex-col justify-center space-y-4">
 								<div className="space-y-2">
