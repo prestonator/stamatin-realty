@@ -22,7 +22,7 @@ export default function Home() {
 					<div>
 						<span>The Most Followed Real Estate Brand in the World.</span>
 					</div>
-					<div className="flex items-center justify-between w-1/2 gap-4 px-4 py-6 bg-white shadow-md rounded-2xl">
+					<div className="flex flex-wrap w-[60vw] items-center justify-around gap-4 px-4 py-6 bg-white shadow-md rounded-2xl">
 						<div>
 							<select name="type" id="type">
 								<option value="Buy">Buy</option>
@@ -30,7 +30,7 @@ export default function Home() {
 								<option value="Rent">Rent</option>
 							</select>
 						</div>
-						<div className="w-full">
+						<div className="w-[25rem]">
 							<input
 								type="text"
 								className="w-full px-6 py-4 rounded ring-1 ring-gray-400 ring-opacity-50"
