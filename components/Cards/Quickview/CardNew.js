@@ -95,7 +95,7 @@ const QuickviewCard = ({ image, ...props }) => {
 						<CardMiddle {...props} />
 						<CardBottom {...props} />
 					</div>
-					<button className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-white bg-blue-500 hover:bg-blue-700">
+					<button className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-200 hover:bg-gray-700 hover:text-gray-300">
 						View Details
 					</button>
 				</div>
