@@ -17,14 +17,27 @@ export default function SwiperSlides() {
 	return (
 		<>
 			<Swiper
-				slidesPerView={3}
-				spaceBetween={30}
+				slidesPerView={1}
 				pagination={{
 					clickable: true,
 				}}
 				loop={true}
 				modules={[Pagination]}
 				className="mySwiper"
+				breakpoints={{
+					640: {
+						slidesPerView: 2,
+						spaceBetween: 20,
+					},
+					768: {
+						slidesPerView: 3,
+						spaceBetween: 40,
+					},
+					1024: {
+						slidesPerView: 4,
+						spaceBetween: 20,
+					}
+				}}
 			>
 				<SwiperSlide>
 					<QuickviewCard
@@ -36,7 +49,7 @@ export default function SwiperSlides() {
 						bedrooms="2"
 						bathrooms="2"
 						parkingSpaces="2"
-						squareFootage="1200 sq.ft"
+						squareFootage="1200"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
@@ -49,7 +62,7 @@ export default function SwiperSlides() {
 						bedrooms="2"
 						bathrooms="2"
 						parkingSpaces="2"
-						squareFootage="1200 sq.ft"
+						squareFootage="1200"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
@@ -62,7 +75,7 @@ export default function SwiperSlides() {
 						bedrooms="2"
 						bathrooms="2"
 						parkingSpaces="2"
-						squareFootage="1200 sq.ft"
+						squareFootage="1200"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
@@ -75,7 +88,7 @@ export default function SwiperSlides() {
 						bedrooms="2"
 						bathrooms="2"
 						parkingSpaces="2"
-						squareFootage="1200 sq.ft"
+						squareFootage="1200"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
@@ -88,7 +101,7 @@ export default function SwiperSlides() {
 						bedrooms="2"
 						bathrooms="2"
 						parkingSpaces="2"
-						squareFootage="1200 sq.ft"
+						squareFootage="1200"
 					/>
 				</SwiperSlide>
 				<SwiperSlide>
@@ -101,7 +114,7 @@ export default function SwiperSlides() {
 						bedrooms="2"
 						bathrooms="2"
 						parkingSpaces="2"
-						squareFootage="1200 sq.ft"
+						squareFootage="1200"
 					/>
 				</SwiperSlide>
 			</Swiper>
