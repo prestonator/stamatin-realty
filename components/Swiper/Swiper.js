@@ -13,6 +13,32 @@ import "./styles.css";
 import { Pagination } from "swiper/modules";
 import QuickviewCard from "../Cards/Quickview/CardNew";
 
+// Data for the slides
+const slidesData = [
+	{
+		image: "/1.jpg",
+		streetAdress: "123 Main St",
+		cityStateZip: "Norman, OK 73069",
+		listingPrice: "$425,000",
+		propertyType: "Office Space",
+		bedrooms: "2",
+		bathrooms: "2",
+		parkingSpaces: "2",
+		squareFootage: "1200",
+	},
+	{
+		image: "/2.jpg",
+		streetAdress: "2126 Melrose Court",
+		cityStateZip: "Norman, OK 73069",
+		listingPrice: "$245,000",
+		propertyType: "Town Home",
+		bedrooms: "2",
+		bathrooms: "1.5",
+		parkingSpaces: "2",
+		squareFootage: "1200",
+	},
+];
+
 export default function SwiperSlides() {
 	return (
 		<>
@@ -36,87 +62,14 @@ export default function SwiperSlides() {
 					1024: {
 						slidesPerView: 4,
 						spaceBetween: 20,
-					}
+					},
 				}}
 			>
-				<SwiperSlide>
-					<QuickviewCard
-						image="/1.jpg"
-						streetAdress="123 Main St"
-						cityStateZip="Norman, OK 73069"
-						listingPrice="$425,000"
-						propertyType="Office Space"
-						bedrooms="2"
-						bathrooms="2"
-						parkingSpaces="2"
-						squareFootage="1200"
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<QuickviewCard
-						image="/2.jpg"
-						streetAdress="123 Main St"
-						cityStateZip="Norman, OK 73069"
-						listingPrice="$425,000"
-						propertyType="Office Space"
-						bedrooms="2"
-						bathrooms="2"
-						parkingSpaces="2"
-						squareFootage="1200"
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<QuickviewCard
-						image="/3.jpg"
-						streetAdress="123 Main St"
-						cityStateZip="Norman, OK 73069"
-						listingPrice="$425,000"
-						propertyType="Office Space"
-						bedrooms="2"
-						bathrooms="2"
-						parkingSpaces="2"
-						squareFootage="1200"
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<QuickviewCard
-						image="/4.jpg"
-						streetAdress="123 Main St"
-						cityStateZip="Norman, OK 73069"
-						listingPrice="$425,000"
-						propertyType="Office Space"
-						bedrooms="2"
-						bathrooms="2"
-						parkingSpaces="2"
-						squareFootage="1200"
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<QuickviewCard
-						image="/5.jpg"
-						streetAdress="123 Main St"
-						cityStateZip="Norman, OK 73069"
-						listingPrice="$425,000"
-						propertyType="Office Space"
-						bedrooms="2"
-						bathrooms="2"
-						parkingSpaces="2"
-						squareFootage="1200"
-					/>
-				</SwiperSlide>
-				<SwiperSlide>
-					<QuickviewCard
-						image="/alex.jpg"
-						streetAdress="123 Main St"
-						cityStateZip="Norman, OK 73069"
-						listingPrice="$425,000"
-						propertyType="Office Space"
-						bedrooms="2"
-						bathrooms="2"
-						parkingSpaces="2"
-						squareFootage="1200"
-					/>
-				</SwiperSlide>
+				{slidesData.map((slide, index) => (
+					<SwiperSlide key={index}>
+						<QuickviewCard {...slide} />
+					</SwiperSlide>
+				))}
 			</Swiper>
 		</>
 	);
