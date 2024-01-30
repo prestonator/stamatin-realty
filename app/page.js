@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { GoSearch } from "react-icons/go";
 import QuickviewCard from "@/components/Cards/Quickview/Card";
 import SwiperSlides from "@/components/Swiper/Swiper";
 import { FaFacebookF } from "react-icons/fa";
@@ -15,7 +14,39 @@ import { Button } from "@/components/ui/button";
 import { LuSearch } from "react-icons/lu";
 
 const Hero = () => {
-	
+	return (
+		<div className="flex flex-col items-center p-4 overflow-hidden bg-white bg-green-200 rounded-lg shadow-lg sm:flex-row">
+			<div className="flex items-center mb-4 overflow-hidden border border-gray-300 rounded-lg sm:mb-0">
+				<RadioGroup className="flex" defaultValue="buy">
+					<Label
+						className="px-6 py-3 text-lg font-semibold bg-gray-200 border-r border-gray-300 cursor-pointer"
+						htmlFor="buy"
+					>
+						<RadioGroupItem className="sr-only" id="buy" value="buy" />
+						Buy
+					</Label>
+					<Label
+						className="px-6 py-3 text-lg font-semibold bg-white cursor-pointer"
+						htmlFor="rent"
+					>
+						<RadioGroupItem className="sr-only" id="rent" value="rent" />
+						Rent
+					</Label>
+				</RadioGroup>
+			</div>
+			<Input
+				className="flex-1 px-6 py-3 mb-4 text-lg sm:mb-0 sm:ml-6"
+				placeholder="Search..."
+				type="search"
+			/>
+			<Button
+				className="px-6 py-3 transition-colors hover:bg-gray-700 sm:ml-4"
+				variant="solid"
+			>
+				<LuSearch className="w-6 h-6" />
+			</Button>
+		</div>
+	);
 }
 
 export default function Home() {
@@ -31,25 +62,7 @@ export default function Home() {
 					<div>
 						<span>The Most Followed Real Estate Brand in the World.</span>
 					</div>
-					<div className="flex flex-wrap w-[60vw] items-center justify-around gap-4 px-4 py-6 bg-white shadow-md rounded-2xl">
-						<div>
-							<select name="type" id="type">
-								<option value="Buy">Buy</option>
-								<option value="Sell">Sell</option>
-								<option value="Rent">Rent</option>
-							</select>
-						</div>
-						<div className="w-[25rem]">
-							<input
-								type="text"
-								className="w-full px-6 py-4 rounded ring-1 ring-gray-400 ring-opacity-50"
-								placeholder="Search by address or area"
-							/>
-						</div>
-						<div className="bg-[#7C9082] p-3 rounded-3xl">
-							<GoSearch className="w-5 h-5" />
-						</div>
-					</div>
+					<Hero />
 				</div>
 			</section>
 			<section className="py-24">
