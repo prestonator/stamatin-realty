@@ -44,7 +44,7 @@ const OpenHousesPage = () => {
 							alt="Property 1"
 							className="aspect-[7/5] overflow-hidden rounded-lg object-cover object-center"
 							height="250"
-							src="/1.jpg"
+							src="/1.webp"
 							width="350"
 						/>
 						<h3 className="text-lg font-light">123 Main St, Anytown</h3>
@@ -70,7 +70,7 @@ const OpenHousesPage = () => {
 							alt="Property 2"
 							className="aspect-[7/5] overflow-hidden rounded-lg object-cover object-center"
 							height="250"
-							src="/2.jpg"
+							src="/2.webp"
 							width="350"
 						/>
 						<h3 className="text-lg font-light">456 Elm St, Sometown</h3>
@@ -96,7 +96,7 @@ const OpenHousesPage = () => {
 							alt="Property 3"
 							className="aspect-[7/5] overflow-hidden rounded-lg object-cover object-center"
 							height="250"
-							src="/3.jpg"
+							src="/3.webp"
 							width="350"
 						/>
 						<h3 className="text-lg font-light">789 Oak St, Othertown</h3>

@@ -100,7 +100,7 @@ const ListingsPage = () => {
 						alt="Property 1"
 						className="object-cover w-full h-64"
 						height={400}
-						src="/1.jpg"
+						src="/1.webp"
 						style={{
 							aspectRatio: "500/400",
 							objectFit: "cover",
@@ -121,7 +121,7 @@ const ListingsPage = () => {
 						alt="Property 2"
 						className="object-cover w-full h-64"
 						height={400}
-						src="/2.jpg"
+						src="/2.webp"
 						style={{
 							aspectRatio: "500/400",
 							objectFit: "cover",
@@ -142,7 +142,7 @@ const ListingsPage = () => {
 						alt="Property 3"
 						className="object-cover w-full h-64"
 						height={400}
-						src="/3.jpg"
+						src="/3.webp"
 						style={{
 							aspectRatio: "500/400",
 							objectFit: "cover",
@@ -163,7 +163,7 @@ const ListingsPage = () => {
 						alt="Property 4"
 						className="object-cover w-full h-64"
 						height={400}
-						src="/4.jpg"
+						src="/4.webp"
 						style={{
 							aspectRatio: "500/400",
 							objectFit: "cover",
@@ -184,7 +184,7 @@ const ListingsPage = () => {
 						alt="Property 1"
 						className="object-cover w-full h-64"
 						height={400}
-						src="/5.jpg"
+						src="/5.webp"
 						style={{
 							aspectRatio: "500/400",
 							objectFit: "cover",

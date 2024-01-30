@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoMdHelpCircleOutline } from "react-icons/io";
-import headshotTransparent from "@/public/headshotTrans.png";
+import headshotTransparent from "@/public/headshotTrans.webp";
 import { RadioGroupItem, RadioGroup } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -52,7 +52,13 @@ const Hero = () => {
 export default function Home() {
 	return (
 		<main className="min-h-screen bg-[#efefef]">
-			<section className="py-32">
+			<section
+				className="py-32"
+				style={{
+					backgroundImage: `url(/1.jpg)`,
+					backgroundSize: "cover",
+				}}
+			>
 				<div className="relative flex flex-col items-center justify-center gap-4">
 					<div>
 						<h1 className="text-3xl font-bold text-center">

@@ -16,7 +16,7 @@ import QuickviewCard from "../Cards/Quickview/CardNew";
 // Data for the slides
 const slidesData = [
 	{
-		image: "/1.jpg",
+		image: "/1.webp",
 		streetAdress: "123 Main St",
 		cityStateZip: "Norman, OK 73069",
 		listingPrice: "$425,000",
@@ -27,7 +27,7 @@ const slidesData = [
 		squareFootage: "1200",
 	},
 	{
-		image: "/2.jpg",
+		image: "/2.webp",
 		streetAdress: "2126 Melrose Court",
 		cityStateZip: "Norman, OK 73069",
 		listingPrice: "$245,000",
