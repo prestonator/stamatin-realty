@@ -53,20 +53,22 @@ export default function Home() {
 	return (
 		<main className="min-h-screen bg-[#efefef]">
 			<section
-				className="py-32"
+				className="py-32 bg-blend-multiply"
 				style={{
-					backgroundImage: `url(/1.jpg)`,
+					backgroundImage: `url(/homeHero.webp)`,
 					backgroundSize: "cover",
+					backgroundColor: "rgba(11, 10, 7, 0.7)",
+					backgroundPositionY: "center",
 				}}
 			>
 				<div className="relative flex flex-col items-center justify-center gap-4">
 					<div>
-						<h1 className="text-3xl font-bold text-center">
+						<h1 className="text-3xl font-bold text-center text-white">
 							Make A Move For <br /> Your Future.
 						</h1>
 					</div>
 					<div>
-						<span>The Most Followed Real Estate Brand in the World.</span>
+						<span className="text-white">The Most Followed Real Estate Brand in the World.</span>
 					</div>
 					<Hero />
 				</div>
