@@ -8,6 +8,15 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoMdHelpCircleOutline } from "react-icons/io";
 import headshotTransparent from "@/public/headshotTrans.png";
+import { RadioGroupItem, RadioGroup } from "@/components/ui/radio-group";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { LuSearch } from "react-icons/lu";
+
+const Hero = () => {
+	
+}
 
 export default function Home() {
 	return (
