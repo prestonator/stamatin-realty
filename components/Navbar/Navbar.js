@@ -1,31 +1,36 @@
-import Image from "next/image";
 import Link from "next/link";
+import styles from "@/components/Navbar/Navbar.module.css";
 
 const Navbar = () => {
-    return (
-        <header className="flex items-center h-16 px-8 bg-transparent shadow-md lg:px-12">
-            <Link className="w-[10vw] h-[5rem] relative" href="/" rel="ugc">
-                <Image src="/kwlogo_trans.webp" alt="Keller Williams Logo" className="object-contain" fill />
-            </Link>
-            <nav className="flex gap-4 ml-auto sm:gap-6">
-                <Link className="text-sm font-medium hover:underline underline-offset-4" href="/" rel="ugc">
-                    Home
-                </Link>
-                <Link className="text-sm font-medium hover:underline underline-offset-4" href="/listings" rel="ugc">
-                    Listings
-                </Link>
-                <Link className="text-sm font-medium hover:underline underline-offset-4" href="/open-houses" rel="ugc">
-                    Open Houses
-                </Link>
-                <Link className="text-sm font-medium hover:underline underline-offset-4" href="/about" rel="ugc">
-                    About
-                </Link>
-                <Link className="text-sm font-medium hover:underline underline-offset-4" href="/contact" rel="ugc">
-                    Contact
-                </Link>
-            </nav>
-        </header>
-    );
+	return (
+		<ul className={`flex items-center justify-end gap-4 text-white ${styles.navbarItems}`}>
+			<li className={styles.navItem}>
+				<Link href="/" className={styles.navLink}>
+					Home
+				</Link>
+			</li>
+			<li className={styles.navItem}>
+				<Link href="/listings" className={styles.navLink}>
+					Listings
+				</Link>
+			</li>
+			<li className={styles.navItem}>
+				<Link href="/open-houses" className={styles.navLink}>
+					Open Houses
+				</Link>
+			</li>
+			<li className={styles.navItem}>
+				<Link href="/about" className={styles.navLink}>
+					About
+				</Link>
+			</li>
+			<li className={styles.navItem}>
+				<Link href="/contact" className={styles.navLink}>
+					Contact
+				</Link>
+			</li>
+		</ul>
+	);
 };
 
 export default Navbar;

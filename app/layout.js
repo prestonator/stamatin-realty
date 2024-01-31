@@ -2,6 +2,7 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import NavbarClient from "@/components/Navbar/NavbarClient";
 import Footer from "@/components/Footer/Footer";
 
 export const fontSans = FontSans({
@@ -23,7 +24,9 @@ export default function RootLayout({ children }) {
 					fontSans.variable
 				)}
 			>
-				<Navbar />
+				<NavbarClient>
+					<Navbar />
+				</NavbarClient>
 				{children}
 				<Footer />
 			</body>
