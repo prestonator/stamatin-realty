@@ -6,7 +6,7 @@ import Link from "next/link";
 const Hero = () => {
 	return (
 		<section
-			className="py-48 bg-blend-multiply"
+			className="px-4 py-48 bg-blend-multiply"
 			style={{
 				backgroundImage: `url(/aboutHero.webp)`,
 				backgroundSize: "cover",
@@ -21,7 +21,7 @@ const Hero = () => {
 					</h1>
 				</div>
 				<div>
-					<span className="text-white">
+					<span className="block text-center text-white">
 						Discover your dream home from our exclusive listings.
 					</span>
 				</div>

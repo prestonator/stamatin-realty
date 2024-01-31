@@ -15,7 +15,7 @@ import { LuSearch } from "react-icons/lu";
 
 const Hero = () => {
 	return (
-		<div className="flex flex-col items-center p-4 overflow-hidden bg-white bg-green-200 rounded-lg shadow-lg sm:flex-row">
+		<div className="flex flex-col items-center p-4 overflow-hidden bg-white rounded-lg shadow-lg sm:flex-row">
 			<div className="flex items-center mb-4 overflow-hidden border border-gray-300 rounded-lg sm:mb-0">
 				<RadioGroup className="flex" defaultValue="buy">
 					<Label

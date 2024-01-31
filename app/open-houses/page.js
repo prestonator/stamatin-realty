@@ -9,32 +9,46 @@ import { LuClock4, LuCalendar } from "react-icons/lu";
 import Image from "next/image";
 import Link from "next/link";
 
+const Hero = () => {
+	return (
+		<section
+			className="flex flex-col items-center px-4 py-48 space-y-4 text-center bg-blend-multiply"
+			style={{
+				backgroundImage: `url(/openHouseHero.webp)`,
+				backgroundSize: "cover",
+				backgroundColor: "rgba(11, 10, 7, 0.7)",
+				backgroundPositionY: "center",
+			}}
+		>
+			<div className="space-y-2 text-white">
+				<h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+					Open Houses
+				</h1>
+				<p className="mx-auto max-w-[700px] md:text-xl">
+					Explore upcoming open houses in your area.
+				</p>
+			</div>
+			<div className="w-full max-w-sm space-y-2">
+				<Select>
+					<SelectTrigger className="h-auto">
+						<SelectValue placeholder="Sort by" />
+					</SelectTrigger>
+					<SelectContent>
+						<SelectItem value="date">Date</SelectItem>
+						<SelectItem value="location">Location</SelectItem>
+						<SelectItem value="property-type">Property Type</SelectItem>
+					</SelectContent>
+				</Select>
+			</div>
+		</section>
+	);
+};
+
 const OpenHousesPage = () => {
 	return (
-		<section key="1" className="w-full py-12 md:py-24 lg:py-32">
-			<div className="container px-4 md:px-6">
-				<div className="flex flex-col items-center space-y-4 text-center">
-					<div className="space-y-2">
-						<h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-							Open Houses
-						</h1>
-						<p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-							Explore upcoming open houses in your area.
-						</p>
-					</div>
-					<div className="w-full max-w-sm space-y-2">
-						<Select>
-							<SelectTrigger className="h-auto">
-								<SelectValue placeholder="Sort by" />
-							</SelectTrigger>
-							<SelectContent>
-								<SelectItem value="date">Date</SelectItem>
-								<SelectItem value="location">Location</SelectItem>
-								<SelectItem value="property-type">Property Type</SelectItem>
-							</SelectContent>
-						</Select>
-					</div>
-				</div>
+		<main key="1">
+			<Hero />
+			<section className="container px-4 md:px-6">
 				<div className="grid items-start gap-8 mx-auto mt-8 max-w-7xl sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
 					<div className="relative grid gap-1 p-4 bg-white rounded-lg shadow-md">
 						<div className="absolute top-0 left-0 px-2 py-1 text-xs text-gray-800 bg-green-200 rounded-md">
@@ -115,8 +129,8 @@ const OpenHousesPage = () => {
 						</p>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+		</main>
 	);
 };
 
