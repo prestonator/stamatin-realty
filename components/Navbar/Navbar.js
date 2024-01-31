@@ -3,7 +3,7 @@ import styles from "@/components/Navbar/Navbar.module.css";
 
 const Navbar = () => {
 	return (
-		<ul className={`flex items-center justify-end gap-4 text-white ${styles.navbarItems}`}>
+		<ul className={`flex items-center gap-4 text-white ${styles.navbarItems}`}>
 			<li className={styles.navItem}>
 				<Link href="/" className={styles.navLink}>
 					Home

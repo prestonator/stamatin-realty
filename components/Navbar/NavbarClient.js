@@ -55,7 +55,7 @@ function NavbarClient({ children }) {
 	return (
 		<header>
 			<nav
-				className={`bg-[#ffffff20] pr-6 ${styles.navContainer}`}
+				className={`bg-[#00000082] pr-6 ${styles.navContainer}`}
 				style={stickyStyles}
 				ref={navRef}
 			>

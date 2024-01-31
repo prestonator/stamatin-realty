@@ -53,7 +53,7 @@ export default function Home() {
 	return (
 		<main className="min-h-screen bg-[#efefef]">
 			<section
-				className="py-32 bg-blend-multiply"
+				className="py-48 bg-blend-multiply"
 				style={{
 					backgroundImage: `url(/homeHero.webp)`,
 					backgroundSize: "cover",
