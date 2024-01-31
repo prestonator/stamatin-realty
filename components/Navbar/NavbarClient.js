@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
 import Link from "next/link";
 import { debounce } from "./debounce";
