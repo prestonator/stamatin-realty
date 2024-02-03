@@ -1,7 +1,16 @@
+import Image from "next/image";
+
 const QuickviewModal = ({ image, propertyType, propertyPrice, onClose }) => {
 	return (
 		<div className="fixed inset-0 z-50 flex overflow-auto bg-smoke-light">
 			<div className="relative flex flex-col w-full max-w-md p-8 m-auto bg-white rounded-lg">
+				<Image
+					alt="Property"
+					className="object-cover w-full h-auto aspect-[3/2]"
+					height={200}
+					src={image}
+					width={300}
+				/>
 				{/* Modal content here */}
 				<h2>{propertyType}</h2>
 				<p>{propertyPrice}</p>

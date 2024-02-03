@@ -110,7 +110,7 @@ const QuickviewCard = ({ image, ...props }) => {
 					</button>
 				</div>
 			</div>
-			{isModalOpen && <QuickviewModal {...props} onClose={toggleModal} />}
+			{isModalOpen && <QuickviewModal image={image} {...props} onClose={toggleModal} />}
 		</>
 	);
 };
