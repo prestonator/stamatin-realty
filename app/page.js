@@ -47,9 +47,9 @@ const Hero = () => {
 			</Button>
 		</div>
 	);
-}
+};
 
-export default function Home() {
+const HomePage = async () => {
 	return (
 		<main className="min-h-screen bg-[#efefef]">
 			<section
@@ -68,7 +68,9 @@ export default function Home() {
 						</h1>
 					</div>
 					<div>
-						<span className="text-white">The Most Followed Real Estate Brand in the World.</span>
+						<span className="text-white">
+							The Most Followed Real Estate Brand in the World.
+						</span>
 					</div>
 					<Hero />
 				</div>
@@ -187,4 +189,6 @@ export default function Home() {
 			</section>
 		</main>
 	);
-}
+};
+
+export default HomePage;
