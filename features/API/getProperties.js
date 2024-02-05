@@ -1,3 +1,4 @@
+// @/utils/getProperties.js
 import axios from "axios";
 
 const axiosFetch = axios.create({
@@ -18,5 +19,10 @@ export const getProperties = async () => {
 			page: "1",
 		},
 	});
-	return data.data.forSale.results;
+	// Map through the results and extract listing_id and property_id
+	const propertyIds = data.data.forSale.results.map((property) => ({
+		listing_id: property.listing_id,
+		property_id: property.property_id,
+	}));
+	return propertyIds;
 };

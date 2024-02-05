@@ -1,0 +1,89 @@
+[
+    {
+        "property_id": "7270800665",
+        "listing_id": "2963670975",
+        "type": "Home",
+        "status": "for_sale",
+        "externalLink": "https://www.realtor.com/realestateandhomes-detail/15917-Nelson-Rd_Norman_OK_73026_M72708-00665",
+        "list_date": "2024-02-01T20:26:44Z",
+        "description": {
+            "type": "single_family",
+            "bath_count": "1.5",
+            "bed_count": 1,
+            "garage_count": 1,
+            "pool": null,
+            "sqft": 1252,
+            "lot_sqft": 90605,
+            "unit_count": null,
+            "story_count": 2,
+            "property_styles": [
+                "colonial_revival"
+            ],
+            "year_built": 2004,
+            "name": null,
+            "sub_type": null,
+            "property_description": "Welcome to your dream home nestled in the heart of nature! This charming 1252 sq. ft. residence is situated on an expansive 2.08 acres, providing the perfect blend of tranquility and modern comfort. The property boasts a picturesque wooded landscape, creating a serene environment where you can unwind and connect with nature. Wildlife enthusiasts will delight in the frequent visits of deer and amount of privacy the trees provide. Designed with your comfort in mind, the property is equipped with a brand-new heat and air system, ensuring a climate-controlled haven year-round. Interior of the home has fresh paint, brand new carpet and new pump for the well. Open floorplan creates functionality for anyone while the bedroom and full bathroom is upstairs. Kitchen is a chef's dream with brand new stainless steel appliances, ample counter space and painted cabinetry. Stepping onto the back patio will take your breath away as you embrace the serene retreat."
+        },
+        "list_price": 165000,
+        "price_per_sqft": 132,
+        "open_houses": null,
+        "location": {
+            "street_number": "15917 Nelson Rd",
+            "city": "Norman",
+            "state_code": "OK",
+            "state": "Oklahoma",
+            "postal_code": "73026",
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=15917%20Nelson%20Rd%2C%20Norman%2C%20OK%2073026&size=640x480&source=outdoor&signature=9QFU1_jVeLnEdnYIxtyaKFXG69A="
+        },
+        "photo_count": 10,
+        "photos": [
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m546473566s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2855483021s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m900489375s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1780945311s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1062500370s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m4122374669s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2863208370s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2820153131s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2022442525s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1273242786s.jpg"
+            }
+        ],
+        "virtual_tours": [
+            {
+                "__typename": "VirtualTour",
+                "href": "https://www.propertypanorama.com/instaview/okc/1097293"
+            }
+        ],
+        "videos": null
+    }
+]
