@@ -14,6 +14,8 @@ import { Button } from "@/components/ui/button";
 import { LuSearch } from "react-icons/lu";
 import FetchButton from "@/features/components/FetchButton";
 import ButtonSection from "@/components/ButtonSection";
+import PropertyCard from "@/components/Cards/PropertyCard/PropertyCard";
+import propertyDetails from "@/data/propertyDetails.json";
 
 const Hero = () => {
 	return (
@@ -52,6 +54,7 @@ const Hero = () => {
 };
 
 const HomePage = async () => {
+	console.log(propertyDetails);
 	return (
 		<main className="min-h-screen bg-[#efefef]">
 			<section
@@ -77,8 +80,15 @@ const HomePage = async () => {
 					<Hero />
 				</div>
 			</section>
+			<div>
+				{propertyDetails.map((property) => (
+					<PropertyCard key={property.property_id} property={property} />
+				))}
+			</div>
+			{/* 
 			<FetchButton />
 			<ButtonSection />
+			*/}
 			<section className="py-24">
 				<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
 					<div className="space-y-2">

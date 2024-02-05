@@ -85,5 +85,92 @@
             }
         ],
         "videos": null
+    },
+    {
+        "property_id": "8259658687",
+        "listing_id": "2963668468",
+        "type": "Home",
+        "status": "for_sale",
+        "externalLink": "https://www.realtor.com/realestateandhomes-detail/1417-SW-129th-St_Oklahoma-City_OK_73170_M82596-58687",
+        "list_date": "2024-02-01T19:44:32Z",
+        "description": {
+            "type": "single_family",
+            "bath_count": "2",
+            "bed_count": 3,
+            "garage_count": 2,
+            "pool": null,
+            "sqft": 1626,
+            "lot_sqft": 7405,
+            "unit_count": null,
+            "story_count": 1,
+            "property_styles": [
+                "colonial_revival"
+            ],
+            "year_built": 1999,
+            "name": null,
+            "sub_type": null,
+            "property_description": "Welcome to this fully remodeled gem nestled in the desirable Moore School District! This exquisite home boasts 3 bedrooms and 2 bathrooms, providing a perfect blend of comfort and style. Step into a modern oasis with a brand-new kitchen featuring custom wood cabinets, glass tile backsplash and recycled glass countertops. All new trim and doors with modern sleek hardware throughout the entire house. The large and rejuvenating walk-in dual-head shower is certain to impress. Porcelain tile, plush high-end carpeting underfoot, and the contemporary light fixtures add a touch of sophistication to every room. The open floor plan enhances the spacious feel, seamlessly connecting the generously-sized dining room to the kitchen and living areas. Enjoy the convenience of the newly constructed MAPS walking trails right out of the backyard making this property not just a home but a lifestyle. This residence harmoniously combines functionality and aesthetics, offering a truly turnkey living experience."
+        },
+        "list_price": 275000,
+        "price_per_sqft": 169,
+        "open_houses": null,
+        "location": {
+            "street_number": "1417 SW 129th St",
+            "city": "Oklahoma City",
+            "state_code": "OK",
+            "state": "Oklahoma",
+            "postal_code": "73170",
+            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1417%20SW%20129th%20St%2C%20Oklahoma%20City%2C%20OK%2073170&size=640x480&source=outdoor&signature=DhVSYGziCWgr2EgkhoHXPoDHH2I="
+        },
+        "photo_count": 10,
+        "photos": [
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m652050780s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3261701846s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m445414932s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4072386150s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2664591584s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3397744891s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4241401588s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4230070760s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4172509973s.jpg"
+            },
+            {
+                "__typename": "HomePhoto",
+                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2651120997s.jpg"
+            }
+        ],
+        "virtual_tours": [
+            {
+                "__typename": "VirtualTour",
+                "href": "https://www.propertypanorama.com/instaview/okc/1096841"
+            }
+        ],
+        "videos": null
     }
 ]
