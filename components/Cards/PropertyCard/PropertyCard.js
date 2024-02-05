@@ -1,6 +1,6 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import {
 	LuBed,
 	LuBath,
@@ -9,6 +9,7 @@ import {
 	LuCamera,
 	LuStar,
 } from "react-icons/lu";
+import QuickviewModal from "./Modal";
 
 const CardTop = ({ image, photo_count, imageAlt }) => {
 	return (
@@ -96,6 +97,12 @@ const PropertyCard = ({ property }) => {
 		description,
 	} = property;
 
+	const [isModalOpen, setModalOpen] = useState(false);
+
+	const toggleModal = () => {
+		setModalOpen(!isModalOpen);
+	};
+
 	return (
 		<>
 			<div className="relative max-w-sm overflow-hidden border rounded-lg shadow-sm bg-card">
@@ -114,12 +121,21 @@ const PropertyCard = ({ property }) => {
 						<CardBottom description={description} />
 					</div>
 					<button
+						onClick={toggleModal}
 						className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-200 hover:bg-gray-700 hover:text-gray-300"
 					>
 						View Details
 					</button>
 				</div>
 			</div>
+			{isModalOpen && (
+				<QuickviewModal
+					image={photos[0].href}
+					type={type}
+					list_price={`$${list_price.toLocaleString()}`}
+					onClose={toggleModal}
+				/>
+			)}
 		</>
 	);
 };
