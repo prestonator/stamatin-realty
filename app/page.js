@@ -54,7 +54,6 @@ const Hero = () => {
 };
 
 const HomePage = async () => {
-	console.log(propertyDetails);
 	return (
 		<main className="min-h-screen bg-[#efefef]">
 			<section
@@ -80,15 +79,10 @@ const HomePage = async () => {
 					<Hero />
 				</div>
 			</section>
-			<div>
-				{propertyDetails.map((property) => (
-					<PropertyCard key={property.property_id} property={property} />
-				))}
-			</div>
 			{/* 
 			<FetchButton />
-			<ButtonSection />
-			*/}
+			<ButtonSection />*/}
+			
 			<section className="py-24">
 				<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
 					<div className="space-y-2">

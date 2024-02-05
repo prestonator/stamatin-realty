@@ -9,7 +9,6 @@ export const runtime = "nodejs";
 export async function POST(request) {
 	const propertyList = await request.json(); // Assuming the property list is sent in the request body
 	const detailedProperties = await getPropertyDetails(propertyList);
-	console.log(detailedProperties[0].data);
 
 	// Selectively choosing keys to save
 	const filteredDetails = detailedProperties.map((detail) => {
@@ -18,6 +17,17 @@ export async function POST(request) {
 			// Slice the array to keep only the first 10 photos
 			detail.data.home.photos = detail.data.home.photos.slice(0, 10);
 		}
+
+		// Update the photos array
+		const updatedPhotos = detail.data.home.photos.map((photo) => {
+			// Replace 's.jpg' with 'od.jpg' in the photo href
+			const updatedHref = photo.href.replace("s.jpg", "od.jpg");
+			return {
+				__typename: photo.__typename,
+				href: updatedHref,
+			};
+		});
+
 		return {
 			// Assuming you only want to keep the 'property_id', 'listing_id', and 'address'
 			property_id: detail.data.home.property_id,
@@ -54,17 +64,12 @@ export async function POST(request) {
 				street_view_url: detail.data.home.location.street_view_url,
 			},
 			photo_count: 10,
-			photos: detail.data.home.photos.map((photo) => ({
-				__typename: photo.__typename,
-				href: photo.href,
-			})),
+			photos: updatedPhotos,
 			virtual_tours: detail.data.home.virtual_tours,
 			videos: detail.data.home.videos,
 			// Add any other keys you're interested in here
 		};
 	});
-
-	console.log(filteredDetails[0]);
 
 	const filePath = path.join(process.cwd(), "data", "propertyDetails.json");
 	fs.writeFileSync(filePath, JSON.stringify(filteredDetails, null, 2), "utf-8");

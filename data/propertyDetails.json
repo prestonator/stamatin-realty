@@ -1,176 +1,176 @@
 [
-    {
-        "property_id": "7270800665",
-        "listing_id": "2963670975",
-        "type": "Home",
-        "status": "for_sale",
-        "externalLink": "https://www.realtor.com/realestateandhomes-detail/15917-Nelson-Rd_Norman_OK_73026_M72708-00665",
-        "list_date": "2024-02-01T20:26:44Z",
-        "description": {
-            "type": "single_family",
-            "bath_count": "1.5",
-            "bed_count": 1,
-            "garage_count": 1,
-            "pool": null,
-            "sqft": 1252,
-            "lot_sqft": 90605,
-            "unit_count": null,
-            "story_count": 2,
-            "property_styles": [
-                "colonial_revival"
-            ],
-            "year_built": 2004,
-            "name": null,
-            "sub_type": null,
-            "property_description": "Welcome to your dream home nestled in the heart of nature! This charming 1252 sq. ft. residence is situated on an expansive 2.08 acres, providing the perfect blend of tranquility and modern comfort. The property boasts a picturesque wooded landscape, creating a serene environment where you can unwind and connect with nature. Wildlife enthusiasts will delight in the frequent visits of deer and amount of privacy the trees provide. Designed with your comfort in mind, the property is equipped with a brand-new heat and air system, ensuring a climate-controlled haven year-round. Interior of the home has fresh paint, brand new carpet and new pump for the well. Open floorplan creates functionality for anyone while the bedroom and full bathroom is upstairs. Kitchen is a chef's dream with brand new stainless steel appliances, ample counter space and painted cabinetry. Stepping onto the back patio will take your breath away as you embrace the serene retreat."
-        },
-        "list_price": 165000,
-        "price_per_sqft": 132,
-        "open_houses": null,
-        "location": {
-            "street_number": "15917 Nelson Rd",
-            "city": "Norman",
-            "state_code": "OK",
-            "state": "Oklahoma",
-            "postal_code": "73026",
-            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=15917%20Nelson%20Rd%2C%20Norman%2C%20OK%2073026&size=640x480&source=outdoor&signature=9QFU1_jVeLnEdnYIxtyaKFXG69A="
-        },
-        "photo_count": 10,
-        "photos": [
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m546473566s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2855483021s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m900489375s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1780945311s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1062500370s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m4122374669s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2863208370s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2820153131s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2022442525s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1273242786s.jpg"
-            }
-        ],
-        "virtual_tours": [
-            {
-                "__typename": "VirtualTour",
-                "href": "https://www.propertypanorama.com/instaview/okc/1097293"
-            }
-        ],
-        "videos": null
+  {
+    "property_id": "8259658687",
+    "listing_id": "2963668468",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/1417-SW-129th-St_Oklahoma-City_OK_73170_M82596-58687",
+    "list_date": "2024-02-01T19:44:32Z",
+    "description": {
+      "type": "single_family",
+      "bath_count": "2",
+      "bed_count": 3,
+      "garage_count": 2,
+      "pool": null,
+      "sqft": 1626,
+      "lot_sqft": 7405,
+      "unit_count": null,
+      "story_count": 1,
+      "property_styles": [
+        "colonial_revival"
+      ],
+      "year_built": 1999,
+      "name": null,
+      "sub_type": null,
+      "property_description": "Welcome to this fully remodeled gem nestled in the desirable Moore School District! This exquisite home boasts 3 bedrooms and 2 bathrooms, providing a perfect blend of comfort and style. Step into a modern oasis with a brand-new kitchen featuring custom wood cabinets, glass tile backsplash and recycled glass countertops. All new trim and doors with modern sleek hardware throughout the entire house. The large and rejuvenating walk-in dual-head shower is certain to impress. Porcelain tile, plush high-end carpeting underfoot, and the contemporary light fixtures add a touch of sophistication to every room. The open floor plan enhances the spacious feel, seamlessly connecting the generously-sized dining room to the kitchen and living areas. Enjoy the convenience of the newly constructed MAPS walking trails right out of the backyard making this property not just a home but a lifestyle. This residence harmoniously combines functionality and aesthetics, offering a truly turnkey living experience."
     },
-    {
-        "property_id": "8259658687",
-        "listing_id": "2963668468",
-        "type": "Home",
-        "status": "for_sale",
-        "externalLink": "https://www.realtor.com/realestateandhomes-detail/1417-SW-129th-St_Oklahoma-City_OK_73170_M82596-58687",
-        "list_date": "2024-02-01T19:44:32Z",
-        "description": {
-            "type": "single_family",
-            "bath_count": "2",
-            "bed_count": 3,
-            "garage_count": 2,
-            "pool": null,
-            "sqft": 1626,
-            "lot_sqft": 7405,
-            "unit_count": null,
-            "story_count": 1,
-            "property_styles": [
-                "colonial_revival"
-            ],
-            "year_built": 1999,
-            "name": null,
-            "sub_type": null,
-            "property_description": "Welcome to this fully remodeled gem nestled in the desirable Moore School District! This exquisite home boasts 3 bedrooms and 2 bathrooms, providing a perfect blend of comfort and style. Step into a modern oasis with a brand-new kitchen featuring custom wood cabinets, glass tile backsplash and recycled glass countertops. All new trim and doors with modern sleek hardware throughout the entire house. The large and rejuvenating walk-in dual-head shower is certain to impress. Porcelain tile, plush high-end carpeting underfoot, and the contemporary light fixtures add a touch of sophistication to every room. The open floor plan enhances the spacious feel, seamlessly connecting the generously-sized dining room to the kitchen and living areas. Enjoy the convenience of the newly constructed MAPS walking trails right out of the backyard making this property not just a home but a lifestyle. This residence harmoniously combines functionality and aesthetics, offering a truly turnkey living experience."
-        },
-        "list_price": 275000,
-        "price_per_sqft": 169,
-        "open_houses": null,
-        "location": {
-            "street_number": "1417 SW 129th St",
-            "city": "Oklahoma City",
-            "state_code": "OK",
-            "state": "Oklahoma",
-            "postal_code": "73170",
-            "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1417%20SW%20129th%20St%2C%20Oklahoma%20City%2C%20OK%2073170&size=640x480&source=outdoor&signature=DhVSYGziCWgr2EgkhoHXPoDHH2I="
-        },
-        "photo_count": 10,
-        "photos": [
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m652050780s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3261701846s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m445414932s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4072386150s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2664591584s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3397744891s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4241401588s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4230070760s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4172509973s.jpg"
-            },
-            {
-                "__typename": "HomePhoto",
-                "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2651120997s.jpg"
-            }
-        ],
-        "virtual_tours": [
-            {
-                "__typename": "VirtualTour",
-                "href": "https://www.propertypanorama.com/instaview/okc/1096841"
-            }
-        ],
-        "videos": null
-    }
+    "list_price": 275000,
+    "price_per_sqft": 169,
+    "open_houses": null,
+    "location": {
+      "street_number": "1417 SW 129th St",
+      "city": "Oklahoma City",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73170",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1417%20SW%20129th%20St%2C%20Oklahoma%20City%2C%20OK%2073170&size=640x480&source=outdoor&signature=DhVSYGziCWgr2EgkhoHXPoDHH2I="
+    },
+    "photo_count": 10,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m652050780od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3261701846od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m445414932od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4072386150od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2664591584od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3397744891od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4241401588od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4230070760od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4172509973od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2651120997od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1096841"
+      }
+    ],
+    "videos": null
+  },
+  {
+    "property_id": "7270800665",
+    "listing_id": "2963670975",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/15917-Nelson-Rd_Norman_OK_73026_M72708-00665",
+    "list_date": "2024-02-01T20:26:44Z",
+    "description": {
+      "type": "single_family",
+      "bath_count": "1.5",
+      "bed_count": 1,
+      "garage_count": 1,
+      "pool": null,
+      "sqft": 1252,
+      "lot_sqft": 90605,
+      "unit_count": null,
+      "story_count": 2,
+      "property_styles": [
+        "colonial_revival"
+      ],
+      "year_built": 2004,
+      "name": null,
+      "sub_type": null,
+      "property_description": "Welcome to your dream home nestled in the heart of nature! This charming 1252 sq. ft. residence is situated on an expansive 2.08 acres, providing the perfect blend of tranquility and modern comfort. The property boasts a picturesque wooded landscape, creating a serene environment where you can unwind and connect with nature. Wildlife enthusiasts will delight in the frequent visits of deer and amount of privacy the trees provide. Designed with your comfort in mind, the property is equipped with a brand-new heat and air system, ensuring a climate-controlled haven year-round. Interior of the home has fresh paint, brand new carpet and new pump for the well. Open floorplan creates functionality for anyone while the bedroom and full bathroom is upstairs. Kitchen is a chef's dream with brand new stainless steel appliances, ample counter space and painted cabinetry. Stepping onto the back patio will take your breath away as you embrace the serene retreat."
+    },
+    "list_price": 165000,
+    "price_per_sqft": 132,
+    "open_houses": null,
+    "location": {
+      "street_number": "15917 Nelson Rd",
+      "city": "Norman",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73026",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=15917%20Nelson%20Rd%2C%20Norman%2C%20OK%2073026&size=640x480&source=outdoor&signature=9QFU1_jVeLnEdnYIxtyaKFXG69A="
+    },
+    "photo_count": 10,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m546473566od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2855483021od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m900489375od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1780945311od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1062500370od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m4122374669od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2863208370od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2820153131od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2022442525od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1273242786od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1097293"
+      }
+    ],
+    "videos": null
+  }
 ]
