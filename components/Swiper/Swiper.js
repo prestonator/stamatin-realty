@@ -11,8 +11,8 @@ import "./styles.css";
 
 // import required modules
 import { Pagination } from "swiper/modules";
-import QuickviewCard from "../Cards/Quickview/CardNew";
-import PropertyCard from "../Cards/PropertyCard/PropertyCard";
+import PropertyCard from "../Cards/Quickview/Card";
+//import PropertyCard from "../Cards/PropertyCard/PropertyCard";
 import propertyDetails from "@/data/propertyDetails.json";
 
 
