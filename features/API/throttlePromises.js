@@ -1,27 +1,31 @@
-function throttlePromises(funcs, limit) {
+async function throttlePromises(funcs, limit) {
 	let results = [];
-	let executing = [];
+	let i = 0;
 
-	async function execute() {
-		if (funcs.length) {
-			const promise = funcs.shift()();
-			promise
-				.then((result) => results.push(result))
-				.catch((error) => results.push(error));
+	async function executeBatch() {
+		// Determine the current batch to execute
+		const currentBatch = funcs.slice(i, i + limit);
+		i += limit; // Update the index for the next batch
 
-			executing.push(promise);
-			promise.finally(() => {
-				executing = executing.filter((v) => v !== promise);
-				execute();
-			});
+		// Execute the current batch and wait for all promises to resolve
+		const batchResults = await Promise.allSettled(
+			currentBatch.map((fn) => fn())
+		);
+		results = results.concat(
+			batchResults.map((result) =>
+				result.status === "fulfilled" ? result.value : new Error(result.reason)
+			)
+		);
+
+		// If there are more items, execute the next batch
+		if (i < funcs.length) {
+			await new Promise((resolve) => setTimeout(resolve, 1000)); // Wait 1 second before the next batch
+			await executeBatch();
 		}
 	}
 
-	for (let i = 0; i < limit; i++) {
-		execute();
-	}
-
-	return Promise.all(executing).then(() => results);
+	await executeBatch();
+	return results;
 }
 
 export { throttlePromises };

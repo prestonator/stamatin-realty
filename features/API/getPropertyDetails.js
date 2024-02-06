@@ -28,3 +28,4 @@ export const getPropertyDetails = async (propertyList) => {
 
 	return result;
 };
+

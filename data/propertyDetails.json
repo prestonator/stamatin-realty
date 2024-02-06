@@ -1,92 +1,5 @@
 [
   {
-    "property_id": "8259658687",
-    "listing_id": "2963668468",
-    "type": "Home",
-    "status": "for_sale",
-    "externalLink": "https://www.realtor.com/realestateandhomes-detail/1417-SW-129th-St_Oklahoma-City_OK_73170_M82596-58687",
-    "list_date": "2024-02-01T19:44:32Z",
-    "description": {
-      "type": "single_family",
-      "bath_count": "2",
-      "bed_count": 3,
-      "garage_count": 2,
-      "pool": null,
-      "sqft": 1626,
-      "lot_sqft": 7405,
-      "unit_count": null,
-      "story_count": 1,
-      "property_styles": [
-        "colonial_revival"
-      ],
-      "year_built": 1999,
-      "name": null,
-      "sub_type": null,
-      "property_description": "Welcome to this fully remodeled gem nestled in the desirable Moore School District! This exquisite home boasts 3 bedrooms and 2 bathrooms, providing a perfect blend of comfort and style. Step into a modern oasis with a brand-new kitchen featuring custom wood cabinets, glass tile backsplash and recycled glass countertops. All new trim and doors with modern sleek hardware throughout the entire house. The large and rejuvenating walk-in dual-head shower is certain to impress. Porcelain tile, plush high-end carpeting underfoot, and the contemporary light fixtures add a touch of sophistication to every room. The open floor plan enhances the spacious feel, seamlessly connecting the generously-sized dining room to the kitchen and living areas. Enjoy the convenience of the newly constructed MAPS walking trails right out of the backyard making this property not just a home but a lifestyle. This residence harmoniously combines functionality and aesthetics, offering a truly turnkey living experience."
-    },
-    "list_price": 275000,
-    "price_per_sqft": 169,
-    "open_houses": null,
-    "location": {
-      "street_number": "1417 SW 129th St",
-      "city": "Oklahoma City",
-      "state_code": "OK",
-      "state": "Oklahoma",
-      "postal_code": "73170",
-      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1417%20SW%20129th%20St%2C%20Oklahoma%20City%2C%20OK%2073170&size=640x480&source=outdoor&signature=DhVSYGziCWgr2EgkhoHXPoDHH2I="
-    },
-    "photo_count": 10,
-    "photos": [
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m652050780od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3261701846od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m445414932od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4072386150od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2664591584od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3397744891od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4241401588od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4230070760od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4172509973od.jpg"
-      },
-      {
-        "__typename": "HomePhoto",
-        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2651120997od.jpg"
-      }
-    ],
-    "virtual_tours": [
-      {
-        "__typename": "VirtualTour",
-        "href": "https://www.propertypanorama.com/instaview/okc/1096841"
-      }
-    ],
-    "videos": null
-  },
-  {
     "property_id": "7270800665",
     "listing_id": "2963670975",
     "type": "Home",
@@ -98,22 +11,22 @@
       "bath_count": "1.5",
       "bed_count": 1,
       "garage_count": 1,
-      "pool": null,
+      "pool": "",
       "sqft": 1252,
       "lot_sqft": 90605,
-      "unit_count": null,
+      "unit_count": "",
       "story_count": 2,
       "property_styles": [
         "colonial_revival"
       ],
       "year_built": 2004,
-      "name": null,
-      "sub_type": null,
+      "name": "",
+      "sub_type": "",
       "property_description": "Welcome to your dream home nestled in the heart of nature! This charming 1252 sq. ft. residence is situated on an expansive 2.08 acres, providing the perfect blend of tranquility and modern comfort. The property boasts a picturesque wooded landscape, creating a serene environment where you can unwind and connect with nature. Wildlife enthusiasts will delight in the frequent visits of deer and amount of privacy the trees provide. Designed with your comfort in mind, the property is equipped with a brand-new heat and air system, ensuring a climate-controlled haven year-round. Interior of the home has fresh paint, brand new carpet and new pump for the well. Open floorplan creates functionality for anyone while the bedroom and full bathroom is upstairs. Kitchen is a chef's dream with brand new stainless steel appliances, ample counter space and painted cabinetry. Stepping onto the back patio will take your breath away as you embrace the serene retreat."
     },
     "list_price": 165000,
     "price_per_sqft": 132,
-    "open_houses": null,
+    "open_houses": [],
     "location": {
       "street_number": "15917 Nelson Rd",
       "city": "Norman",
@@ -122,7 +35,7 @@
       "postal_code": "73026",
       "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=15917%20Nelson%20Rd%2C%20Norman%2C%20OK%2073026&size=640x480&source=outdoor&signature=9QFU1_jVeLnEdnYIxtyaKFXG69A="
     },
-    "photo_count": 10,
+    "photo_count": 29,
     "photos": [
       {
         "__typename": "HomePhoto",
@@ -163,6 +76,82 @@
       {
         "__typename": "HomePhoto",
         "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1273242786od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2224127036od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1425026727od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m926493604od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1760584958od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2287178878od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1319817259od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m3433198694od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2737008977od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1261448316od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1271831549od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1531217984od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1054617940od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m3135008222od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m3344531105od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m749541610od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m4252413036od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m1148290826od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m2257180561od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/a0bdb0a4244944bc0f3d99d00e713f7fl-m447649155od.jpg"
       }
     ],
     "virtual_tours": [
@@ -171,6 +160,1074 @@
         "href": "https://www.propertypanorama.com/instaview/okc/1097293"
       }
     ],
-    "videos": null
+    "videos": []
+  },
+  {
+    "property_id": "8259658687",
+    "listing_id": "2963668468",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/1417-SW-129th-St_Oklahoma-City_OK_73170_M82596-58687",
+    "list_date": "2024-02-01T19:44:32Z",
+    "description": {
+      "type": "single_family",
+      "bath_count": "2",
+      "bed_count": 3,
+      "garage_count": 2,
+      "pool": "",
+      "sqft": 1626,
+      "lot_sqft": 7405,
+      "unit_count": "",
+      "story_count": 1,
+      "property_styles": [
+        "colonial_revival"
+      ],
+      "year_built": 1999,
+      "name": "",
+      "sub_type": "",
+      "property_description": "Welcome to this fully remodeled gem nestled in the desirable Moore School District! This exquisite home boasts 3 bedrooms and 2 bathrooms, providing a perfect blend of comfort and style. Step into a modern oasis with a brand-new kitchen featuring custom wood cabinets, glass tile backsplash and recycled glass countertops. All new trim and doors with modern sleek hardware throughout the entire house. The large and rejuvenating walk-in dual-head shower is certain to impress. Porcelain tile, plush high-end carpeting underfoot, and the contemporary light fixtures add a touch of sophistication to every room. The open floor plan enhances the spacious feel, seamlessly connecting the generously-sized dining room to the kitchen and living areas. Enjoy the convenience of the newly constructed MAPS walking trails right out of the backyard making this property not just a home but a lifestyle. This residence harmoniously combines functionality and aesthetics, offering a truly turnkey living experience."
+    },
+    "list_price": 275000,
+    "price_per_sqft": 169,
+    "open_houses": [],
+    "location": {
+      "street_number": "1417 SW 129th St",
+      "city": "Oklahoma City",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73170",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1417%20SW%20129th%20St%2C%20Oklahoma%20City%2C%20OK%2073170&size=640x480&source=outdoor&signature=DhVSYGziCWgr2EgkhoHXPoDHH2I="
+    },
+    "photo_count": 34,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m652050780od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3261701846od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m445414932od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4072386150od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2664591584od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3397744891od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4241401588od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4230070760od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m4172509973od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2651120997od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m1332658221od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m959354447od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3706044999od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m418904302od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m1084005359od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3233553854od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2311353842od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3227346441od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m927875754od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2012288859od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m1499508390od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m36626705od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m286495852od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m259434502od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m828173191od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2188608215od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3399966103od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m1944326887od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m874364785od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2074577190od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m2121084105od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3674424295od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m3150931054od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/4f200741806676e196faeebc30e604cel-m392166082od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1096841"
+      }
+    ],
+    "videos": []
+  },
+  {
+    "property_id": "9832930063",
+    "listing_id": "2963628115",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/13176-Banner-Rd_Lexington_OK_73051_M98329-30063",
+    "list_date": "2024-01-31T20:25:58Z",
+    "description": {
+      "type": "land",
+      "bath_count": "",
+      "bed_count": "",
+      "garage_count": "",
+      "pool": "",
+      "sqft": "",
+      "lot_sqft": 263974,
+      "unit_count": "",
+      "story_count": "",
+      "property_styles": "",
+      "year_built": "",
+      "name": "",
+      "sub_type": "",
+      "property_description": "Situated in Lexington within the esteemed Noble School District, this expansive 6.06-acre property offers a promising canvas for various possibilities. The front acre of the land has been thoughtfully cleared, providing a blank slate for potential development or construction projects. One notable convenience is the accessibility to electricity, conveniently located at the road, streamlining the process for any future plans. This property's prime location in a reputable school district, coupled with its size and existing amenities, makes it an attractive prospect for those seeking a versatile and well-positioned piece of land. Mobile homes are allowed!"
+    },
+    "list_price": 79900,
+    "price_per_sqft": 0,
+    "open_houses": [],
+    "location": {
+      "street_number": "13176 Banner Rd",
+      "city": "Lexington",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73051",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=13176%20Banner%20Rd%2C%20Lexington%2C%20OK%2073051&size=640x480&source=outdoor&signature=3nEwQY4rkhX-hszcuYvELOwlUeE="
+    },
+    "photo_count": 3,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/b8423bb6a81f50065a94e539f174e0d9l-m1157887481od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/b8423bb6a81f50065a94e539f174e0d9l-m1903162912od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/b8423bb6a81f50065a94e539f174e0d9l-m1118789415od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1097007"
+      }
+    ],
+    "videos": []
+  },
+  {
+    "property_id": "9535846954",
+    "listing_id": "2963590912",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/8917-Pear-St_Kingston_OK_73439_M95358-46954",
+    "list_date": "2024-01-30T17:26:22Z",
+    "description": {
+      "type": "single_family",
+      "bath_count": "2.5",
+      "bed_count": 4,
+      "garage_count": 2,
+      "pool": "",
+      "sqft": 2398,
+      "lot_sqft": 21780,
+      "unit_count": "",
+      "story_count": 1,
+      "property_styles": [
+        "colonial_revival"
+      ],
+      "year_built": 2023,
+      "name": "",
+      "sub_type": "",
+      "property_description": "Stunning home in the sought-after Soldier Creek area at Lake Texoma. This spacious home is situated on a generous half-acre lot, providing ample space for outdoor activities and potential expansion. Featuring 4 bedrooms and 3 bathrooms, this property offers plenty of room for comfortable living and accommodating guests. An Open floor plan creates a seamless flow between the main living areas, making it perfect for entertaining and family gatherings. Kitchen is a focal point of the home, boasting modern amenities, high-quality finishes, and ample counter space for culinary enthusiasts. With its open design, the kitchen seamlessly connects to the dining area and living room, creating a central hub for socializing and enjoying meals together. One of the key highlights of this property is its prime location, just a short distance from the Marina Del Ray. This convenient proximity allows easy access to the marina's amenities, including boat slips, water sports activities, and scenic views of Lake Texoma. Whether you're an avid boater or simply enjoy lakeside living, this property offers an ideal retreat for lake enthusiasts."
+    },
+    "list_price": 725000,
+    "price_per_sqft": 302,
+    "open_houses": [],
+    "location": {
+      "street_number": "8917 Pear St",
+      "city": "Kingston",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73439",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=8917%20Pear%20St%2C%20Kingston%2C%20OK%2073439&size=640x480&source=outdoor&signature=pdMVEXYq-c7dbf6Y-RVBwMHENxk="
+    },
+    "photo_count": 47,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3405413700od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2218288802od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m561293866od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m118716358od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2069481914od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2340287945od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2201343007od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3775615580od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1238000451od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1854047927od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2941740967od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m763184504od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m204565161od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2760510893od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m908344436od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m685718085od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m630629320od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3228511201od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3906650153od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1067496253od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m606297542od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m457168881od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3303599542od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1878193782od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m928906777od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3098559333od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1625043422od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m645442993od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m656231953od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3049508638od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2681123581od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3762206466od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2942745497od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1156377285od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1697694346od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m4292539345od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2268152732od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3758994462od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1501897751od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m3425072098od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1294580827od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2501908461od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m318297934od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1229838626od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m1151465965od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2689007028od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/e4d7dd39de85a98a028661ec80541a5al-m2329703102od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1096856"
+      }
+    ],
+    "videos": []
+  },
+  {
+    "property_id": "7941817463",
+    "listing_id": "2963586996",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/1315-Ann-Arbor-Dr_Norman_OK_73069_M79418-17463",
+    "list_date": "2024-01-30T15:34:57Z",
+    "description": {
+      "type": "single_family",
+      "bath_count": "3",
+      "bed_count": 5,
+      "garage_count": 1,
+      "pool": "",
+      "sqft": 2912,
+      "lot_sqft": 9583,
+      "unit_count": "",
+      "story_count": 1,
+      "property_styles": [
+        "colonial_revival"
+      ],
+      "year_built": 1951,
+      "name": "",
+      "sub_type": "",
+      "property_description": "Exciting Opportunity Just Minutes from Campus! Discover an exceptional home less than 10 minutes from campus! This residence boasts a spacious floor plan with charming style, providing ample room for hosting large gatherings with friends and family. Abundant storage space ensures a clutter-free living environment. Nestled in the heart of Norman, this location offers proximity to shopping, entertainment, restaurants, and more. Enjoy entertaining in a secluded dining area adorned with clean vertical paneling, creating an inviting and modern atmosphere. The first living room is generously sized and leads to a remarkable built-in floor-to-ceiling bookcase, perfect for organizing books, board games, movies, and more. The well-appointed kitchen features plenty of painted cabinetry and counter space, simplifying meal prepping and maintaining order. The oversized second living room boasts large picture windows, a built-in corner cabinet, and the option for a second dining area. The exterior is in excellent condition, with a roof that's only 1.5 years old. There's so much to love about this homeschedule your showing today to experience it firsthand!"
+    },
+    "list_price": 315000,
+    "price_per_sqft": 108,
+    "open_houses": [],
+    "location": {
+      "street_number": "1315 Ann Arbor Dr",
+      "city": "Norman",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73069",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=1315%20Ann%20Arbor%20Dr%2C%20Norman%2C%20OK%2073069&size=640x480&source=outdoor&signature=YuU7qSFyJ32ThwH26uzLohcWWK0="
+    },
+    "photo_count": 29,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m1657550405od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m3739745732od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m2441984388od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m1486939038od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m1731079857od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m217115848od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m3161380088od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m2347192372od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m449349564od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m3850765766od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m3406769297od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m3883351858od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m2475500335od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m449349564od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m3913517176od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m809475351od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m1189134268od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m994387465od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m1188274400od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m3763463567od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m4139589472od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m2320125558od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m4204106704od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m782418739od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m343283591od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m2107287999od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m2721998127od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m682128253od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/7f4b3265de639094c674f750f8a9d363l-m1106777813od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1096730"
+      }
+    ],
+    "videos": []
+  },
+  {
+    "property_id": "7965993674",
+    "listing_id": "2963480832",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/912-NE-9th-St_Moore_OK_73160_M79659-93674",
+    "list_date": "2024-01-25T17:26:15Z",
+    "description": {
+      "type": "single_family",
+      "bath_count": "2",
+      "bed_count": 3,
+      "garage_count": 2,
+      "pool": "",
+      "sqft": 1226,
+      "lot_sqft": 7362,
+      "unit_count": "",
+      "story_count": 1,
+      "property_styles": [
+        "colonial_revival"
+      ],
+      "year_built": 1985,
+      "name": "",
+      "sub_type": "",
+      "property_description": "Located in Moore, Oklahoma, this charming property features 3 bedrooms and 2 bathrooms. The home includes a convenient 2-car garage with an additional carport for extra parking space. The living room boasts vaulted ceilings, a cozy fireplace, and built-in shelving, creating a welcoming atmosphere. The kitchen is equipped with updated appliances, adding a modern touch to the space. Step outside to a spacious covered patio with a privacy wall, perfect for outdoor entertaining or relaxation. The backyard also includes a shed for additional storage. The roof, installed just 2 years ago, is equipped with Class 4 impact shingles for enhanced durability. The HVAC system is relatively new, having been installed less than 5 years ago. With its well-maintained features and desirable amenities, this property is a comfortable and stylish place to call home."
+    },
+    "list_price": 168000,
+    "price_per_sqft": 137,
+    "open_houses": [],
+    "location": {
+      "street_number": "912 NE 9th St",
+      "city": "Moore",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73160",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=912%20NE%209th%20St%2C%20Moore%2C%20OK%2073160&size=640x480&source=outdoor&signature=6gYvchrXk62utos4V5UHsUcI6zk="
+    },
+    "photo_count": 37,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2512379789od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2415308835od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m791212832od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1932866125od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1527213121od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3139347407od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1829593933od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1231199067od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m609266730od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m604315563od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3244722429od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3101321425od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1578041182od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m339178395od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2264839624od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3440536790od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3480489597od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3795470798od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1217647445od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1084630966od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2323385905od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1365269823od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1438760860od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3220758219od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1337036220od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2525663962od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3797167127od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3622660126od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2133966553od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m3172890550od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m931442002od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m676061990od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m625111024od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2340730870od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2067470363od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m2180932350od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/412a4ee27a4a2cf20aaaec36c896d6dfl-m1552534925od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1096300"
+      }
+    ],
+    "videos": []
+  },
+  {
+    "property_id": "7737474879",
+    "listing_id": "2963426923",
+    "type": "Home",
+    "status": "for_sale",
+    "externalLink": "https://www.realtor.com/realestateandhomes-detail/17201-Picasso-Dr_Oklahoma-City_OK_73170_M77374-74879",
+    "list_date": "2024-01-23T22:26:23Z",
+    "description": {
+      "type": "single_family",
+      "bath_count": "2",
+      "bed_count": 3,
+      "garage_count": 2,
+      "pool": "",
+      "sqft": 1738,
+      "lot_sqft": 6970,
+      "unit_count": "",
+      "story_count": 1,
+      "property_styles": [
+        "colonial_revival"
+      ],
+      "year_built": 2007,
+      "name": "",
+      "sub_type": "",
+      "property_description": "Nestled in the charming neighborhood of Talavera in South Oklahoma City, this home offers a perfect blend of comfort, style, and functionality. Situated within the highly sought-after Moore School District, this residence is a haven for those seeking a peaceful and family-friendly living environment. Exterior of the home is immediately captivating, as it graces a generous corner lot and has gorgeous stonework. The side entry garage is an oversized 2.5 car garage providing ample space for vehicles and extra space for storage. Spacious living area serves as the heart of the home, featuring an open layout that seamlessly connects the living room, dining area, and kitchen. Kitchen is a chef's delight, equipped with modern appliances, ample counter space, and beautiful cabinetry. The thoughtful design ensures both functionality and aesthetics, making it an ideal space for preparing meals and entertaining guests. Home boasts three bedrooms, each carefully designed to provide comfort and privacy along with a true study/office space. Master suite is a sanctuary, featuring a generously sized bedroom with large windows that allow natural light to flood the space. The ensuite bathroom is a luxurious retreat, complete with a spa-like atmosphere, dual sinks, a soaking tub, and a separate shower. Located in the Moore school district, Talavera is an incredible neighborhood and community which is a valuable asset for families or individuals considering the long term aspects of their home investment. Just a short drive to Moore's newest amenities, it's incredibly easy to call this one HOME."
+    },
+    "list_price": 287900,
+    "price_per_sqft": 166,
+    "open_houses": [],
+    "location": {
+      "street_number": "17201 Picasso Dr",
+      "city": "Oklahoma City",
+      "state_code": "OK",
+      "state": "Oklahoma",
+      "postal_code": "73170",
+      "street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=17201%20Picasso%20Dr%2C%20Oklahoma%20City%2C%20OK%2073170&size=640x480&source=outdoor&signature=R8kVs2vkyP3Gw0VR5CLY-cWSQIo="
+    },
+    "photo_count": 47,
+    "photos": [
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3047605906od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3590821914od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3450041175od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1594411147od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2831537287od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m368280140od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m899629762od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m366255641od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3995465394od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1802043295od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m4019792001od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2093281198od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m280724143od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1923067968od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m369567902od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m4053653222od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1285642978od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3180950943od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1152968146od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3043716076od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3518996526od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m160197410od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1427132348od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2821841890od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m256830378od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m4117960835od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m24298449od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1936403485od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2260004070od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3581345091od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3442486998od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1953763063od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1194421859od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2269580219od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1489172079od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m4104259417od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3200647532od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2656879647od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2263872400od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3095292073od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1767207092od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m759559025od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m1404363835od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m684796326od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2413799595od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m2408214819od.jpg"
+      },
+      {
+        "__typename": "HomePhoto",
+        "href": "https://ap.rdcpix.com/9aa23454d41e50e048feb7ebf3d09deal-m3260420035od.jpg"
+      }
+    ],
+    "virtual_tours": [
+      {
+        "__typename": "VirtualTour",
+        "href": "https://www.propertypanorama.com/instaview/okc/1096049"
+      }
+    ],
+    "videos": []
   }
 ]
