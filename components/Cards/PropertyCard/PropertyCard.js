@@ -55,7 +55,7 @@ const CardMiddle = ({ list_price, type, location }) => {
 };
 
 const CardBottom = ({ description }) => {
-	const { bath_count, bed_count, garage_count, sqft } = description;
+	const { bath_count, bed_count, garage_count, sqft, lot_sqft } = description;
 	return (
 		<>
 			<div className="grid grid-cols-4 gap-2 pt-4 pb-12">
@@ -75,7 +75,9 @@ const CardBottom = ({ description }) => {
 					<LuCar className="w-6 h-6 text-gray-500" />
 				</div>
 				<div className="flex flex-col items-center">
-					<span className="block text-sm text-gray-700">{sqft}</span>
+					<span className="block text-sm text-gray-700">
+						{sqft || lot_sqft}
+					</span>
 					<hr className="w-3/4 my-1" />
 					<LuRuler className="w-6 h-6 text-gray-500" />
 				</div>

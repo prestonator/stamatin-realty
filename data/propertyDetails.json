@@ -354,9 +354,9 @@
     "list_date": "2024-01-31T20:25:58Z",
     "description": {
       "type": "land",
-      "bath_count": "",
-      "bed_count": "",
-      "garage_count": "",
+      "bath_count": "NA",
+      "bed_count": "NA",
+      "garage_count": "NA",
       "pool": "",
       "sqft": "",
       "lot_sqft": 263974,
