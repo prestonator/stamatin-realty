@@ -59,7 +59,10 @@ export async function POST(request) {
 			open_houses: detail?.data?.home?.open_houses ?? [],
 			location: {
 				street_number: detail?.data?.home?.location?.address?.line ?? "",
-				city: detail?.data?.home?.location?.address?.city ?? "",
+				city:
+					detail?.data?.home?.location?.address?.city === "Oklahoma City"
+						? "OKC"
+						: detail?.data?.home?.location?.address?.city ?? "",
 				state_code: detail?.data?.home?.location?.address?.state_code ?? "",
 				state: detail?.data?.home?.location?.address?.state ?? "",
 				postal_code: detail?.data?.home?.location?.address?.postal_code ?? "",

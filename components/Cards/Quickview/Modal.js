@@ -1,11 +1,9 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
-	DialogTrigger,
 	DialogTitle,
 	DialogHeader,
 	DialogContent,
-	Dialog,
 } from "@/components/ui/dialog";
 import {
 	CarouselItem,
@@ -14,6 +12,7 @@ import {
 	CarouselNext,
 	Carousel,
 } from "@/components/ui/carousel";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import {
 	LuBed,
 	LuX,
@@ -23,7 +22,14 @@ import {
 	LuHome,
 } from "react-icons/lu";
 
-const QuickviewModal = ({ image, type, list_price, onClose, location, description }) => {
+const QuickviewModal = ({
+	image,
+	type,
+	list_price,
+	onClose,
+	location,
+	description,
+}) => {
 	const { street_number, city, state_code, postal_code } = location;
 	const {
 		bath_count,
@@ -104,9 +110,11 @@ const QuickviewModal = ({ image, type, list_price, onClose, location, descriptio
 						</span>
 					</div>
 				</div>
-				<p className="text-sm text-gray-500 dark:text-gray-400">
-					{property_description}
-				</p>
+				<ScrollArea className="h-32 mt-2 overflow-auto border border-gray-200 rounded-md dark:border-gray-800">
+					<p className="p-2 text-sm text-gray-500 dark:text-gray-400">
+						{property_description}
+					</p>
+				</ScrollArea>
 				<Button
 					onClick={onClose}
 					className="w-full text-white bg-purple-600 hover:bg-purple-700 dark:bg-purple-300 dark:hover:bg-purple-400"
