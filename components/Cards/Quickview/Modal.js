@@ -25,7 +25,7 @@ import {
 
 const QuickviewModal = ({ image, type, list_price, onClose }) => {
 	return (
-		<DialogContent className="p-4 bg-white rounded-lg shadow-inner md:p-6 dark:bg-gray-900">
+		<DialogContent className="flex flex-col p-4 bg-white rounded-lg shadow-inner md:p-6 dark:bg-gray-900">
 			<DialogHeader>
 				<div className="flex items-center justify-between">
 					<DialogTitle className="text-purple-600 dark:text-purple-300">
@@ -43,7 +43,7 @@ const QuickviewModal = ({ image, type, list_price, onClose }) => {
 					</div>
 				</div>
 			</DialogHeader>
-			<div className="grid gap-4 md:gap-6">
+			<div className="flex flex-col gap-4 md:gap-6">
 				<div>
 					<Carousel>
 						<CarouselContent>
