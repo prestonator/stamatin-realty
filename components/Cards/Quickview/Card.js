@@ -9,6 +9,14 @@ import {
 	LuCamera,
 	LuStar,
 } from "react-icons/lu";
+import {
+	DialogTrigger,
+	DialogTitle,
+	DialogHeader,
+	DialogContent,
+	Dialog,
+} from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
 import QuickviewModal from "./Modal";
 
 const CardTop = ({ image, photo_count, imageAlt }) => {
@@ -106,39 +114,41 @@ const PropertyCard = ({ property }) => {
 	};
 
 	return (
-		<>
-			<div className="relative max-w-sm overflow-hidden border rounded-lg shadow-sm bg-card">
-				<CardTop
-					image={photos[0].href}
-					photo_count={photo_count}
-					imageAlt={`${type} for ${status}`}
-				/>
-				<div className="flex flex-col justify-between p-4">
-					<div>
-						<CardMiddle
-							list_price={`$${list_price.toLocaleString()}`}
+		<div className="relative max-w-sm overflow-hidden border rounded-lg shadow-sm bg-card">
+			<CardTop
+				image={photos[0].href}
+				photo_count={photo_count}
+				imageAlt={`${type} for ${status}`}
+			/>
+			<div className="flex flex-col justify-between p-4">
+				<div>
+					<CardMiddle
+						list_price={`$${list_price.toLocaleString()}`}
+						type={type}
+						location={location}
+					/>
+					<CardBottom description={description} />
+				</div>
+				<div>
+					<Dialog>
+						<DialogTrigger asChild>
+							<Button
+								className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-200 hover:bg-gray-700 hover:text-gray-300"
+								variant="outline"
+							>
+								Quick View
+							</Button>
+						</DialogTrigger>
+						<QuickviewModal
+							image={photos}
 							type={type}
-							location={location}
+							list_price={`$${list_price.toLocaleString()}`}
+							onClose={toggleModal}
 						/>
-						<CardBottom description={description} />
-					</div>
-					<button
-						onClick={toggleModal}
-						className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-200 hover:bg-gray-700 hover:text-gray-300"
-					>
-						View Details
-					</button>
+					</Dialog>
 				</div>
 			</div>
-			{isModalOpen && (
-				<QuickviewModal
-					image={photos}
-					type={type}
-					list_price={`$${list_price.toLocaleString()}`}
-					onClose={toggleModal}
-				/>
-			)}
-		</>
+		</div>
 	);
 };
 
