@@ -144,6 +144,8 @@ const PropertyCard = ({ property }) => {
 							type={type}
 							list_price={`$${list_price.toLocaleString()}`}
 							onClose={toggleModal}
+							location={location}
+							description={description}
 						/>
 					</Dialog>
 				</div>

@@ -23,13 +23,22 @@ import {
 	LuHome,
 } from "react-icons/lu";
 
-const QuickviewModal = ({ image, type, list_price, onClose }) => {
+const QuickviewModal = ({ image, type, list_price, onClose, location, description }) => {
+	const { street_number, city, state_code, postal_code } = location;
+	const {
+		bath_count,
+		bed_count,
+		garage_count,
+		sqft,
+		lot_sqft,
+		property_description,
+	} = description;
 	return (
 		<DialogContent className="flex flex-col p-4 bg-white rounded-lg shadow-inner md:p-6 dark:bg-gray-900">
 			<DialogHeader>
 				<div className="flex items-center justify-between">
 					<DialogTitle className="text-purple-600 dark:text-purple-300">
-						Property Quick View
+						{street_number}
 					</DialogTitle>
 					<div>
 						<Button
@@ -72,28 +81,31 @@ const QuickviewModal = ({ image, type, list_price, onClose }) => {
 						{list_price}
 					</h2>
 					<p className="text-gray-500 dark:text-gray-400">
-						123 Main St, Anytown, USA
+						{street_number}, {city}, {state_code} {postal_code}
 					</p>
 				</div>
 				<div className="grid grid-cols-3 gap-4">
 					<div className="flex items-center gap-2">
 						<LuBed className="w-4 h-4 text-purple-600 dark:text-purple-300" />
-						<span className="text-gray-700 dark:text-gray-300">3 Beds</span>
+						<span className="text-gray-700 dark:text-gray-300">
+							{bed_count} Beds
+						</span>
 					</div>
 					<div className="flex items-center gap-2">
 						<LuBath className="w-4 h-4 text-purple-600 dark:text-purple-300" />
-						<span className="text-gray-700 dark:text-gray-300">2 Baths</span>
+						<span className="text-gray-700 dark:text-gray-300">
+							{bath_count} Baths
+						</span>
 					</div>
 					<div className="flex items-center gap-2">
 						<LuHome className="w-4 h-4 text-purple-600 dark:text-purple-300" />
-						<span className="text-gray-700 dark:text-gray-300">1,800 sqft</span>
+						<span className="text-gray-700 dark:text-gray-300">
+							{sqft || lot_sqft} sqft
+						</span>
 					</div>
 				</div>
 				<p className="text-sm text-gray-500 dark:text-gray-400">
-					This charming 3-bedroom, 2-bathroom home is located in the heart of
-					Anytown. With 1,800 square feet of living space, this property is
-					perfect for families or individuals looking for a spacious and
-					comfortable home.
+					{property_description}
 				</p>
 				<Button
 					onClick={onClose}
