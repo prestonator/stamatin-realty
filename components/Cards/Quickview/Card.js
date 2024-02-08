@@ -45,7 +45,6 @@ const CardTop = ({ image, photo_count, imageAlt }) => {
 
 const CardMiddle = ({ list_price, type, location }) => {
 	const { street_number, city, state_code, postal_code } = location;
-	console.log(city);
 	return (
 		<>
 			<div className="flex items-baseline justify-between">

@@ -10,8 +10,16 @@ export async function POST(request) {
 	const propertyList = await request.json(); // Assuming the property list is sent in the request body
 	const detailedProperties = await getPropertyDetails(propertyList);
 
+	// Filter out properties where description.type is 'land' or data is missing
+	const propertiesToProcess = detailedProperties.filter((detail) => {
+		// Check if the necessary nested properties exist
+		const hasType = detail?.data?.home?.description?.type;
+		// Return true if the type exists and is not 'land'
+		return hasType && detail.data.home.description.type !== "land";
+	});
+
 	// Selectively choosing keys to save
-	const filteredDetails = detailedProperties.map((detail) => {
+	const filteredDetails = propertiesToProcess.map((detail) => {
 		// Checking if the photos array exists and has more than 10 photos
 		const photos = detail?.data?.home?.photos;
 		if (photos && photos.length > 10) {

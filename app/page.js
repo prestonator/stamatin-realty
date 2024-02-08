@@ -14,8 +14,6 @@ import { Button } from "@/components/ui/button";
 import { LuSearch } from "react-icons/lu";
 //import FetchButton from "@/features/components/FetchButton";
 //import ButtonSection from "@/components/ButtonSection";
-import PropertyCard from "@/components/Cards/PropertyCard/PropertyCard";
-import propertyDetails from "@/data/propertyDetails.json";
 
 const Hero = () => {
 	return (
@@ -79,10 +77,10 @@ const HomePage = async () => {
 					<Hero />
 				</div>
 			</section>
-			{/* 
+			{/*  
 			<FetchButton />
-			<ButtonSection />*/}
-
+			<ButtonSection />
+			*/}
 			<section className="py-24">
 				<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
 					<div className="space-y-2">
