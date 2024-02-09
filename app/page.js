@@ -154,7 +154,7 @@ const WhyChooseUs = () => {
 					<Image
 						alt="Trust"
 						className="object-cover w-full h-64"
-						src="/expertise.webp"
+						src="/trust.webp"
 						width={300}
 						height={200}
 					/>
