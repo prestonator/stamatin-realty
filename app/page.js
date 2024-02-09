@@ -20,6 +20,7 @@ import {
 	Select,
 } from "@/components/ui/select";
 import { CardContent, Card } from "@/components/ui/card";
+import Link from "next/link";
 //import FetchButton from "@/features/components/FetchButton";
 //import ButtonSection from "@/components/ButtonSection";
 
@@ -28,11 +29,12 @@ const HomePage = async () => {
 		<main className="min-h-screen bg-[#efefef]">
 			<Hero />
 			<SearchBar />
-			<WhyChooseUs />
+			<WhyChooseUs bgColor="bg-gray-100" />
 			{/* <FetchButton /><ButtonSection />*/}
-			<FeaturedListings />
-			<OpenHouses />
-			<AboutMe />
+			<FeaturedListings bgColor="bg-gray-200" />
+			<BlogPreview bgColor="bg-gray-100" />
+			<OpenHouses bgColor="bg-gray-200" />
+			<AboutMe bgColor="bg-gray-100" />
 		</main>
 	);
 };
@@ -112,9 +114,9 @@ const SearchBar = () => {
 	);
 };
 
-const WhyChooseUs = () => {
+const WhyChooseUs = ({ bgColor }) => {
 	return (
-		<section className="py-24">
+		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
 			<div className="flex justify-center px-24">
 				<div className="basis-1/2">
 					<h2 className="mb-8 text-3xl font-bold">
@@ -185,9 +187,9 @@ const WhyChooseUs = () => {
 	);
 };
 
-const FeaturedListings = () => {
+const FeaturedListings = ({ bgColor }) => {
 	return (
-		<section className="py-24 bg-gray-200">
+		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
 			<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
 				<div className="space-y-2">
 					<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -203,9 +205,137 @@ const FeaturedListings = () => {
 	);
 };
 
-const OpenHouses = () => {
+const BlogPreview = ({ bgColor }) => {
 	return (
-		<section className="py-24">
+		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
+			<div className="container px-4 md:px-6">
+				<div className="flex flex-col items-center justify-center space-y-4 text-center">
+					<div className="space-y-2">
+						<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+							Recent Blog Posts
+						</h2>
+						<p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+							Stay updated with the latest news and insights from our real
+							estate experts.
+						</p>
+					</div>
+				</div>
+				<div className="grid items-start max-w-5xl gap-6 py-12 mx-auto lg:grid-cols-3 lg:gap-12">
+					<div className="relative flex flex-col h-full overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+						<Link className="absolute inset-0 z-10" href="#">
+							<span className="sr-only">View</span>
+						</Link>
+						<img
+							alt="Blog post 1"
+							className="flex-shrink-0 object-cover w-full h-64"
+							height={300}
+							src="/expertise.webp"
+							style={{
+								aspectRatio: "500/300",
+								objectFit: "cover",
+							}}
+							width={500}
+						/>
+						<div className="flex flex-col justify-between flex-grow p-4 bg-white dark:bg-gray-950">
+							<div>
+								<h3 className="text-xl font-bold">The Future of Real Estate</h3>
+								<p className="text-sm text-gray-500">
+									Published on February 1, 2024
+								</p>
+								<p className="mt-2 text-sm">
+									Discover the upcoming trends in the real estate market and how
+									they can impact your investments.
+								</p>
+							</div>
+							<Link
+								className="inline-flex items-center justify-center px-4 py-2 mt-4 text-sm font-medium transition-colors bg-gray-900 rounded-md shadow h-9 text-gray-50 hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+								href="#"
+							>
+								Read more
+							</Link>
+						</div>
+					</div>
+					<div className="relative flex flex-col h-full overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+						<Link className="absolute inset-0 z-10" href="#">
+							<span className="sr-only">View</span>
+						</Link>
+						<img
+							alt="Blog post 2"
+							className="flex-shrink-0 object-cover w-full h-64"
+							height={300}
+							src="/trust.webp"
+							style={{
+								aspectRatio: "500/300",
+								objectFit: "cover",
+							}}
+							width={500}
+						/>
+						<div className="flex flex-col justify-between flex-grow p-4 bg-white dark:bg-gray-950">
+							<div>
+								<h3 className="text-xl font-bold">
+									Investing in Commercial Properties
+								</h3>
+								<p className="text-sm text-gray-500">
+									Published on January 15, 2024
+								</p>
+								<p className="mt-2 text-sm">
+									Learn the basics of investing in commercial properties and the
+									potential benefits it can bring.
+								</p>
+							</div>
+							<Link
+								className="inline-flex items-center justify-center px-4 py-2 mt-4 text-sm font-medium transition-colors bg-gray-900 rounded-md shadow h-9 text-gray-50 hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+								href="#"
+							>
+								Read more
+							</Link>
+						</div>
+					</div>
+					<div className="relative flex flex-col h-full overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
+						<Link className="absolute inset-0 z-10" href="#">
+							<span className="sr-only">View</span>
+						</Link>
+						<img
+							alt="Blog post 3"
+							className="flex-shrink-0 object-cover w-full h-64"
+							height={300}
+							src="/quality.webp"
+							style={{
+								aspectRatio: "500/300",
+								objectFit: "cover",
+							}}
+							width={500}
+						/>
+						<div className="flex flex-col justify-between flex-grow p-4 bg-white dark:bg-gray-950">
+							<div>
+								<h3 className="text-xl font-bold">
+									Understanding Real Estate Taxes
+								</h3>
+								<p className="text-sm text-gray-500">
+									Published on January 1, 2024
+								</p>
+								<p className="mt-2 text-sm">
+									A comprehensive guide to understanding and navigating real
+									estate taxes.
+								</p>
+							</div>
+							<Link
+								className="inline-flex items-center justify-center px-4 py-2 mt-4 text-sm font-medium transition-colors bg-gray-900 rounded-md shadow h-9 text-gray-50 hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+								href="#"
+							>
+								Read more
+							</Link>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	);
+};
+
+const OpenHouses = ({ bgColor }) => {
+	return (
+		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
 			<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
 				<div className="space-y-2">
 					<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -221,9 +351,9 @@ const OpenHouses = () => {
 	);
 };
 
-const AboutMe = () => {
+const AboutMe = ({ bgColor }) => {
 	return (
-		<section className="py-24 bg-gray-200">
+		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
 			<div className="flex flex-col items-center justify-center mb-8 space-y-4 text-center">
 				<div className="space-y-2">
 					<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
