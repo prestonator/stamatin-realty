@@ -134,13 +134,13 @@ const WhyChooseUs = () => {
 				</div>
 			</div>
 			<div className="flex gap-4 px-12 py-8">
-				<Card className="w-full">
+				<Card className="w-full overflow-hidden">
 					<img
 						alt="Expertise"
 						className="object-cover w-full h-64"
-						src="/placeholder.svg"
+						src="/expertise.webp"
 					/>
-					<CardContent>
+					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Expertise</h3>
 						<p className="text-gray-600">
 							Our team of experienced professionals are dedicated to providing
@@ -148,26 +148,26 @@ const WhyChooseUs = () => {
 						</p>
 					</CardContent>
 				</Card>
-				<Card className="w-full">
+				<Card className="w-full overflow-hidden">
 					<img
 						alt="Trust"
 						className="object-cover w-full h-64"
-						src="/placeholder.svg"
+						src="/expertise.webp"
 					/>
-					<CardContent>
+					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Trust</h3>
 						<p className="text-gray-600">
 							We value the trust of our clients and work hard to maintain it.
 						</p>
 					</CardContent>
 				</Card>
-				<Card className="w-full">
+				<Card className="w-full overflow-hidden">
 					<img
 						alt="Quality"
 						className="object-cover w-full h-64"
-						src="/placeholder.svg"
+						src="/quality.webp"
 					/>
-					<CardContent>
+					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Quality</h3>
 						<p className="text-gray-600">
 							We ensure the highest quality in all our services and properties.
