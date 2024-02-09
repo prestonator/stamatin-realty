@@ -135,10 +135,12 @@ const WhyChooseUs = () => {
 			</div>
 			<div className="flex gap-4 px-12 py-8">
 				<Card className="w-full overflow-hidden">
-					<img
+					<Image
 						alt="Expertise"
 						className="object-cover w-full h-64"
 						src="/expertise.webp"
+						width={300}
+						height={200}
 					/>
 					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Expertise</h3>
@@ -149,10 +151,12 @@ const WhyChooseUs = () => {
 					</CardContent>
 				</Card>
 				<Card className="w-full overflow-hidden">
-					<img
+					<Image
 						alt="Trust"
 						className="object-cover w-full h-64"
 						src="/expertise.webp"
+						width={300}
+						height={200}
 					/>
 					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Trust</h3>
@@ -162,10 +166,12 @@ const WhyChooseUs = () => {
 					</CardContent>
 				</Card>
 				<Card className="w-full overflow-hidden">
-					<img
+					<Image
 						alt="Quality"
 						className="object-cover w-full h-64"
 						src="/quality.webp"
+						width={300}
+						height={200}
 					/>
 					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Quality</h3>
