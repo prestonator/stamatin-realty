@@ -113,7 +113,7 @@ const PropertyCard = ({ property }) => {
 	};
 
 	return (
-		<div className="relative max-w-sm overflow-hidden border rounded-lg shadow-sm bg-card">
+		<div className="relative max-w-sm overflow-hidden border rounded-lg shadow-md bg-card">
 			<CardTop
 				image={photos[0].href}
 				photo_count={photo_count}
@@ -132,8 +132,7 @@ const PropertyCard = ({ property }) => {
 					<Dialog>
 						<DialogTrigger asChild>
 							<Button
-								className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-200 hover:bg-gray-700 hover:text-gray-300"
-								variant="outline"
+								className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-300 hover:bg-gray-700 hover:text-gray-300"
 							>
 								Quick View
 							</Button>
