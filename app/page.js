@@ -34,7 +34,8 @@ const HomePage = async () => {
 			<FeaturedListings bgColor="bg-gray-200" />
 			<BlogPreview bgColor="bg-gray-100" />
 			<OpenHouses bgColor="bg-gray-200" />
-			<AboutMe bgColor="bg-gray-100" />
+			<TestimonialSection bgColor="bg-gray-100" />
+			<AboutMe bgColor="bg-gray-200" />
 		</main>
 	);
 };
@@ -347,6 +348,14 @@ const OpenHouses = ({ bgColor }) => {
 				</div>
 			</div>
 			<SwiperSlides />
+		</section>
+	);
+};
+
+const TestimonialSection = ({ bgColor }) => {
+	return (
+		<section>
+			<div></div>
 		</section>
 	);
 };
