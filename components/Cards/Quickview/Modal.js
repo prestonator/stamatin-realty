@@ -120,7 +120,7 @@ const QuickviewModal = ({
 					className="w-full text-white bg-purple-600 hover:bg-purple-700 dark:bg-purple-300 dark:hover:bg-purple-400"
 					variant="primary"
 				>
-					Schedule a Viewing
+					See More Details
 				</Button>
 			</div>
 		</DialogContent>
