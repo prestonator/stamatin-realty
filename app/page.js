@@ -12,6 +12,7 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { LuSearch, LuHome, LuDollarSign } from "react-icons/lu";
+import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
 import {
 	SelectValue,
 	SelectTrigger,
@@ -354,8 +355,93 @@ const OpenHouses = ({ bgColor }) => {
 
 const TestimonialSection = ({ bgColor }) => {
 	return (
-		<section>
-			<div></div>
+		<section
+			className={`${bgColor} text-black py-12 md:py-24 lg:py-32 overflow-hidden`}
+		>
+			<div className="mx-auto max-w-7xl">
+				<div className="relative ">
+					<div className="flex flex-col items-center justify-center">
+						<p className="text-[90px] sm:text-[180px] text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
+							reviews
+						</p>
+						<p className="relative z-20 mt-10 text-4xl font-bold text-center text-blue-900 sm:mt-28 dark:text-gray-700">
+							What our customers say
+						</p>
+					</div>
+				</div>
+				<div className="relative items-center justify-center">
+					<p className="mt-20 text-base font-medium text-center">
+						&quot;A well-designed real estate website can be the bridge
+						<br />
+						that connects buyers to their dream homes,
+						<br />
+						and sellers to the right buyers.&quot;
+					</p>
+				</div>
+				<div className="grid grid-cols-1 gap-8 mt-12 md:grid-cols-3">
+					<div className="flex flex-col items-center gap-4">
+						<p className="mt-4 text-sm bg-[#f1f5f9] p-6 rounded-lg shadow-xl">
+							Thank you very much for the house found. This is an ideal option
+							for our family at the location and price. The company employs real
+							professionals who will always
+						</p>
+						<div className="flex flex-row items-center gap-2">
+							<Avatar className="border shadow-lg w-14 h-14">
+								<AvatarImage
+									alt="Herbert Lindsey"
+									src="/owen.webp?height=40&width=40"
+								/>
+								<AvatarFallback>HL</AvatarFallback>
+							</Avatar>
+							<div>
+								<p className="text-base font-medium">Owen Joyner</p>
+								<p className="text-sm text-gray-500">New York, USA</p>
+							</div>
+						</div>
+					</div>
+					<div className="flex flex-col items-center gap-4">
+						<p className="mt-4 text-sm bg-[#f1f5f9] p-6 rounded-lg shadow-xl">
+							A gentleman from New York discovered what he calls an “oversight”
+							on the part of 99.9% of all marketers that allows him to get
+							otherwise paid-for advertising at Google as well as all other
+							search engines.
+						</p>
+						<div className="flex flex-row items-center gap-2">
+							<Avatar className="border shadow-lg w-14 h-14">
+								<AvatarImage
+									alt="Noah Russell"
+									src="/arun.webp?height=40&width=40"
+								/>
+								<AvatarFallback>NR</AvatarFallback>
+							</Avatar>
+							<div>
+								<p className="text-base font-medium">Arun Chidambaram</p>
+								<p className="text-sm text-gray-500">New York, USA</p>
+							</div>
+						</div>
+					</div>
+					<div className="flex flex-col items-center gap-4">
+						<p className="mt-4 text-sm bg-[#f1f5f9] p-6 rounded-lg shadow-xl">
+							For many of us, our very first experience of learning about the
+							celestial bodies begins when we saw our first full moon in the
+							sky. It is truly a magnificent view even
+						</p>
+						<div className="flex flex-row items-center gap-2">
+							<Avatar className="border shadow-lg w-14 h-14">
+								<AvatarImage
+									alt="Nellie Griffith"
+									src="/vrishab.webp?height=40&width=40"
+								/>
+								<AvatarFallback>NG</AvatarFallback>
+							</Avatar>
+							<div>
+								<p className="text-base font-medium">Vrishab Commuri</p>
+								<p className="text-sm text-gray-500">New York, USA</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 	);
 };
