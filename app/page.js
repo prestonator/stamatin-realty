@@ -461,7 +461,7 @@ const AboutMe = ({ bgColor }) => {
 				<div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
 					<img
 						alt="Realtor"
-						className="object-cover object-center mx-auto overflow-hidden rounded-full shadow-lg aspect-content sm:w-full lg:order-last"
+						className="object-cover object-center mx-auto overflow-hidden rounded-full shadow-lg aspect-square w-[50vw] lg:aspect-auto lg:w-full lg:order-last"
 						height="500"
 						src="/headshot.jpg"
 						width="500"
