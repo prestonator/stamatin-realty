@@ -145,8 +145,8 @@ const WhyChooseUs = ({ bgColor }) => {
 					</p>
 				</div>
 			</div>
-			<div className="flex gap-4 px-12 py-8">
-				<Card className="w-full overflow-hidden">
+			<div className="flex flex-wrap justify-center gap-4 px-8 py-8 jus">
+				<Card className="w-[20rem] overflow-hidden">
 					<Image
 						alt="Expertise"
 						className="object-cover w-full h-64"
@@ -162,7 +162,7 @@ const WhyChooseUs = ({ bgColor }) => {
 						</p>
 					</CardContent>
 				</Card>
-				<Card className="w-full overflow-hidden">
+				<Card className="w-[20rem] overflow-hidden">
 					<Image
 						alt="Trust"
 						className="object-cover w-full h-64"
@@ -177,7 +177,7 @@ const WhyChooseUs = ({ bgColor }) => {
 						</p>
 					</CardContent>
 				</Card>
-				<Card className="w-full overflow-hidden">
+				<Card className="w-[20rem] overflow-hidden">
 					<Image
 						alt="Quality"
 						className="object-cover w-full h-64"
