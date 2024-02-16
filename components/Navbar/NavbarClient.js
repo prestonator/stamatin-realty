@@ -69,14 +69,12 @@ function NavbarClient({ children }) {
 				</button>
 				{/* Menu items */}
 				<div className="w-[10vw] h-[5rem] relative">
-					<Link href="/" rel="ugc">
-						<Image
-							src="/kwlogo_trans.webp"
-							alt="Keller Williams Logo"
-							className="object-contain bg-white"
-							fill
-						/>
-					</Link>
+					<Image
+						src="/kwlogo_trans.webp"
+						alt="Keller Williams Logo"
+						className="object-contain bg-white"
+						fill
+					/>
 				</div>
 				<div
 					className={`${styles.navMenu} w-full ${

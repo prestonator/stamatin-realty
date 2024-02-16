@@ -11,7 +11,15 @@ import { RadioGroupItem, RadioGroup } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { LuSearch, LuHome, LuDollarSign } from "react-icons/lu";
+import {
+	LuSearch,
+	LuHome,
+	LuDollarSign,
+	LuCheck,
+	LuFacebook,
+	LuLinkedin,
+	LuTwitter,
+} from "react-icons/lu";
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
 import {
 	SelectValue,
@@ -361,7 +369,7 @@ const TestimonialSection = ({ bgColor }) => {
 			<div className="mx-auto max-w-7xl">
 				<div className="relative ">
 					<div className="flex flex-col items-center justify-center">
-						<p className="text-[90px] sm:text-[180px] text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
+						<p className="text-[90px] sm:text-[10vw] text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
 							reviews
 						</p>
 						<p className="relative z-20 mt-10 text-4xl font-bold text-center text-blue-900 sm:mt-28 dark:text-gray-700">
@@ -449,84 +457,64 @@ const TestimonialSection = ({ bgColor }) => {
 const AboutMe = ({ bgColor }) => {
 	return (
 		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
-			<div className="flex flex-col items-center justify-center mb-8 space-y-4 text-center">
-				<div className="space-y-2">
-					<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-						About Me
-					</h2>
-					<p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-						Get to know your trusted realtor.
-					</p>
-				</div>
-			</div>
-			<div className="flex flex-col items-center p-8 bg-white rounded-lg shadow justify-evenly md:flex-row">
-				<div className="relative w-[15vw] h-[15vw]">
-					<Image
-						className="object-cover w-48 h-48 mx-auto border-4 border-gray-200 rounded-full dark:border-gray-800 md:mx-0 md:mr-8"
-						src={headshotTransparent}
-						alt="Realtor headshot"
-						fill
+			<div className="container px-4 md:px-6">
+				<div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
+					<img
+						alt="Realtor"
+						className="object-cover object-center mx-auto overflow-hidden rounded-full shadow-lg aspect-content sm:w-full lg:order-last"
+						height="500"
+						src="/headshot.jpg"
+						width="500"
 					/>
-				</div>
-				<div className="mt-4 md:w-2/3 md:mt-0">
-					<h2 className="text-xl font-semibold leading-tight">Alex Stamatin</h2>
-					<p className="mt-2 text-gray-600">Licensed Real Estate Agent</p>
-					<div className="flex items-center mt-1">
-						<IoMdHelpCircleOutline className="w-4 h-4 mr-2 text-gray-600" />
-						<p className="text-gray-600">Serving the Greater Oklahoma area</p>
-					</div>
-					<hr className="my-4 border-gray-300 dark:border-gray-700" />
-					<p className="text-gray-800">
-						With over 0.5 years of experience in the real estate industry, I
-						have the expertise and local knowledge to help you find your dream
-						home. I am passionate about helping families relocate and making the
-						home buying or selling process as smooth as possible.
-					</p>
-					<div className="flex flex-col items-center mt-4 md:flex-row">
-						<button
-							className="px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700 focus:outline-none focus:shadow-outline"
-							type="button"
-						>
-							Contact Me
-						</button>
-						<div className="flex mt-4 md:mt-0 md:ml-4">
-							<span className="inline-block px-3 py-1 mr-2 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full">
-								Expert Negotiator
-							</span>
-							<span className="inline-block px-3 py-1 text-sm font-semibold text-blue-600 bg-blue-100 rounded-full">
-								Luxury Properties
-							</span>
+					<div className="flex flex-col justify-center space-y-4">
+						<div className="space-y-2">
+							<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+								Meet John Doe
+							</h2>
+							<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+								With over 20 years of experience in the real estate industry,
+								John Doe is a trusted advisor and negotiator. He is passionate
+								about helping clients find their dream homes and is known for
+								his attention to detail and exceptional customer service.
+							</p>
 						</div>
-					</div>
-					<div className="flex mt-4">
-						<a
-							href="https://facebook.com"
-							className="mr-4 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-500"
-						>
-							<FaFacebookF />
-						</a>
-						<a
-							href="https://twitter.com"
-							className="mr-4 text-blue-300 dark:text-blue-200 hover:text-blue-500 dark:hover:text-blue-400"
-						>
-							<FaTwitter />
-						</a>
-						<a
-							href="https://linkedin.com"
-							className="mr-4 text-blue-500 dark:text-blue-300 hover:text-blue-700 dark:hover:text-blue-500"
-						>
-							<FaLinkedinIn />
-						</a>
-						<a
-							href="https://instagram.com"
-							className="text-pink-400 dark:text-pink-300 hover:text-pink-600 dark:hover:text-pink-500"
-						>
-							<FaInstagram />
-						</a>
-					</div>
-					<div className="flex mt-4">
-						<div className="mr-2 text-yellow-400">★ ★ ★ ★ ☆</div>
-						<p className="text-gray-600">50+ Client Testimonials</p>
+						<ul className="grid gap-2 py-4">
+							<li>
+								<LuCheck className="inline-block w-4 h-4 mr-2" />
+								Over 20 years of experience in the real estate industry.
+							</li>
+							<li>
+								<LuCheck className="inline-block w-4 h-4 mr-2" />
+								Trusted advisor and skilled negotiator.
+							</li>
+							<li>
+								<LuCheck className="inline-block w-4 h-4 mr-2" />
+								Exceptional customer service and attention to detail.
+							</li>
+						</ul>
+						<div className="flex flex-row gap-2">
+							<Link
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-600 rounded-md shadow hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700 disabled:pointer-events-none disabled:opacity-50"
+								href="#"
+							>
+								<LuFacebook className="w-4 h-4 mr-2" />
+								Facebook
+							</Link>
+							<Link
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-400 rounded-md shadow hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 disabled:pointer-events-none disabled:opacity-50"
+								href="#"
+							>
+								<LuTwitter className="w-4 h-4 mr-2" />
+								Twitter
+							</Link>
+							<Link
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-800 rounded-md shadow hover:bg-blue-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-900 disabled:pointer-events-none disabled:opacity-50"
+								href="#"
+							>
+								<LuLinkedin className="w-4 h-4 mr-2" />
+								LinkedIn
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>
