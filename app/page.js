@@ -81,11 +81,11 @@ const Hero = () => {
 const SearchBar = () => {
 	return (
 		<div className="relative w-full">
-			<div className="left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 absolute bg-white p-5 rounded-full shadow flex items-center space-x-4 w-[60vw] mx-auto">
+			<div className="left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 absolute bg-white p-5 rounded-full shadow flex items-center space-x-4 w-full md:w-3/4 mx-auto flex-wrap sm:flex-nowrap">
 				<Select>
 					<SelectTrigger className="flex items-center justify-between space-x-2 rounded-3xl">
 						<div className="flex items-center space-x-2">
-							<LuDollarSign className="w-4 h-4" />
+							<LuHome className="w-4 h-4" />
 							<SelectValue placeholder="For Rent" />
 						</div>
 					</SelectTrigger>
@@ -101,7 +101,7 @@ const SearchBar = () => {
 						id="property-category"
 					>
 						<div className="flex items-center space-x-2">
-							<LuHome className="w-4 h-4" />
+							<LuDollarSign className="w-4 h-4" />
 							<SelectValue placeholder="House" />
 						</div>
 					</SelectTrigger>
@@ -113,7 +113,7 @@ const SearchBar = () => {
 				</Select>
 				<Input
 					className="flex items-center space-x-2 rounded-3xl"
-					placeholder="📍 Norman, Oklahoma"
+					placeholder="📍 Norman, OK"
 					type="text"
 				/>
 				<Button className="px-4 py-2 text-white bg-gray-800 rounded-3xl hover:bg-blue-700">
