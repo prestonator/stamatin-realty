@@ -81,9 +81,9 @@ const Hero = () => {
 const SearchBar = () => {
 	return (
 		<div className="relative w-full">
-			<div className="left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 absolute bg-white p-5 rounded-full shadow flex items-center space-x-4 w-full md:w-3/4 mx-auto flex-wrap sm:flex-nowrap">
+			<div className="left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 absolute bg-white p-5 rounded-full shadow flex items-center space-x-4 w-full md:w-3/4 mx-auto flex-wrap justify-center gap-2 sm:flex-nowrap">
 				<Select>
-					<SelectTrigger className="flex items-center justify-between space-x-2 rounded-3xl">
+					<SelectTrigger className="flex items-center justify-between space-x-2 rounded-3xl w-[75vw] sm:w-full">
 						<div className="flex items-center space-x-2">
 							<LuHome className="w-4 h-4" />
 							<SelectValue placeholder="For Rent" />
@@ -97,7 +97,7 @@ const SearchBar = () => {
 				</Select>
 				<Select>
 					<SelectTrigger
-						className="flex items-center space-x-2 rounded-3xl"
+						className="flex items-center space-x-2 rounded-3xl w-[75vw] sm:w-full"
 						id="property-category"
 					>
 						<div className="flex items-center space-x-2">
@@ -112,7 +112,7 @@ const SearchBar = () => {
 					</SelectContent>
 				</Select>
 				<Input
-					className="flex items-center space-x-2 rounded-3xl"
+					className="flex items-center space-x-2 rounded-3xl w-[75vw] sm:w-full"
 					placeholder="📍 Norman, OK"
 					type="text"
 				/>
@@ -126,7 +126,7 @@ const SearchBar = () => {
 
 const WhyChooseUs = ({ bgColor }) => {
 	return (
-		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
+		<section className={`pt-48 ${bgColor} md:py-24 lg:py-32`}>
 			<div className="flex justify-center px-24">
 				<div className="basis-1/2">
 					<h2 className="mb-8 text-3xl font-bold">
