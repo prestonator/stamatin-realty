@@ -1,18 +1,8 @@
 import Image from "next/image";
-import QuickviewCard from "@/components/Cards/Quickview/Card";
 import SwiperSlides from "@/components/Swiper/Swiper";
-import { FaFacebookF } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { IoMdHelpCircleOutline } from "react-icons/io";
-import headshotTransparent from "@/public/headshotTrans.webp";
-import { RadioGroupItem, RadioGroup } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
-	LuSearch,
 	LuHome,
 	LuDollarSign,
 	LuCheck,

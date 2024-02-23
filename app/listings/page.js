@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { LuArrowDown } from "react-icons/lu";
 import Image from "next/image";
 import Link from "next/link";
+import propertyDetails from "@/data/propertyDetails.json";
+import ListingCard from "./ListingCard";
 
 const Hero = () => {
 	return (
@@ -129,111 +131,9 @@ const ListingsPage = () => {
 					<Button>Clear Filters</Button>
 				</div>
 				<div className="grid gap-6 md:grid-cols-3">
-					<div className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Property 1"
-							className="object-cover w-full h-64"
-							height={400}
-							src="/1.webp"
-							style={{
-								aspectRatio: "500/400",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="p-4 bg-white dark:bg-gray-950">
-							<h3 className="text-xl font-bold">$500,000</h3>
-							<p className="text-sm text-gray-500">123 Main St, Springfield</p>
-							<p className="text-sm text-gray-500">3 Beds, 2 Baths</p>
-						</div>
-					</div>
-					<div className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Property 2"
-							className="object-cover w-full h-64"
-							height={400}
-							src="/2.webp"
-							style={{
-								aspectRatio: "500/400",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="p-4 bg-white dark:bg-gray-950">
-							<h3 className="text-xl font-bold">$750,000</h3>
-							<p className="text-sm text-gray-500">456 Elm St, Springfield</p>
-							<p className="text-sm text-gray-500">4 Beds, 3 Baths</p>
-						</div>
-					</div>
-					<div className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Property 3"
-							className="object-cover w-full h-64"
-							height={400}
-							src="/3.webp"
-							style={{
-								aspectRatio: "500/400",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="p-4 bg-white dark:bg-gray-950">
-							<h3 className="text-xl font-bold">$600,000</h3>
-							<p className="text-sm text-gray-500">789 Oak St, Springfield</p>
-							<p className="text-sm text-gray-500">3 Beds, 2 Baths</p>
-						</div>
-					</div>
-					<div className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Property 4"
-							className="object-cover w-full h-64"
-							height={400}
-							src="/4.webp"
-							style={{
-								aspectRatio: "500/400",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="p-4 bg-white dark:bg-gray-950">
-							<h3 className="text-xl font-bold">$800,000</h3>
-							<p className="text-sm text-gray-500">321 Pine St, Springfield</p>
-							<p className="text-sm text-gray-500">4 Beds, 3 Baths</p>
-						</div>
-					</div>
-					<div className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Property 1"
-							className="object-cover w-full h-64"
-							height={400}
-							src="/5.webp"
-							style={{
-								aspectRatio: "500/400",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="p-4 bg-white dark:bg-gray-950">
-							<h3 className="text-xl font-bold">$500,000</h3>
-							<p className="text-sm text-gray-500">123 Main St, Springfield</p>
-							<p className="text-sm text-gray-500">3 Beds, 2 Baths</p>
-						</div>
-					</div>
+					{propertyDetails.map((property) => (
+						<ListingCard key={property.property_id} property={property} />
+					))}
 				</div>
 			</section>
 		</main>
