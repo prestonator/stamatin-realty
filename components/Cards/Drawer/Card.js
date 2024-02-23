@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import QuickviewModal from "./parts/Modal";
 import QuickviewDrawer from "./parts/Drawer";
-import CardTop from "./parts/Cardtop";
+import CardTop from "./parts/CardTop";
 import CardMiddle from "./parts/CardMiddle";
 import CardBottom from "./parts/CardBottom";
 
