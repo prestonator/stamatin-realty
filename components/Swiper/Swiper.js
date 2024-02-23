@@ -14,6 +14,7 @@ import { Pagination } from "swiper/modules";
 import PropertyCard from "../Cards/Quickview/Card";
 //import PropertyCard from "../Cards/PropertyCard/PropertyCard";
 import propertyDetails from "@/data/propertyDetails.json";
+import { DrawerDialogDemo } from "@/components/Cards/Drawer/Card";
 
 
 
@@ -45,7 +46,7 @@ export default function SwiperSlides() {
 			>
 				{propertyDetails.map((property, index) => (
 					<SwiperSlide key={index}>
-						<PropertyCard key={property.property_id} property={property} />
+						<DrawerDialogDemo key={property.property_id} property={property} />
 					</SwiperSlide>
 				))}
 			</Swiper>
