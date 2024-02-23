@@ -47,16 +47,15 @@ const QuickviewModal = ({
 					<DialogTitle className="text-purple-600 dark:text-purple-300">
 						{street_number}
 					</DialogTitle>
-					<div>
+					<DialogClose asChild>
 						<Button
 							className="text-purple-600 dark:text-purple-300"
 							size="icon"
-							variant="ghost"
+							variant="outline"
 						>
 							<LuX className="w-4 h-4" />
-							<span className="sr-only">Close</span>
 						</Button>
-					</div>
+					</DialogClose>
 				</div>
 			</DialogHeader>
 			<div className="flex flex-col gap-4 md:gap-6">
