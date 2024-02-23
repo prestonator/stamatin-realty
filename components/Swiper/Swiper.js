@@ -11,8 +11,6 @@ import "./styles.css";
 
 // import required modules
 import { Pagination } from "swiper/modules";
-import PropertyCard from "../Cards/Quickview/Card";
-//import PropertyCard from "../Cards/PropertyCard/PropertyCard";
 import propertyDetails from "@/data/propertyDetails.json";
 import { DrawerDialogDemo } from "@/components/Cards/Drawer/Card";
 
