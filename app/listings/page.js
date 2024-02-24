@@ -78,9 +78,10 @@ const FilterMenu = () => {
 									<Button variant="outline">Price Range</Button>
 								</DropdownMenuTrigger>
 								<DropdownMenuContent>
-									<DropdownMenuItem>$100,000 - $200,000</DropdownMenuItem>
-									<DropdownMenuItem>$200,000 - $300,000</DropdownMenuItem>
-									<DropdownMenuItem>$300,000 - $400,000</DropdownMenuItem>
+									<DropdownMenuItem>$100k - $200k</DropdownMenuItem>
+									<DropdownMenuItem>$200K - $300K</DropdownMenuItem>
+									<DropdownMenuItem>$300K - $400K</DropdownMenuItem>
+									<DropdownMenuItem>$400K +</DropdownMenuItem>
 								</DropdownMenuContent>
 							</DropdownMenu>
 							<DropdownMenu>
@@ -108,13 +109,18 @@ const FilterMenu = () => {
 									<Button variant="outline">Property Size</Button>
 								</DropdownMenuTrigger>
 								<DropdownMenuContent>
-									<DropdownMenuItem>Small</DropdownMenuItem>
-									<DropdownMenuItem>Medium</DropdownMenuItem>
-									<DropdownMenuItem>Large</DropdownMenuItem>
+									<DropdownMenuItem>&lt; 1,000 sqft</DropdownMenuItem>
+									<DropdownMenuItem>1,000 - 2,000 sqft</DropdownMenuItem>
+									<DropdownMenuItem>2,000 - 3000 sqft</DropdownMenuItem>
+									<DropdownMenuItem>3,000 - 4,000 sqft</DropdownMenuItem>
+									<DropdownMenuItem>4,000+ sqft</DropdownMenuItem>
 								</DropdownMenuContent>
 							</DropdownMenu>
 						</div>
-						<div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="listings">
+						<div
+							className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+							id="listings"
+						>
 							{propertyDetails.map((property) => (
 								<ListingCard key={property.property_id} property={property} />
 							))}
