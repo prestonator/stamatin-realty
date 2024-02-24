@@ -3,6 +3,14 @@ import { LuArrowDown } from "react-icons/lu";
 import Image from "next/image";
 import Link from "next/link";
 import propertyDetails from "@/data/propertyDetails.json";
+import {
+	DropdownMenuTrigger,
+	DropdownMenuItem,
+	DropdownMenuContent,
+	DropdownMenu,
+} from "@/components/ui/dropdown-menu";
+import { Input } from "@/components/ui/input";
+import { CardContent, Card } from "@/components/ui/card";
 import ListingCard from "./ListingCard";
 
 const Hero = () => {
@@ -39,103 +47,110 @@ const Hero = () => {
 	);
 };
 
+const FilterMenu = () => {
+	return (
+		<div className="container px-4 py-6 mx-auto md:px-6 lg:px-8">
+			<div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+				<div className="col-span-1 md:col-span-2">
+					<div className="flex flex-col gap-4">
+						<div className="flex flex-col items-start gap-4 md:flex-row md:items-center">
+							<Input
+								className="flex-grow"
+								placeholder="Search by keyword or address"
+								type="text"
+							/>
+							<DropdownMenu>
+								<DropdownMenuTrigger asChild>
+									<Button className="w-full md:w-auto" variant="outline">
+										Property Type
+									</Button>
+								</DropdownMenuTrigger>
+								<DropdownMenuContent>
+									<DropdownMenuItem>Houses</DropdownMenuItem>
+									<DropdownMenuItem>Apartments</DropdownMenuItem>
+									<DropdownMenuItem>Condos</DropdownMenuItem>
+								</DropdownMenuContent>
+							</DropdownMenu>
+						</div>
+						<div className="grid grid-cols-1 gap-4 md:grid-cols-4">
+							<DropdownMenu>
+								<DropdownMenuTrigger asChild>
+									<Button variant="outline">Price Range</Button>
+								</DropdownMenuTrigger>
+								<DropdownMenuContent>
+									<DropdownMenuItem>$100,000 - $200,000</DropdownMenuItem>
+									<DropdownMenuItem>$200,000 - $300,000</DropdownMenuItem>
+									<DropdownMenuItem>$300,000 - $400,000</DropdownMenuItem>
+								</DropdownMenuContent>
+							</DropdownMenu>
+							<DropdownMenu>
+								<DropdownMenuTrigger asChild>
+									<Button variant="outline">Bedrooms</Button>
+								</DropdownMenuTrigger>
+								<DropdownMenuContent>
+									<DropdownMenuItem>1 Bedroom</DropdownMenuItem>
+									<DropdownMenuItem>2 Bedrooms</DropdownMenuItem>
+									<DropdownMenuItem>3+ Bedrooms</DropdownMenuItem>
+								</DropdownMenuContent>
+							</DropdownMenu>
+							<DropdownMenu>
+								<DropdownMenuTrigger asChild>
+									<Button variant="outline">Bathrooms</Button>
+								</DropdownMenuTrigger>
+								<DropdownMenuContent>
+									<DropdownMenuItem>1 Bathroom</DropdownMenuItem>
+									<DropdownMenuItem>2 Bathrooms</DropdownMenuItem>
+									<DropdownMenuItem>3+ Bathrooms</DropdownMenuItem>
+								</DropdownMenuContent>
+							</DropdownMenu>
+							<DropdownMenu>
+								<DropdownMenuTrigger asChild>
+									<Button variant="outline">Property Size</Button>
+								</DropdownMenuTrigger>
+								<DropdownMenuContent>
+									<DropdownMenuItem>Small</DropdownMenuItem>
+									<DropdownMenuItem>Medium</DropdownMenuItem>
+									<DropdownMenuItem>Large</DropdownMenuItem>
+								</DropdownMenuContent>
+							</DropdownMenu>
+						</div>
+						<div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="listings">
+							{propertyDetails.map((property) => (
+								<ListingCard key={property.property_id} property={property} />
+							))}
+						</div>
+					</div>
+				</div>
+				<div className="hidden col-span-1 md:block">
+					<div className="sticky top-0">
+						<Card>
+							<CardContent className="p-4">
+								<h3 className="mb-4 text-lg font-semibold">Map View</h3>
+								<img
+									alt="Map"
+									className="object-cover w-full rounded-lg h-96"
+									height={200}
+									src="/placeholder.svg"
+									style={{
+										aspectRatio: "200/200",
+										objectFit: "cover",
+									}}
+									width={200}
+								/>
+							</CardContent>
+						</Card>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
 const ListingsPage = () => {
 	return (
 		<main>
 			<Hero />
-			<section id="listings" className="px-4 py-8 md:px-6">
-				<div className="grid gap-6 mb-4 md:grid-cols-5">
-					<fieldset className="col-span-full md:col-span-1">
-						<legend className="mb-2 font-semibold">Min Price</legend>
-						<div className="grid gap-2">
-							<select
-								className="w-full px-3 py-2 text-base border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-								id="min-price"
-							>
-								<option>Min Price</option>
-								<option>$100,000</option>
-								<option>$200,000</option>
-								<option>$300,000</option>
-								<option>$400,000</option>
-								<option>$500,000</option>
-							</select>
-						</div>
-					</fieldset>
-					<fieldset className="col-span-full md:col-span-1">
-						<legend className="mb-2 font-semibold">Max Price</legend>
-						<div className="grid gap-2">
-							<select
-								className="w-full px-3 py-2 text-base border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-								id="max-price"
-							>
-								<option>Max Price</option>
-								<option>$500,000</option>
-								<option>$600,000</option>
-								<option>$700,000</option>
-								<option>$800,000</option>
-								<option>$900,000</option>
-							</select>
-						</div>
-					</fieldset>
-					<fieldset className="col-span-full md:col-span-1">
-						<legend className="mb-2 font-semibold">Bedrooms</legend>
-						<div className="grid gap-2">
-							<select
-								className="w-full px-3 py-2 text-base border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-								id="bedrooms"
-							>
-								<option>Number of Bedrooms</option>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5+</option>
-							</select>
-						</div>
-					</fieldset>
-					<fieldset className="col-span-full md:col-span-1">
-						<legend className="mb-2 font-semibold">Bathrooms</legend>
-						<div className="grid gap-2">
-							<select
-								className="w-full px-3 py-2 text-base border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-								id="bathrooms"
-							>
-								<option>Number of Bathrooms</option>
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-								<option>4</option>
-								<option>5+</option>
-							</select>
-						</div>
-					</fieldset>
-					<fieldset className="col-span-full md:col-span-1">
-						<legend className="mb-2 font-semibold">Square Feet</legend>
-						<div className="grid gap-2">
-							<select
-								className="w-full px-3 py-2 text-base border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-								id="sqft"
-							>
-								<option>Square Feet</option>
-								<option>500+</option>
-								<option>1000+</option>
-								<option>1500+</option>
-								<option>2000+</option>
-								<option>2500+</option>
-							</select>
-						</div>
-					</fieldset>
-				</div>
-				<div className="flex justify-center w-full mb-4">
-					<Button className="mr-2">Apply Filters</Button>
-					<Button>Clear Filters</Button>
-				</div>
-				<div className="grid gap-6 md:grid-cols-3">
-					{propertyDetails.map((property) => (
-						<ListingCard key={property.property_id} property={property} />
-					))}
-				</div>
-			</section>
+			<FilterMenu />
 		</main>
 	);
 };
