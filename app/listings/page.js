@@ -49,6 +49,7 @@ const Hero = () => {
 };
 
 const FilterMenu = () => {
+	const [searchFilter, setSearchFilter] = useState("");
 	const [typeFilter, setTypeFilter] = useState("All");
 	const [priceFilter, setPriceFilter] = useState("All");
 	const [bedroomFilter, setBedroomFilter] = useState("All");
@@ -56,6 +57,14 @@ const FilterMenu = () => {
 	const [sizeFilter, setSizeFilter] = useState("All");
 
 	const filterProperties = (property) => {
+		if (
+			searchFilter &&
+			!Object.values(property.location).some((value) =>
+				value.toLowerCase().includes(searchFilter.toLowerCase())
+			)
+		)
+			return false;
+
 		if (typeFilter !== "All" && property.type !== typeFilter) return false;
 
 		if (priceFilter !== "All") {
@@ -135,6 +144,8 @@ const FilterMenu = () => {
 								className="flex-grow"
 								placeholder="Search by keyword or address"
 								type="text"
+								value={searchFilter}
+								onChange={(e) => setSearchFilter(e.target.value)}
 							/>
 							<DropdownMenu>
 								<DropdownMenuTrigger asChild>
