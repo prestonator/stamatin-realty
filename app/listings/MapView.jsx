@@ -3,11 +3,9 @@ import React, { useState } from "react";
 import {
 	APIProvider,
 	Map,
-	Marker,
 	InfoWindow,
 	AdvancedMarker,
 } from "@vis.gl/react-google-maps";
-import { BsHouse } from "react-icons/bs";
 
 const center = {
 	lat: 35.229956,
