@@ -24,7 +24,7 @@ const ListingCard = ({ property }) => {
 	} = property;
 
 	const { street_number, city, state_code, postal_code } = location;
-	const { bath_count, bed_count, garage_count, sqft, lot_sqft } = description;
+	const { bath_count, bed_count, sqft } = description;
 	
 	return (
 		<>

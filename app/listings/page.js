@@ -61,7 +61,7 @@ const FilterMenu = () => {
 		if (
 			searchFilter &&
 			!Object.values(property.location).some((value) =>
-				value.toLowerCase().includes(searchFilter.toLowerCase())
+				value.toString().toLowerCase().includes(searchFilter.toLowerCase())
 			)
 		)
 			return false;
