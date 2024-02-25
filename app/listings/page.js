@@ -13,6 +13,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { CardContent, Card } from "@/components/ui/card";
 import ListingCard from "./ListingCard";
+import MapView from "./MapView";
 
 const Hero = () => {
 	return (
@@ -284,17 +285,7 @@ const FilterMenu = () => {
 						<Card>
 							<CardContent className="p-4">
 								<h3 className="mb-4 text-lg font-semibold">Map View</h3>
-								<img
-									alt="Map"
-									className="object-cover w-full rounded-lg h-96"
-									height={200}
-									src="/placeholder.svg"
-									style={{
-										aspectRatio: "200/200",
-										objectFit: "cover",
-									}}
-									width={200}
-								/>
+								<MapView filteredProperties={filteredProperties} />
 							</CardContent>
 						</Card>
 					</div>
