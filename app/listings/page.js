@@ -13,7 +13,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { CardContent, Card } from "@/components/ui/card";
 import ListingCard from "./ListingCard";
-import MapView from "./MapView";
+import MapView from "./SideMap";
 
 const Hero = () => {
 	return (
