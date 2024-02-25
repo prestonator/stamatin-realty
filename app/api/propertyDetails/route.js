@@ -75,6 +75,8 @@ export async function POST(request) {
 				state: detail?.data?.home?.location?.address?.state ?? "",
 				postal_code: detail?.data?.home?.location?.address?.postal_code ?? "",
 				street_view_url: detail?.data?.home?.location?.street_view_url ?? "",
+				latitude: detail?.data?.home?.location?.address?.coordinate?.lat ?? 0,
+				longitude: detail?.data?.home?.location?.address?.coordinate?.lon ?? 0,
 			},
 
 			photo_count: updatedPhotos.length,
