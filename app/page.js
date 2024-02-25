@@ -29,9 +29,7 @@ const HomePage = async () => {
 			<Hero />
 			<SearchBar />
 			<WhyChooseUs bgColor="bg-gray-100" />
-			<FetchButton />
-			<ButtonSection />
-			{/* */}
+			{/*<FetchButton /><ButtonSection /> */}
 			<FeaturedListings bgColor="bg-gray-200" />
 			<BlogPreview bgColor="bg-gray-100" />
 			<OpenHouses bgColor="bg-gray-200" />
