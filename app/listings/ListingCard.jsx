@@ -1,25 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {
-	LuBed,
-	LuBath,
-	LuCar,
-	LuRuler,
-	LuCamera,
-	LuStar,
-} from "react-icons/lu";
 
 const ListingCard = ({ property }) => {
 	const {
 		property_id,
 		type,
 		status,
-		externalLink,
 		list_price,
 		location,
 		photos,
-		photo_count,
 		description,
 	} = property;
 
