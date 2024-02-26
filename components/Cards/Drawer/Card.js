@@ -63,6 +63,7 @@ export function DrawerDialogDemo({ property }) {
 								list_price={`$${list_price.toLocaleString()}`}
 								location={location}
 								description={description}
+								property_id={property_id}
 							/>
 						</Dialog>
 					</div>
@@ -92,7 +93,7 @@ export function DrawerDialogDemo({ property }) {
 				<Drawer open={open} onOpenChange={setOpen}>
 					<DrawerTrigger asChild>
 						<Button className="absolute bottom-0 left-0 right-0 w-full px-4 py-2 font-bold text-gray-700 bg-gray-300 hover:bg-gray-700 hover:text-gray-300">
-							Edit Profile
+							Quick View
 						</Button>
 					</DrawerTrigger>
 					<QuickviewDrawer
@@ -101,6 +102,7 @@ export function DrawerDialogDemo({ property }) {
 						list_price={`$${list_price.toLocaleString()}`}
 						location={location}
 						description={description}
+						property_id={property_id}
 					/>
 				</Drawer>
 			</div>

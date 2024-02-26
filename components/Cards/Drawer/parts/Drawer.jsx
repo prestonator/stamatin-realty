@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import {
 	DialogTitle,
 	DialogHeader,
@@ -39,6 +40,7 @@ const QuickviewDrawer = ({
 	onClose,
 	location,
 	description,
+	property_id,
 }) => {
 	const { street_number, city, state_code, postal_code } = location;
 	const {
@@ -126,12 +128,14 @@ const QuickviewDrawer = ({
 						{property_description}
 					</p>
 				</ScrollArea>
-				<Button
-					className="w-full text-white bg-purple-600 hover:bg-purple-700 dark:bg-purple-300 dark:hover:bg-purple-400"
-					variant="primary"
-				>
-					See More Details
-				</Button>
+				<Link href={`/listings/${property_id}`}>
+					<Button
+						className="w-full text-white bg-purple-600 hover:bg-purple-700 dark:bg-purple-300 dark:hover:bg-purple-400"
+						variant="primary"
+					>
+						See More Details
+					</Button>
+				</Link>
 			</div>
 			<DrawerFooter className="pt-2">
 				<DrawerClose asChild>
