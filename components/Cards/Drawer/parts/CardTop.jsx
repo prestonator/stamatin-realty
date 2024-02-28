@@ -8,6 +8,7 @@ const CardTop = ({ image, photo_count, imageAlt }) => {
 	return (
 		<div className="relative">
 			<Image
+				placeholder="empty"
 				alt={imageAlt}
 				className="object-cover w-full h-auto aspect-[3/2]"
 				height={200}

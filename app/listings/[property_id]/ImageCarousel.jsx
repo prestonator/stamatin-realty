@@ -29,7 +29,7 @@ const SimpleSlider = (props) => {
 		asNavFor: nav1,
 		centerMode: true,
 		focusOnSelect: true,
-        arrows: false,
+		arrows: false,
 	};
 
 	const { photos } = props;
@@ -44,6 +44,7 @@ const SimpleSlider = (props) => {
 				{photos.map((photo) => (
 					<div className="!flex justify-center" key={photo.href}>
 						<Image
+							placeholder="empty"
 							className="object-cover aspect-[2/1] rounded-3xl"
 							src={photo.href}
 							alt="{photo.description}"
@@ -57,6 +58,7 @@ const SimpleSlider = (props) => {
 				{photos.map((photo) => (
 					<div key={photo.href} className="">
 						<Image
+							placeholder="empty"
 							className="rounded-2xl"
 							src={photo.href}
 							alt="{photo.description}"

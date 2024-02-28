@@ -78,6 +78,7 @@ const QuickviewDrawer = ({
 							{image.map((item, index) => (
 								<CarouselItem key={index}>
 									<Image
+										placeholder="empty"
 										alt={`Property Image ${index + 1}`}
 										className="w-full rounded-lg"
 										height={200}

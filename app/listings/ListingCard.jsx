@@ -26,6 +26,7 @@ const ListingCard = ({ property }) => {
 					<span className="sr-only">View</span>
 				</Link>
 				<Image
+					placeholder="empty"
 					alt={`${type} for ${status}`}
 					className="object-cover w-full h-64"
 					height="400"
