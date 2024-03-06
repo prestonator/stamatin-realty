@@ -6,14 +6,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import "./styles.css";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 import propertyDetails from "@/data/propertyDetails.json";
 import { DrawerDialogDemo } from "@/components/Cards/Drawer/Card";
-
 
 
 export default function SwiperSlides() {
@@ -25,7 +25,8 @@ export default function SwiperSlides() {
 					clickable: true,
 				}}
 				loop={true}
-				modules={[Pagination]}
+				navigation={true}
+				modules={[Pagination, Navigation]}
 				className="mySwiper"
 				breakpoints={{
 					640: {
