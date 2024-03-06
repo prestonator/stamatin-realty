@@ -9,26 +9,36 @@ const Footer = ({}) => {
 					<div className="space-y-4">
 						<h3 className="text-lg font-semibold">Contact Us</h3>
 						<hr className="w-3/4 mb-2 border-gray-300" />
-						<p className="text-sm text-gray-500">1234 Main St, Anytown, USA</p>
-						<p className="text-sm text-gray-500">(123) 456-7890</p>
-						<p className="text-sm text-gray-500">info@realtorwebsite.com</p>
+						<p className="text-sm text-gray-500">
+							3421 W Rock Creek Road Suite 110,
+							<br />
+							Norman, OK 73072
+						</p>
+						<p className="text-sm text-gray-500">(405) 250-7303</p>
+						<p className="text-sm text-gray-500">alex.stamatin@kw.com</p>
 					</div>
 					<div className="space-y-4">
 						<h3 className="text-lg font-semibold">Follow Us</h3>
 						<hr className="w-3/4 mb-2 border-gray-300" />
 						<div className="flex space-x-4">
-							<Link href="#">
+							<a
+								href="https://www.facebook.com/alex.stamatin.9"
+								target="_blank"
+							>
 								<LuFacebook className="w-6 h-6" />
-							</Link>
-							<Link href="#">
-								<LuTwitter className="w-6 h-6" />
-							</Link>
-							<Link href="#">
+							</a>
+							<a
+								href="https://www.instagram.com/alexstamatinrealty/"
+								target="_blank"
+							>
 								<LuInstagram className="w-6 h-6" />
-							</Link>
-							<Link href="#">
+							</a>
+							<a
+								href="https://www.linkedin.com/in/alexander-stamatin-a281711b6/"
+								target="_blank"
+							>
 								<LuLinkedin className="w-6 h-6" />
-							</Link>
+							</a>
 						</div>
 					</div>
 					<div className="flex flex-col gap-2 space-y-2">
@@ -54,7 +64,7 @@ const Footer = ({}) => {
 							Ready to find your dream home? Click below to schedule a
 							consultation with one of our experienced realtors.
 						</p>
-						<button className="w-full px-4 py-2 font-bold rounded bg-gray-900 text-white hover:bg-gray-700">
+						<button className="w-full px-4 py-2 font-bold text-white bg-gray-900 rounded hover:bg-gray-700">
 							Schedule Now
 						</button>
 					</div>

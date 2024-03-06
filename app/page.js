@@ -346,7 +346,7 @@ const TestimonialSection = ({ bgColor }) => {
 				<div className="mx-auto max-w-7xl">
 					<div className="relative ">
 						<div className="flex flex-col items-center justify-center">
-							<p className="text-[90px] sm:text-[10vw] text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
+							<p className="text-[90px] sm:text-[10vw] text-blue-700 opacity-20 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
 								Testimonials
 							</p>
 							<p className="relative z-20 mt-10 text-4xl font-bold text-center text-blue-900 sm:mt-28 dark:text-gray-700">
@@ -472,27 +472,30 @@ const AboutMe = ({ bgColor }) => {
 							</li>
 						</ul>
 						<div className="flex flex-row gap-2">
-							<Link
+							<a
 								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-600 rounded-md shadow hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700 disabled:pointer-events-none disabled:opacity-50"
 								href="https://www.facebook.com/alex.stamatin.9"
+								target="_blank"
 							>
 								<LuFacebook className="w-4 h-4 mr-2" />
 								Facebook
-							</Link>
-							<Link
+							</a>
+							<a
 								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-[#E1306C] rounded-md shadow hover:bg-[#C13584] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 disabled:pointer-events-none disabled:opacity-50"
 								href="https://www.instagram.com/alexstamatinrealty/"
+								target="_blank"
 							>
 								<LuInstagram className="w-4 h-4 mr-2" />
 								Instagram
-							</Link>
-							<Link
+							</a>
+							<a
 								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-800 rounded-md shadow hover:bg-blue-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-900 disabled:pointer-events-none disabled:opacity-50"
 								href="https://www.linkedin.com/in/alexander-stamatin-a281711b6/"
+								target="_blank"
 							>
 								<LuLinkedin className="w-4 h-4 mr-2" />
 								LinkedIn
-							</Link>
+							</a>
 						</div>
 					</div>
 				</div>
