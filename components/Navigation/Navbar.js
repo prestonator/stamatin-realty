@@ -26,6 +26,13 @@ const Navbar = () => {
 			</div>
 			<NavigationMenuList>
 				<NavigationMenuItem>
+					<Link href="/" legacyBehavior passHref>
+						<NavigationMenuLink className={navigationMenuTriggerStyle()}>
+							Home
+						</NavigationMenuLink>
+					</Link>
+				</NavigationMenuItem>
+				<NavigationMenuItem>
 					<Link href="/listings" legacyBehavior passHref>
 						<NavigationMenuLink className={navigationMenuTriggerStyle()}>
 							Listings
