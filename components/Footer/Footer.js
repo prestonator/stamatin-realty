@@ -14,8 +14,12 @@ const Footer = ({}) => {
 							<br />
 							Norman, OK 73072
 						</p>
-						<p className="text-sm text-gray-500">(405) 250-7303</p>
-						<p className="text-sm text-gray-500">alex.stamatin@kw.com</p>
+						<p className="text-sm text-gray-500">
+							<a href="tel:4052507303">(405) 250-7303</a>
+						</p>
+						<p className="text-sm text-gray-500">
+							<a href="mailto:alex.stamatin@kw.com">alex.stamatin@kw.com</a>
+						</p>
 					</div>
 					<div className="space-y-4">
 						<h3 className="text-lg font-semibold">Follow Us</h3>
@@ -70,7 +74,7 @@ const Footer = ({}) => {
 					</div>
 				</div>
 				<div className="pt-8 mt-8 text-sm text-center text-gray-500 border-t">
-					© 2024 Realtor Website. All rights reserved.
+					© 2024 Stamatin Realty. All rights reserved.
 				</div>
 			</div>
 		</>
