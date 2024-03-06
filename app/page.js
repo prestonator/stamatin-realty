@@ -8,7 +8,7 @@ import {
 	LuCheck,
 	LuFacebook,
 	LuLinkedin,
-	LuTwitter,
+	LuInstagram,
 } from "react-icons/lu";
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
 import {
@@ -32,9 +32,8 @@ const HomePage = async () => {
 			{/*<FetchButton /><ButtonSection /> */}
 			<FeaturedListings bgColor="bg-gray-200" />
 			<BlogPreview bgColor="bg-gray-100" />
-			<OpenHouses bgColor="bg-gray-200" />
-			<TestimonialSection bgColor="bg-gray-100" />
-			<AboutMe bgColor="bg-gray-200" />
+			<TestimonialSection bgColor="bg-gray-200" />
+			<AboutMe bgColor="bg-gray-100" />
 		</main>
 	);
 };
@@ -333,24 +332,6 @@ const BlogPreview = ({ bgColor }) => {
 	);
 };
 
-const OpenHouses = ({ bgColor }) => {
-	return (
-		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
-			<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
-				<div className="space-y-2">
-					<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-						Open Houses
-					</h2>
-					<p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-						Explore Open Houses happening in your area.
-					</p>
-				</div>
-			</div>
-			<SwiperSlides />
-		</section>
-	);
-};
-
 const TestimonialSection = ({ bgColor }) => {
 	return (
 		<section
@@ -361,7 +342,7 @@ const TestimonialSection = ({ bgColor }) => {
 					<div className="relative ">
 						<div className="flex flex-col items-center justify-center">
 							<p className="text-[90px] sm:text-[10vw] text-blue-700 opacity-5 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
-								reviews
+								Testimonials
 							</p>
 							<p className="relative z-20 mt-10 text-4xl font-bold text-center text-blue-900 sm:mt-28 dark:text-gray-700">
 								What our customers say
@@ -453,7 +434,7 @@ const AboutMe = ({ bgColor }) => {
 				<div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
 					<Image
 						alt="Realtor"
-						className="object-cover object-center mx-auto overflow-hidden rounded-full shadow-lg aspect-square w-[50vw] lg:aspect-auto lg:w-full lg:order-last"
+						className="object-cover object-center mx-auto overflow-hidden rounded-full shadow-lg aspect-square w-[50vw] lg:aspect-[2/3] lg:w-full lg:order-last"
 						height="500"
 						src="/headshot.jpg"
 						width="500"
@@ -487,21 +468,21 @@ const AboutMe = ({ bgColor }) => {
 						<div className="flex flex-row gap-2">
 							<Link
 								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-600 rounded-md shadow hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700 disabled:pointer-events-none disabled:opacity-50"
-								href="#"
+								href="https://www.facebook.com/alex.stamatin.9"
 							>
 								<LuFacebook className="w-4 h-4 mr-2" />
 								Facebook
 							</Link>
 							<Link
-								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-400 rounded-md shadow hover:bg-blue-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 disabled:pointer-events-none disabled:opacity-50"
-								href="#"
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-[#E1306C] rounded-md shadow hover:bg-[#C13584] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 disabled:pointer-events-none disabled:opacity-50"
+								href="https://www.instagram.com/alexstamatinrealty/"
 							>
-								<LuTwitter className="w-4 h-4 mr-2" />
-								Twitter
+								<LuInstagram className="w-4 h-4 mr-2" />
+								Instagram
 							</Link>
 							<Link
 								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-800 rounded-md shadow hover:bg-blue-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-900 disabled:pointer-events-none disabled:opacity-50"
-								href="#"
+								href="https://www.linkedin.com/in/alexander-stamatin-a281711b6/"
 							>
 								<LuLinkedin className="w-4 h-4 mr-2" />
 								LinkedIn

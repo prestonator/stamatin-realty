@@ -55,16 +55,10 @@ const QuickviewDrawer = ({
 		<DrawerContent className="flex flex-col px-8 bg-white rounded-lg shadow-inner md:p-6 dark:bg-gray-900">
 			<DrawerHeader>
 				<div className="flex items-center justify-between">
-					<DrawerTitle className="text-purple-600 dark:text-purple-300">
-						{street_number}
-					</DrawerTitle>
+					<DrawerTitle className="text-[#B40101]">{street_number}</DrawerTitle>
 					<div>
 						<DrawerClose>
-							<Button
-								className="text-purple-600 dark:text-purple-300"
-								size="icon"
-								variant="ghost"
-							>
+							<Button className="text-[#B40101]" size="icon" variant="ghost">
 								<LuX className="w-4 h-4" />
 							</Button>
 						</DrawerClose>
@@ -88,50 +82,42 @@ const QuickviewDrawer = ({
 								</CarouselItem>
 							))}
 						</CarouselContent>
-						<CarouselPrevious className="absolute p-2 text-purple-600 transform -translate-y-1/2 rounded-full top-1/2 left-2 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-700">
+						<CarouselPrevious className="absolute p-2 text-[#B40101] transform -translate-y-1/2 rounded-full top-1/2 left-2 hover:bg-purple-200">
 							<LuArrowLeft className="w-4 h-4" />
 						</CarouselPrevious>
-						<CarouselNext className="absolute p-2 text-purple-600 transform -translate-y-1/2 rounded-full top-1/2 right-2 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-700">
+						<CarouselNext className="absolute p-2 text-[#B40101] transform -translate-y-1/2 rounded-full top-1/2 right-2 hover:bg-purple-200">
 							<LuArrowRight className="w-4 h-4" />
 						</CarouselNext>
 					</Carousel>
 				</div>
 				<div className="flex items-center justify-between">
-					<h2 className="text-2xl font-bold text-purple-600 dark:text-purple-300">
-						{list_price}
-					</h2>
-					<p className="text-gray-500 dark:text-gray-400">
+					<h2 className="text-2xl font-bold text-[#B40101]">{list_price}</h2>
+					<p className="text-gray-500">
 						{street_number}, {city}, {state_code} {postal_code}
 					</p>
 				</div>
 				<div className="grid grid-cols-3 gap-4">
 					<div className="flex items-center gap-2">
-						<LuBed className="w-4 h-4 text-purple-600 dark:text-purple-300" />
-						<span className="text-gray-700 dark:text-gray-300">
-							{bed_count} Beds
-						</span>
+						<LuBed className="w-4 h-4 text-[#B40101]" />
+						<span className="text-gray-700">{bed_count} Beds</span>
 					</div>
 					<div className="flex items-center gap-2">
-						<LuBath className="w-4 h-4 text-purple-600 dark:text-purple-300" />
-						<span className="text-gray-700 dark:text-gray-300">
-							{bath_count} Baths
-						</span>
+						<LuBath className="w-4 h-4 text-[#B40101]" />
+						<span className="text-gray-700">{bath_count} Baths</span>
 					</div>
 					<div className="flex items-center gap-2">
-						<LuHome className="w-4 h-4 text-purple-600 dark:text-purple-300" />
-						<span className="text-gray-700 dark:text-gray-300">
-							{sqft || lot_sqft} sqft
-						</span>
+						<LuHome className="w-4 h-4 text-[#B40101]" />
+						<span className="text-gray-700">{sqft || lot_sqft} sqft</span>
 					</div>
 				</div>
-				<ScrollArea className="h-32 mt-2 overflow-auto border border-gray-200 rounded-md dark:border-gray-800">
-					<p className="p-2 text-sm text-gray-500 dark:text-gray-400">
+				<ScrollArea className="h-32 mt-2 overflow-auto border border-gray-200 rounded-md">
+					<p className="p-2 text-sm text-gray-500">
 						{property_description}
 					</p>
 				</ScrollArea>
 				<Link href={`/listings/${property_id}`}>
 					<Button
-						className="w-full text-white bg-purple-600 hover:bg-purple-700 dark:bg-purple-300 dark:hover:bg-purple-400"
+						className="w-full text-white bg-[#B40101] hover:bg-[#f76767]"
 						variant="primary"
 					>
 						See More Details

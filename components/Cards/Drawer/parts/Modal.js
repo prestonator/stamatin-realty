@@ -46,12 +46,12 @@ const QuickviewModal = ({
 		<DialogContent className="flex flex-col p-4 bg-white rounded-lg shadow-inner md:p-6 dark:bg-gray-900">
 			<DialogHeader>
 				<div className="flex items-center justify-between">
-					<DialogTitle className="text-purple-600 dark:text-purple-300">
+					<DialogTitle className="text-[#B40101] dark:text-purple-300">
 						{street_number}
 					</DialogTitle>
 					<DialogClose asChild>
 						<Button
-							className="text-purple-600 dark:text-purple-300"
+							className="text-[#B40101] dark:text-purple-300"
 							size="icon"
 							variant="outline"
 						>
@@ -77,16 +77,16 @@ const QuickviewModal = ({
 								</CarouselItem>
 							))}
 						</CarouselContent>
-						<CarouselPrevious className="absolute p-2 text-purple-600 transform -translate-y-1/2 rounded-full top-1/2 left-2 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-700">
+						<CarouselPrevious className="absolute p-2 text-[#B40101] transform -translate-y-1/2 rounded-full top-1/2 left-2 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-700">
 							<LuArrowLeft className="w-4 h-4" />
 						</CarouselPrevious>
-						<CarouselNext className="absolute p-2 text-purple-600 transform -translate-y-1/2 rounded-full top-1/2 right-2 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-700">
+						<CarouselNext className="absolute p-2 text-[#B40101] transform -translate-y-1/2 rounded-full top-1/2 right-2 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-700">
 							<LuArrowRight className="w-4 h-4" />
 						</CarouselNext>
 					</Carousel>
 				</div>
 				<div className="flex items-center justify-between">
-					<h2 className="text-2xl font-bold text-purple-600 dark:text-purple-300">
+					<h2 className="text-2xl font-bold text-[#B40101] dark:text-purple-300">
 						{list_price}
 					</h2>
 					<p className="text-gray-500 dark:text-gray-400">
@@ -95,19 +95,19 @@ const QuickviewModal = ({
 				</div>
 				<div className="grid grid-cols-3 gap-4">
 					<div className="flex items-center gap-2">
-						<LuBed className="w-4 h-4 text-purple-600 dark:text-purple-300" />
+						<LuBed className="w-4 h-4 text-[#B40101]" />
 						<span className="text-gray-700 dark:text-gray-300">
 							{bed_count} Beds
 						</span>
 					</div>
 					<div className="flex items-center gap-2">
-						<LuBath className="w-4 h-4 text-purple-600 dark:text-purple-300" />
+						<LuBath className="w-4 h-4 text-[#B40101]" />
 						<span className="text-gray-700 dark:text-gray-300">
 							{bath_count} Baths
 						</span>
 					</div>
 					<div className="flex items-center gap-2">
-						<LuHome className="w-4 h-4 text-purple-600 dark:text-purple-300" />
+						<LuHome className="w-4 h-4 text-[#B40101]" />
 						<span className="text-gray-700 dark:text-gray-300">
 							{sqft || lot_sqft} sqft
 						</span>
@@ -120,7 +120,7 @@ const QuickviewModal = ({
 				</ScrollArea>
 				<Link href={`/listings/${property_id}`}>
 					<Button
-						className="w-full text-white bg-purple-600 hover:bg-purple-700 dark:bg-purple-300 dark:hover:bg-purple-400"
+						className="w-full text-white bg-[#B40101] hover:bg-[#f76767]"
 						variant="primary"
 					>
 						See More Details
