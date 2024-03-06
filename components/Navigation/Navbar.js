@@ -40,6 +40,13 @@ const Navbar = () => {
 					</Link>
 				</NavigationMenuItem>
 				<NavigationMenuItem className="justify-self-end">
+					<Link href="/blog" legacyBehavior passHref>
+						<NavigationMenuLink className={navigationMenuTriggerStyle()}>
+							Blog
+						</NavigationMenuLink>
+					</Link>
+				</NavigationMenuItem>
+				<NavigationMenuItem className="justify-self-end">
 					<Link href="/contact" legacyBehavior passHref>
 						<NavigationMenuLink className={navigationMenuTriggerStyle()}>
 							Get in Touch

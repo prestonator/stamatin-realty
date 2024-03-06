@@ -121,16 +121,18 @@ const WhyChooseUs = ({ bgColor }) => {
 					<h2 className="mb-8 text-3xl font-bold">
 						Discover What Makes
 						<br />
-						<span className="italic text-red-400">Stamatin Realty</span>
+						<span className="italic text-[#B40101]">Stamatin Realty</span>
 						<br />
 						Exceptional
 					</h2>
 				</div>
-				<div className="basis-1/4">
+				<div className="basis-1/3">
 					<p className="mb-12 text-gray-600">
-						Alex is committed to providing his clients with exceptional
-						services. As experts in his field, he offers a comprehensive suite
-						of real estate solutions.
+						At Stamatin Realty, we believe the home buying and selling
+						experience should be exceptional, not stressful. Led by Alex
+						Stamatin, our team of experienced agents is dedicated to guiding you
+						through the real estate process with personalized care and attention
+						to detail.
 					</p>
 				</div>
 			</div>
@@ -145,6 +147,7 @@ const WhyChooseUs = ({ bgColor }) => {
 					/>
 					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Expertise</h3>
+						<hr className="border-[#B40101] w-1/3 my-2 border-2" />
 						<p className="text-gray-600">
 							Our team of experienced professionals are dedicated to providing
 							personalized service.
@@ -161,6 +164,7 @@ const WhyChooseUs = ({ bgColor }) => {
 					/>
 					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Trust</h3>
+						<hr className="border-[#B40101] w-1/3 my-2 border-2" />
 						<p className="text-gray-600">
 							We value the trust of our clients and work hard to maintain it.
 						</p>
@@ -176,6 +180,7 @@ const WhyChooseUs = ({ bgColor }) => {
 					/>
 					<CardContent className="p-8">
 						<h3 className="text-xl font-semibold">Quality</h3>
+						<hr className="border-[#B40101] w-1/3 my-2 border-2" />
 						<p className="text-gray-600">
 							We ensure the highest quality in all our services and properties.
 						</p>
@@ -442,19 +447,20 @@ const AboutMe = ({ bgColor }) => {
 					<div className="flex flex-col justify-center space-y-4">
 						<div className="space-y-2">
 							<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-								Meet John Doe
+								Meet Alex Stamatin
 							</h2>
 							<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-								With over 20 years of experience in the real estate industry,
-								John Doe is a trusted advisor and negotiator. He is passionate
-								about helping clients find their dream homes and is known for
-								his attention to detail and exceptional customer service.
+								Alex Stamatin is an enthusiastic real estate agent in Central
+								Oklahoma. With a year of experience, Alex guides home buyers and
+								sellers smoothly through the process. Known for a personal
+								approach, Alex leverages market knowledge to help clients
+								achieve their real estate goals.
 							</p>
 						</div>
 						<ul className="grid gap-2 py-4">
 							<li>
 								<LuCheck className="inline-block w-4 h-4 mr-2" />
-								Over 20 years of experience in the real estate industry.
+								Almost 2 years of experience in the real estate industry.
 							</li>
 							<li>
 								<LuCheck className="inline-block w-4 h-4 mr-2" />
