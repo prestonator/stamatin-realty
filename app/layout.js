@@ -1,4 +1,4 @@
-import { Inter as FontSans } from "next/font/google";
+import { Cormorant } from "next/font/google";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import Navbar from "@/components/Navigation/Navbar";
@@ -6,9 +6,10 @@ import Navbar from "@/components/Navigation/Navbar";
 //import NavbarClient from "@/components/Navbar/NavbarClient";
 import Footer from "@/components/Footer/Footer";
 
-export const fontSans = FontSans({
+export const cormorant = Cormorant({
 	subsets: ["latin"],
-	variable: "--font-sans",
+	variable: "--font-fancy",
+	display: "swap",
 });
 
 export const metadata = {
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
 			<body
 				className={cn(
 					"min-h-screen bg-background font-sans antialiased",
-					fontSans.variable
+					cormorant.variable
 				)}
 			>
 				{/* 

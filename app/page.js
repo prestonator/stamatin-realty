@@ -28,12 +28,12 @@ const HomePage = async () => {
 		<main className="min-h-screen bg-[#efefef]">
 			<Hero />
 			<SearchBar />
-			<WhyChooseUs bgColor="bg-gray-100" />
+			<WhyChooseUs bgColor="bg-gray-200" />
 			{/*<FetchButton /><ButtonSection /> */}
-			<FeaturedListings bgColor="bg-gray-200" />
-			<BlogPreview bgColor="bg-gray-100" />
-			<TestimonialSection bgColor="bg-gray-200" />
-			<AboutMe bgColor="bg-gray-100" />
+			<FeaturedListings bgColor="bg-gray-100" />
+			<BlogPreview bgColor="bg-gray-200" />
+			<TestimonialSection bgColor="bg-gray-100" />
+			<AboutMe bgColor="bg-gray-200" />
 		</main>
 	);
 };
@@ -115,7 +115,7 @@ const SearchBar = () => {
 
 const WhyChooseUs = ({ bgColor }) => {
 	return (
-		<section className={`pt-48 ${bgColor} md:py-24 lg:py-32`}>
+		<section className={`pt-24 pb-12 ${bgColor}`}>
 			<div className="flex justify-center px-24">
 				<div className="basis-1/2">
 					<h2 className="mb-8 text-3xl font-bold">
@@ -193,7 +193,7 @@ const WhyChooseUs = ({ bgColor }) => {
 
 const FeaturedListings = ({ bgColor }) => {
 	return (
-		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
+		<section className={`py-16 ${bgColor}`}>
 			<div className="flex flex-col items-center justify-center pb-8 space-y-4 text-center">
 				<div className="space-y-2">
 					<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
@@ -211,7 +211,7 @@ const FeaturedListings = ({ bgColor }) => {
 
 const BlogPreview = ({ bgColor }) => {
 	return (
-		<section className={`py-12 ${bgColor} md:py-24 lg:py-32`}>
+		<section className={`py-16 ${bgColor}`}>
 			<div className="container px-4 md:px-6">
 				<div className="flex flex-col items-center justify-center space-y-4 text-center">
 					<div className="space-y-2">
@@ -340,16 +340,16 @@ const BlogPreview = ({ bgColor }) => {
 const TestimonialSection = ({ bgColor }) => {
 	return (
 		<section
-			className={`${bgColor} text-black py-12 md:py-24 lg:py-32 overflow-hidden`}
+			className={`${bgColor} text-black py-16 overflow-hidden`}
 		>
 			<div className="container px-4 md:px-6">
 				<div className="mx-auto max-w-7xl">
 					<div className="relative ">
 						<div className="flex flex-col items-center justify-center">
-							<p className="text-[90px] sm:text-[10vw] text-blue-700 opacity-20 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
+							<p className="text-[90px] sm:text-[10vw] text-[#B40101] opacity-20 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
 								Testimonials
 							</p>
-							<p className="relative z-20 mt-10 text-4xl font-bold text-center text-blue-900 sm:mt-28 dark:text-gray-700">
+							<p className="relative z-20 mt-10 text-4xl font-bold text-center text-gray-800 sm:mt-28 dark:text-gray-700">
 								What our customers say
 							</p>
 						</div>

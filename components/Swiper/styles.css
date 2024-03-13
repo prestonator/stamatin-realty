@@ -2,7 +2,7 @@
 	width: 100%;
 	height: 100%;
 	padding-bottom: 3rem;
-	padding-left: 2rem;
+	padding-left: 4rem;
 	padding-right: 2rem;
 }
 
@@ -31,8 +31,9 @@
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: center;
-  filter: invert(43%) sepia(81%) saturate(5440%) hue-rotate(205deg) brightness(98%) contrast(86%);
-  width: 2.5rem;
+	filter: invert(43%) sepia(81%) saturate(5440%) hue-rotate(205deg)
+		brightness(98%) contrast(86%);
+	width: 2.5rem;
 }
 
 .swiper-button-next {
@@ -40,8 +41,9 @@
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: center;
-  filter: invert(43%) sepia(81%) saturate(5440%) hue-rotate(205deg) brightness(98%) contrast(86%);
-  width: 2.5rem;
+	filter: invert(43%) sepia(81%) saturate(5440%) hue-rotate(205deg)
+		brightness(98%) contrast(86%);
+	width: 2.5rem;
 }
 
 .swiper-button-prev::after {

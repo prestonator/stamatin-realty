@@ -24,7 +24,8 @@ export default function SwiperSlides() {
 				pagination={{
 					clickable: true,
 				}}
-				loop={true}
+				grabCursor={true}
+
 				navigation={true}
 				modules={[Pagination, Navigation]}
 				className="mySwiper"
@@ -39,7 +40,7 @@ export default function SwiperSlides() {
 					},
 					1024: {
 						slidesPerView: 4,
-						spaceBetween: 20,
+						spaceBetween: 40,
 					},
 				}}
 			>

@@ -24,10 +24,12 @@ const Navbar = () => {
 					fill
 				/>
 			</div>
-			<NavigationMenuList>
+			<NavigationMenuList className="text-lg gap-[1.5rem]">
 				<NavigationMenuItem>
 					<Link href="/" legacyBehavior passHref>
-						<NavigationMenuLink className={navigationMenuTriggerStyle()}>
+						<NavigationMenuLink
+							className={`${navigationMenuTriggerStyle()}`}
+						>
 							Home
 						</NavigationMenuLink>
 					</Link>

@@ -46,7 +46,7 @@ const QuickviewModal = ({
 		<DialogContent className="flex flex-col p-4 bg-white rounded-lg shadow-inner md:p-6 dark:bg-gray-900">
 			<DialogHeader>
 				<div className="flex items-center justify-between">
-					<DialogTitle className="text-[#B40101] dark:text-purple-300">
+					<DialogTitle className="text-gray-700 dark:text-purple-300">
 						{street_number}
 					</DialogTitle>
 					<DialogClose asChild>
@@ -86,7 +86,7 @@ const QuickviewModal = ({
 					</Carousel>
 				</div>
 				<div className="flex items-center justify-between">
-					<h2 className="text-2xl font-bold text-[#B40101] dark:text-purple-300">
+					<h2 className="text-2xl font-bold text-gray-700 dark:text-purple-300">
 						{list_price}
 					</h2>
 					<p className="text-gray-500 dark:text-gray-400">
@@ -120,7 +120,7 @@ const QuickviewModal = ({
 				</ScrollArea>
 				<Link href={`/listings/${property_id}`}>
 					<Button
-						className="w-full text-white bg-[#B40101] hover:bg-[#f76767]"
+						className="w-full text-white bg-[#B40101] hover:bg-[#F29CA3]"
 						variant="primary"
 					>
 						See More Details
