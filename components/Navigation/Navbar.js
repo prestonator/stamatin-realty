@@ -24,7 +24,7 @@ const Navbar = () => {
 					fill
 				/>
 			</div>
-			<NavigationMenuList className="text-lg gap-[1.5rem]">
+			<NavigationMenuList className="text-xl gap-[1.5rem]">
 				<NavigationMenuItem>
 					<Link href="/" legacyBehavior passHref>
 						<NavigationMenuLink
