@@ -69,7 +69,7 @@ const Hero = () => {
 
 const SearchBar = () => {
 	return (
-		<div className="relative w-full">
+		<div className="relative hidden w-full sm:block">
 			<div className="left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2 absolute bg-white p-5 rounded-full shadow flex items-center space-x-4 w-full md:w-3/4 mx-auto flex-wrap justify-center gap-2 sm:flex-nowrap">
 				<Select>
 					<SelectTrigger className="flex items-center justify-between space-x-2 rounded-3xl w-[75vw] sm:w-full">
@@ -116,7 +116,7 @@ const SearchBar = () => {
 const WhyChooseUs = ({ bgColor }) => {
 	return (
 		<section className={`pt-24 pb-12 ${bgColor}`}>
-			<div className="flex justify-center px-24">
+			<div className="flex flex-col justify-center px-24 sm:flex-row">
 				<div className="basis-1/2">
 					<h2 className="mb-8 text-3xl font-bold">
 						Discover What Makes
@@ -339,14 +339,12 @@ const BlogPreview = ({ bgColor }) => {
 
 const TestimonialSection = ({ bgColor }) => {
 	return (
-		<section
-			className={`${bgColor} text-black py-16 overflow-hidden`}
-		>
+		<section className={`${bgColor} text-black py-16 overflow-hidden`}>
 			<div className="container px-4 md:px-6">
 				<div className="mx-auto max-w-7xl">
 					<div className="relative ">
 						<div className="flex flex-col items-center justify-center">
-							<p className="text-[90px] sm:text-[10vw] text-[#B40101] opacity-20 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible md:overflow-hidden">
+							<p className="text-4xl sm:text-[10vw] text-[#B40101] opacity-20 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible">
 								Testimonials
 							</p>
 							<p className="relative z-20 mt-10 text-4xl font-bold text-center text-gray-800 sm:mt-28 dark:text-gray-700">
