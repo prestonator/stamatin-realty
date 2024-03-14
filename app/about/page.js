@@ -26,7 +26,7 @@ const About = () => {
 								alt="Realtor"
 								className="object-cover mx-auto overflow-hidden rounded-full aspect-square sm:w-full lg:order-last"
 								height={500}
-								src="/headshot.jpg"
+								src="/Alex/headshot.jpg"
 								width={500}
 							/>
 							<div className="flex flex-col justify-center space-y-4">

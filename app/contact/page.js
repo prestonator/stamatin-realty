@@ -11,7 +11,7 @@ const Contact = () => {
 							alt="Agent"
 							className="object-cover mx-auto overflow-hidden aspect-video rounded-xl sm:w-full lg:order-last lg:aspect-square"
 							height="550"
-							src="/headshot.jpg"
+							src="/Alex/headshot.jpg"
 							width="550"
 						/>
 						<div className="flex flex-col justify-center space-y-4">
@@ -65,7 +65,7 @@ const Contact = () => {
 							alt="Service Image"
 							className="object-cover object-center mx-auto overflow-hidden aspect-video rounded-xl sm:w-full lg:order-last"
 							height="310"
-							src="/5.webp"
+							src="/Houses/5.webp"
 							width="550"
 						/>
 						<div className="flex flex-col justify-center space-y-4">

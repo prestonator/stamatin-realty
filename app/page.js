@@ -45,7 +45,7 @@ const Hero = () => {
 		<section
 			className="py-48 bg-blend-multiply"
 			style={{
-				backgroundImage: `url(/homeHero.webp)`,
+				backgroundImage: `url(/HeroImages/homeHero.webp)`,
 				backgroundSize: "cover",
 				backgroundColor: "rgba(11, 10, 7, 0.7)",
 				backgroundPositionY: "center",
@@ -229,11 +229,11 @@ const BlogPreview = ({ bgColor }) => {
 						<Link className="absolute inset-0 z-10" href="#">
 							<span className="sr-only">View</span>
 						</Link>
-						<img
+						<Image
 							alt="Blog post 1"
 							className="flex-shrink-0 object-cover w-full h-64"
 							height={300}
-							src="/expertise.webp"
+							src="/StockImages/expertise.webp"
 							style={{
 								aspectRatio: "500/300",
 								objectFit: "cover",
@@ -263,11 +263,11 @@ const BlogPreview = ({ bgColor }) => {
 						<Link className="absolute inset-0 z-10" href="#">
 							<span className="sr-only">View</span>
 						</Link>
-						<img
+						<Image
 							alt="Blog post 2"
 							className="flex-shrink-0 object-cover w-full h-64"
 							height={300}
-							src="/trust.webp"
+							src="/StockImages/trust.webp"
 							style={{
 								aspectRatio: "500/300",
 								objectFit: "cover",
@@ -299,11 +299,11 @@ const BlogPreview = ({ bgColor }) => {
 						<Link className="absolute inset-0 z-10" href="#">
 							<span className="sr-only">View</span>
 						</Link>
-						<img
+						<Image
 							alt="Blog post 3"
 							className="flex-shrink-0 object-cover w-full h-64"
 							height={300}
-							src="/quality.webp"
+							src="/StockImages/quality.webp"
 							style={{
 								aspectRatio: "500/300",
 								objectFit: "cover",
@@ -372,7 +372,7 @@ const TestimonialSection = ({ bgColor }) => {
 								<Avatar className="border shadow-lg w-14 h-14">
 									<AvatarImage
 										alt="Herbert Lindsey"
-										src="/owen.webp?height=40&width=40"
+										src="/MiscPeople/owen.webp?height=40&width=40"
 									/>
 									<AvatarFallback>HL</AvatarFallback>
 								</Avatar>
@@ -393,7 +393,7 @@ const TestimonialSection = ({ bgColor }) => {
 								<Avatar className="border shadow-lg w-14 h-14">
 									<AvatarImage
 										alt="Noah Russell"
-										src="/arun.webp?height=40&width=40"
+										src="/MiscPeople/arun.webp?height=40&width=40"
 									/>
 									<AvatarFallback>NR</AvatarFallback>
 								</Avatar>
@@ -413,7 +413,7 @@ const TestimonialSection = ({ bgColor }) => {
 								<Avatar className="border shadow-lg w-14 h-14">
 									<AvatarImage
 										alt="Nellie Griffith"
-										src="/vrishab.webp?height=40&width=40"
+										src="/MiscPeople/vrishab.webp?height=40&width=40"
 									/>
 									<AvatarFallback>NG</AvatarFallback>
 								</Avatar>
