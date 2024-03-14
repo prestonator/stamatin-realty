@@ -31,9 +31,11 @@ const Footer = ({}) => {
 							Contact Us
 						</h3>
 						<div className="w-3/4 border-b-2 border-[#B40101] mb-4" />
-						<p className="mb-2 text-sm">123 Main St, City, State, 12345</p>
-						<p className="mb-2 text-sm">Email: info@realtor.com</p>
-						<p className="text-sm">Phone: (123) 456-7890</p>
+						<p className="mb-2 text-sm">
+							3421 W Rock Creek Rd Ste 110, Norman, OK 73072
+						</p>
+						<p className="mb-2 text-sm">Email: alexstamatin@kw.com</p>
+						<p className="text-sm">Phone: (405) 250-7303</p>
 					</div>
 					<div className="flex flex-col items-center lg:items-start">
 						<h3
