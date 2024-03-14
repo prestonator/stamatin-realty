@@ -141,7 +141,7 @@ const WhyChooseUs = ({ bgColor }) => {
 					<Image
 						alt="Expertise"
 						className="object-cover w-full h-64"
-						src="/expertise.webp"
+						src="/StockImages/expertise.webp"
 						width={300}
 						height={200}
 					/>
@@ -158,7 +158,7 @@ const WhyChooseUs = ({ bgColor }) => {
 					<Image
 						alt="Trust"
 						className="object-cover w-full h-64"
-						src="/trust.webp"
+						src="/StockImages/trust.webp"
 						width={300}
 						height={200}
 					/>
@@ -174,7 +174,7 @@ const WhyChooseUs = ({ bgColor }) => {
 					<Image
 						alt="Quality"
 						className="object-cover w-full h-64"
-						src="/quality.webp"
+						src="/StockImages/quality.webp"
 						width={300}
 						height={200}
 					/>
