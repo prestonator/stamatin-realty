@@ -339,7 +339,7 @@ const BlogPreview = ({ bgColor }) => {
 
 const TestimonialSection = ({ bgColor }) => {
 	return (
-		<section className={`${bgColor} text-black py-16 overflow-hidden`}>
+		<section className={`${bgColor} text-black py-24 overflow-hidden`}>
 			<div className="container px-4 md:px-6">
 				<div className="mx-auto max-w-7xl">
 					<div className="relative ">
@@ -439,7 +439,7 @@ const AboutMe = ({ bgColor }) => {
 						alt="Realtor"
 						className="object-cover object-center mx-auto overflow-hidden rounded-full shadow-lg aspect-square w-[50vw] lg:aspect-[2/3] lg:w-full lg:order-last"
 						height="500"
-						src="/headshot.jpg"
+						src="/Alex/headshot.jpg"
 						width="500"
 					/>
 					<div className="flex flex-col justify-center space-y-4">
