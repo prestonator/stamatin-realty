@@ -122,116 +122,10 @@ const About = () => {
 								</p>
 							</div>
 						</div>
-						<div className="grid items-start max-w-5xl gap-6 py-12 mx-auto lg:grid-cols-3 lg:gap-12">
-							<div className="flex flex-col justify-center space-y-4 lg:row-span-2">
-								<div className="p-4 border rounded-lg shadow-lg">
-									<div className="grid gap-1">
-										<h3 className="text-xl font-bold">Jane Smith</h3>
-										<div className="flex items-center gap-0.5">
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-										</div>
-										<p className="text-gray-500 dark:text-gray-400">
-											&quot;John was incredibly helpful and patient during our
-											home buying process. We couldn&apos;t have done it without
-											him!&quot;
-										</p>
-									</div>
-								</div>
-								<div className="p-4 border rounded-lg shadow-lg">
-									<div className="grid gap-1">
-										<h3 className="text-xl font-bold">Mike Johnson</h3>
-										<div className="flex items-center gap-0.5">
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-										</div>
-										<p className="text-gray-500 dark:text-gray-400">
-											&quot;John&apos;s expertise and dedication made selling
-											our home a breeze. Highly recommend!&quot;
-										</p>
-									</div>
-								</div>
-							</div>
-							<div className="flex flex-col justify-center mt-4 space-y-4 lg:col-start-2">
-								<div className="p-4 border rounded-lg shadow-lg">
-									<div className="grid gap-1">
-										<h3 className="text-xl font-bold">Emily Parker</h3>
-										<div className="flex items-center gap-0.5">
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-										</div>
-										<p className="text-gray-500 dark:text-gray-400">
-											&quot;I recently purchased the SparkleShine Home Cleaning
-											Robot, and it has been a game-changer in my life. I used
-											to spend hours every weekend cleaning my house, but now I
-											can simply turn on this little robot and let it do the
-											work.&quot;
-										</p>
-									</div>
-								</div>
-								<div className="p-4 border rounded-lg shadow-lg">
-									<div className="grid gap-1">
-										<h3 className="text-xl font-bold">Samuel Thompson</h3>
-										<div className="flex items-center gap-0.5">
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-										</div>
-										<p className="text-gray-500 dark:text-gray-400">
-											&quot;John helped us find our dream home. He was patient,
-											knowledgeable, and made the process enjoyable. Highly
-											recommend!&quot;
-										</p>
-									</div>
-								</div>
-							</div>
-							<div className="flex flex-col justify-center space-y-4 lg:row-span-2">
-								<div className="p-4 border rounded-lg shadow-lg">
-									<div className="grid gap-1">
-										<h3 className="text-xl font-bold">Linda Williams</h3>
-										<div className="flex items-center gap-0.5">
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-										</div>
-										<p className="text-gray-500 dark:text-gray-400">
-											&quot;John was a pleasure to work with. He was always
-											available to answer our questions and made the process of
-											selling our home as smooth as possible.&quot;
-										</p>
-									</div>
-								</div>
-								<div className="p-4 border rounded-lg shadow-lg">
-									<div className="grid gap-1">
-										<h3 className="text-xl font-bold">Robert Davis</h3>
-										<div className="flex items-center gap-0.5">
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-											<LuStar className="w-5 h-5 fill-primary" />
-										</div>
-										<p className="text-gray-500 dark:text-gray-400">
-											&quot;John&apos;s knowledge of the local market and his
-											attention to detail were instrumental in finding us the
-											perfect home. We couldn&apos;t be happier!&quot;
-										</p>
-									</div>
-								</div>
-							</div>
+						<div className="relative flex flex-col items-center justify-center">
+							<p className="text-4xl sm:text-[10vw] text-[#393939] opacity-20 font-black text-center z-0 absolute top-0 left-0 w-full uppercase dark:text-black overflow-visible">
+								Coming Soon!
+							</p>
 						</div>
 					</div>
 				</section>
@@ -249,10 +143,10 @@ const About = () => {
 						</div>
 						<div className="flex flex-col items-center justify-center mt-8 space-y-4 text-center">
 							<p className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-								Email: john.doe@realtor.com
+								Email: alex.stamatin@kw.com
 							</p>
 							<p className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-								Phone: (123) 456-7890
+								Phone: (405) 250-7303
 							</p>
 						</div>
 						<div className="mt-8">

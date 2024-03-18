@@ -34,7 +34,7 @@ const Footer = ({}) => {
 						<p className="mb-2 text-sm">
 							3421 W Rock Creek Rd Ste 110, Norman, OK 73072
 						</p>
-						<p className="mb-2 text-sm">Email: alexstamatin@kw.com</p>
+						<p className="mb-2 text-sm">Email: alex.stamatin@kw.com</p>
 						<p className="text-sm">Phone: (405) 250-7303</p>
 					</div>
 					<div className="flex flex-col items-center lg:items-start">
