@@ -34,8 +34,14 @@ const Footer = ({}) => {
 						<p className="mb-2 text-sm">
 							3421 W Rock Creek Rd Ste 110, Norman, OK 73072
 						</p>
-						<p className="mb-2 text-sm">Email: alex.stamatin@kw.com</p>
-						<p className="text-sm">Phone: (405) 250-7303</p>
+						<p className="mb-2 text-sm">
+							<a href="mailto:alex.stamatin@kw.com">
+								Email: alex.stamatin@kw.com
+							</a>
+						</p>
+						<p className="text-sm">
+							Phone: <a href="tel:14052507303">(405) 250-7303</a>
+						</p>
 					</div>
 					<div className="flex flex-col items-center lg:items-start">
 						<h3
@@ -48,18 +54,34 @@ const Footer = ({}) => {
 						</h3>
 						<div className="w-3/4 border-b-2 border-[#B40101] mb-4" />
 						<div className="grid grid-cols-2 gap-4">
-							<Link href="#">
+							<a
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-600 rounded-md shadow hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700 disabled:pointer-events-none disabled:opacity-50"
+								href="https://www.facebook.com/alex.stamatin.9"
+								target="_blank"
+							>
 								<LuFacebook className="w-8 h-8" />
-							</Link>
-							<Link href="#">
+							</a>
+							<a
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-[#1DA1F2] rounded-md shadow hover:bg-[#1d76f2] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700 disabled:pointer-events-none disabled:opacity-50"
+								href="https://www.facebook.com/alex.stamatin.9"
+								target="_blank"
+							>
 								<LuTwitter className="w-8 h-8" />
-							</Link>
-							<Link href="#">
+							</a>
+							<a
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-[#E1306C] rounded-md shadow hover:bg-[#C13584] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 disabled:pointer-events-none disabled:opacity-50"
+								href="https://www.instagram.com/alexstamatinrealty/"
+								target="_blank"
+							>
 								<LuInstagram className="w-8 h-8" />
-							</Link>
-							<Link href="#">
+							</a>
+							<a
+								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-800 rounded-md shadow hover:bg-blue-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-900 disabled:pointer-events-none disabled:opacity-50"
+								href="https://www.linkedin.com/in/alexander-stamatin-a281711b6/"
+								target="_blank"
+							>
 								<LuLinkedin className="w-8 h-8" />
-							</Link>
+							</a>
 						</div>
 					</div>
 					<div className="flex flex-col items-center lg:items-start">
