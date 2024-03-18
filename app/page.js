@@ -43,7 +43,7 @@ export default HomePage;
 const Hero = () => {
 	return (
 		<section
-			className="py-48 bg-blend-multiply"
+			className="py-60 bg-blend-multiply"
 			style={{
 				backgroundImage: `url(/HeroImages/homeHero.webp)`,
 				backgroundSize: "cover",
