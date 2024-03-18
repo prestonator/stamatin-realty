@@ -129,7 +129,7 @@ const WhyChooseUs = ({ bgColor }) => {
 				<div className="basis-1/3">
 					<p className="mb-12 text-gray-600">
 						With a personalized approach for each of my clients needs,
-						I ensure a smooth transaction process from start to finish.By
+						I ensure a smooth transaction process from start to finish. By
 						leveraging cutting-edge technology and my extensive market
 						knowledge, I transform the home buying experience into a memorable
 						adventure filled with excitement and satisfaction.
@@ -447,12 +447,21 @@ const AboutMe = ({ bgColor }) => {
 							<h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
 								Meet Alex Stamatin
 							</h2>
+							<span>Your Trusted Guide in the Real Estate market.</span>
 							<p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-								Alex Stamatin is an enthusiastic real estate agent in Central
-								Oklahoma. With a year of experience, Alex guides home buyers and
-								sellers smoothly through the process. Known for a personal
-								approach, Alex leverages market knowledge to help clients
-								achieve their real estate goals.
+								Born and raised in Oklahoma, I attended Norman North High
+								School, contributing to its two-time state champion swim team
+								and earning national recognition in my individual events.
+								Following this, I pursued my academic and athletic endeavors at
+								Missouri State University before returning home to pursue a
+								degree in economics at the University of Oklahoma.
+								<p className="py-2" />After college, I began my career in real estate, an endeavor I&apos;ve
+								always dreamed of pursuing. With nearly 2 years of expertise
+								under Keller Williams, I harness the power of cutting-edge
+								technology and to deliver unparalleled results for my clients. I
+								look forward to embarking on a journey where tradition meets
+								innovation, ensuring your real estate experience is nothing
+								short of exceptional.
 							</p>
 						</div>
 						<ul className="grid gap-2 py-4">
