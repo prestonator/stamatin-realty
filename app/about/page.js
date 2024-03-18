@@ -34,11 +34,23 @@ const About = () => {
 									<h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
 										Alex Stamatin, Realtor
 									</h1>
+									<span>Your Trusted Guide in the Real Estate market.</span>
 									<p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-										With over 10 years of experience in the real estate
-										industry, I am committed to providing my clients with the
-										highest level of service. My goal is to help you find your
-										dream home or get the best price for your property.
+										Born and raised in Oklahoma, I attended Norman North High
+										School, contributing to its two-time state champion swim
+										team and earning national recognition in my individual
+										events. Following this, I pursued my academic and athletic
+										endeavors at Missouri State University before returning home
+										to pursue a degree in economics at the University of
+										Oklahoma.
+										<p className="py-2" />
+										After college, I began my career in real estate, an endeavor
+										I&apos;ve always dreamed of pursuing. With nearly 2 years of
+										expertise under Keller Williams, I harness the power of
+										cutting-edge technology and to deliver unparalleled results
+										for my clients. I look forward to embarking on a journey
+										where tradition meets innovation, ensuring your real estate
+										experience is nothing short of exceptional.
 									</p>
 								</div>
 							</div>
