@@ -5,6 +5,7 @@ import Navbar from "@/components/Navigation/Navbar";
 //import Navbar from "@/components/Navbar/Navbar";
 //import NavbarClient from "@/components/Navbar/NavbarClient";
 import Footer from "@/components/Footer/Footer";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const cormorant = Cormorant({
 	subsets: ["latin"],
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
 				{children}
 				<Footer />
 			</body>
+			<GoogleTagManager gtmId="GTM-WNGVFXLK" />
 		</html>
 	);
 }
