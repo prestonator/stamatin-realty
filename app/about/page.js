@@ -43,18 +43,19 @@ const About = () => {
 										endeavors at Missouri State University before returning home
 										to pursue a degree in economics at the University of
 										Oklahoma.
-										<p className="py-2" />
-										After college, I began my career in real estate, an endeavor
-										I&apos;ve always dreamed of pursuing. With nearly 2 years of
-										expertise under Keller Williams, I harness the power of
-										cutting-edge technology and to deliver unparalleled results
-										for my clients. I look forward to embarking on a journey
-										where tradition meets innovation, ensuring your real estate
-										experience is nothing short of exceptional.
 									</p>
 								</div>
 							</div>
 						</div>
+						<p className="mt-6 text-gray-500 md:text-xl dark:text-gray-400">
+							After college, I began my career in real estate, an endeavor
+							I&apos;ve always dreamed of pursuing. With nearly 2 years of
+							expertise under Keller Williams, I harness the power of
+							cutting-edge technology and to deliver unparalleled results for my
+							clients. I look forward to embarking on a journey where tradition
+							meets innovation, ensuring your real estate experience is nothing
+							short of exceptional.
+						</p>
 					</div>
 				</section>
 				<section
