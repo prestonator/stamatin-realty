@@ -15,15 +15,18 @@ import { Button } from "@/components/ui/button";
 import { LuMenu } from "react-icons/lu";
 import Image from "next/image";
 import Link from "next/link";
+import styles from "./Nav.module.css";
 
 const Navbar = () => {
 	return (
-		<header className="flex items-center justify-between w-full h-20 px-4 shrink-0 md:px-6">
+		<header
+			className={`${styles.header} fixed flex items-center justify-between w-full h-20 px-4 shrink-0 md:px-6`}
+		>
 			<Link className="relative flex h-20 w-36" href="#">
 				<Image
 					src="/kwlogo_trans.webp"
 					alt="Keller Williams Logo"
-					className="object-contain bg-white"
+					className="object-contain"
 					fill
 				/>
 				<span className="sr-only">Acme Inc</span>
@@ -83,7 +86,7 @@ const Navbar = () => {
 				<NavigationMenuList className="gap-[1.5rem]">
 					<NavigationMenuLink asChild>
 						<Link
-							className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+							className={`${styles.menuItem} inline-flex items-center justify-center px-4 py-2 font-medium transition-colors rounded-md group h-9 w-max text-md`}
 							href="/"
 						>
 							Home
@@ -91,7 +94,7 @@ const Navbar = () => {
 					</NavigationMenuLink>
 					<NavigationMenuLink asChild>
 						<Link
-							className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+							className={`${styles.menuItem} inline-flex items-center justify-center px-4 py-2 font-medium transition-colors rounded-md group h-9 w-max text-md`}
 							href="/listings"
 						>
 							Listings
@@ -99,7 +102,7 @@ const Navbar = () => {
 					</NavigationMenuLink>
 					<NavigationMenuLink asChild>
 						<Link
-							className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+							className={`${styles.menuItem} inline-flex items-center justify-center px-4 py-2 font-medium transition-colors rounded-md group h-9 w-max text-md`}
 							href="/about"
 						>
 							About
@@ -107,7 +110,7 @@ const Navbar = () => {
 					</NavigationMenuLink>
 					<NavigationMenuLink asChild>
 						<Link
-							className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+							className={`${styles.menuItem} inline-flex items-center justify-center px-4 py-2 font-medium transition-colors rounded-md group h-9 w-max text-md`}
 							href="/blog"
 						>
 							Blog
@@ -115,7 +118,7 @@ const Navbar = () => {
 					</NavigationMenuLink>
 					<NavigationMenuLink asChild>
 						<Link
-							className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-md font-medium transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-gray-100/50 data-[state=open]:bg-gray-100/50 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus:bg-gray-800 dark:focus:text-gray-50 dark:data-[active]:bg-gray-800/50 dark:data-[state=open]:bg-gray-800/50"
+							className={`${styles.menuItem} inline-flex items-center justify-center px-4 py-2 font-medium transition-colors rounded-md group h-9 w-max text-md`}
 							href="/contact"
 						>
 							Get in Touch

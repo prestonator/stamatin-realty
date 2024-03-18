@@ -128,11 +128,11 @@ const WhyChooseUs = ({ bgColor }) => {
 				</div>
 				<div className="basis-1/3">
 					<p className="mb-12 text-gray-600">
-						At Stamatin Realty, we believe the home buying and selling
-						experience should be exceptional, not stressful. Led by Alex
-						Stamatin, our team of experienced agents is dedicated to guiding you
-						through the real estate process with personalized care and attention
-						to detail.
+						With a personalized approach for each of my clients needs,
+						I ensure a smooth transaction process from start to finish.By
+						leveraging cutting-edge technology and my extensive market
+						knowledge, I transform the home buying experience into a memorable
+						adventure filled with excitement and satisfaction.
 					</p>
 				</div>
 			</div>

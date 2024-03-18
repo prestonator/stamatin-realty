@@ -9,7 +9,7 @@ const Navbar = () => {
 			<div className={styles.sectionWrapper}>
 				<div className={styles.headerWrapper}>
 					<div className="z-[10] relative transition-all">
-						<div className="relative h-24 w-60">
+						<div className="relative h-20 w-60">
 							<Link href="/">
 								<Image
 									src="/kwlogo_trans.webp"
