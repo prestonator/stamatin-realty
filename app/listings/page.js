@@ -29,7 +29,7 @@ const Hero = () => {
 			<div className="relative flex flex-col items-center justify-center gap-4">
 				<div>
 					<h1 className="text-3xl font-bold text-center text-white">
-						Welcome to John Doe&apos;s Listings
+						Welcome to Alex Stamatin&apos;s Listings
 					</h1>
 				</div>
 				<div>
