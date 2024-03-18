@@ -1,7 +1,7 @@
 import { Cormorant } from "next/font/google";
 import { cn } from "@/lib/utils";
 import "./globals.css";
-import Navbar from "@/components/Navigation/Navbar";
+import Navbar from "@/components/Navigation/Nav";
 //import Navbar from "@/components/Navbar/Navbar";
 //import NavbarClient from "@/components/Navbar/NavbarClient";
 import Footer from "@/components/Footer/Footer";

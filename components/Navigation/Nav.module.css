@@ -1,0 +1,79 @@
+.menuItemLink {
+	font-size: calc(12px + 10 * ((100vw - 768px) / 1432));
+	text-transform: uppercase;
+	transition: color 400ms ease-out;
+}
+
+.menuItem {
+	margin-left: 3em;
+	color: white;
+	line-height: 2;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+		linear-gradient(to right, #ea2426, #ea2426, #ea2426);
+	background-size: 100% 1px, 0 1px;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	will-change: auto;
+	transition: all 400ms ease-out;
+	transform: translateZ(0);
+}
+
+.menuItem:hover {
+	color: #ea2426;
+	cursor: pointer;
+	background-size: 0 1px, 100% 1px;
+}
+
+.hamburgerButton {
+	display: none !important;
+}
+
+.hamburgerButton {
+	padding: 15px 15px;
+	display: inline-block;
+	cursor: pointer;
+	transition-property: opacity, filter;
+	transition-duration: 0.15s;
+	transition-timing-function: linear;
+	font: inherit;
+	color: inherit;
+	text-transform: none;
+	background-color: transparent;
+	border: 0;
+	margin: 0;
+	overflow: visible;
+}
+
+.header {
+	background-color: rgb(0 0 0 / 30%);
+}
+
+.headerWrapper {
+	position: relative;
+	display: flex;
+	width: calc(100% - 8rem);
+	margin: 1rem auto;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	transition: all 400ms ease-out;
+}
+
+.sectionWrapper {
+	max-width: 100%;
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	transition: 0.3s ease-out;
+	transform: translateZ(0);
+}
