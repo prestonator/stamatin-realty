@@ -2,6 +2,7 @@ import { Cormorant } from "next/font/google";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import Navbar from "@/components/Navigation/Navbar";
+import NavbarClient from "@/components/Navigation/NavbarClient";
 //import Navbar from "@/components/Navbar/Navbar";
 //import NavbarClient from "@/components/Navbar/NavbarClient";
 import Footer from "@/components/Footer/Footer";
@@ -36,11 +37,10 @@ export default function RootLayout({ children }) {
 					cormorant.variable
 				)}
 			>
-				{/* 
 				<NavbarClient>
 					<Navbar />
-				</NavbarClient>*/}
-				<Navbar />
+				</NavbarClient>
+
 				{children}
 				<Footer />
 			</body>
