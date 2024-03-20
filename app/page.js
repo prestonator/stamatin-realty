@@ -9,6 +9,7 @@ import {
 	LuFacebook,
 	LuLinkedin,
 	LuInstagram,
+	LuArrowUpRight,
 } from "react-icons/lu";
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
 import {
@@ -128,11 +129,11 @@ const WhyChooseUs = ({ bgColor }) => {
 				</div>
 				<div className="basis-1/3">
 					<p className="mb-12 text-gray-600">
-						With a personalized approach for each of my clients needs,
-						I ensure a smooth transaction process from start to finish. By
-						leveraging cutting-edge technology and my extensive market
-						knowledge, I transform the home buying experience into a memorable
-						adventure filled with excitement and satisfaction.
+						With a personalized approach for each of my clients needs, I ensure
+						a smooth transaction process from start to finish. By leveraging
+						cutting-edge technology and my extensive market knowledge, I
+						transform the home buying experience into a memorable adventure
+						filled with excitement and satisfaction.
 					</p>
 				</div>
 			</div>
@@ -470,6 +471,7 @@ const AboutMe = ({ bgColor }) => {
 								Exceptional customer service and attention to detail.
 							</li>
 						</ul>
+
 						<div className="flex flex-row gap-2">
 							<a
 								className="inline-flex items-center justify-center h-10 px-4 text-sm font-medium text-white transition-colors bg-blue-600 rounded-md shadow hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-700 disabled:pointer-events-none disabled:opacity-50"
@@ -495,6 +497,13 @@ const AboutMe = ({ bgColor }) => {
 								<LuLinkedin className="w-4 h-4 mr-2" />
 								LinkedIn
 							</a>
+						</div>
+						<div>
+							<Link href="/about">
+								<Button className="items-center">
+									Learn More about Alex <LuArrowUpRight className="w-6 h-6" />
+								</Button>
+							</Link>
 						</div>
 					</div>
 				</div>
