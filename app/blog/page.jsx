@@ -26,15 +26,15 @@ const BlogListings = () => {
 	});
 
 	return (
-		<main className="flex flex-col">
-			<h1 className="text-3xl font-bold">My Blogging Site</h1>
+		<main className="flex flex-col pt-32">
+			<h1 className="text-3xl font-bold">Posts by Alex Stamatin</h1>
 
 			<section className="py-10">
 				<h2 className="text-2xl font-bold">Latest Blogs</h2>
 
 				<div className="py-2">
 					{blogs.map((blog) => (
-						<Link href={"/blogs/" + blog.slug} passHref key={blog.slug}>
+						<Link href={"/blog/" + blog.slug} passHref key={blog.slug}>
 							<div className="flex justify-between gap-2 py-2 align-middle">
 								<div>
 									<h3 className="text-lg font-bold">{blog.meta.title}</h3>
