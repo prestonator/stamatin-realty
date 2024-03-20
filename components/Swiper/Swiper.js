@@ -14,7 +14,7 @@ import "./styles.css";
 import { Pagination, Navigation } from "swiper/modules";
 import propertyDetails from "@/data/propertyDetails.json";
 import { DrawerDialogDemo } from "@/components/Cards/Drawer/Card";
-
+import { PlaceholderCard } from "../Cards/Placeholder/PlaceholderCard";
 
 export default function SwiperSlides() {
 	return (
@@ -26,7 +26,6 @@ export default function SwiperSlides() {
 					clickable: true,
 				}}
 				grabCursor={true}
-
 				navigation={true}
 				modules={[Pagination, Navigation]}
 				className="mySwiper"
@@ -50,6 +49,9 @@ export default function SwiperSlides() {
 						<DrawerDialogDemo key={property.property_id} property={property} />
 					</SwiperSlide>
 				))}
+				<SwiperSlide className="!h-auto">
+					<PlaceholderCard />
+				</SwiperSlide>
 			</Swiper>
 		</>
 	);
