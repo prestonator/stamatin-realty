@@ -81,7 +81,7 @@ export default async function PostPage({ params }) {
 	if (!props) return notFound();
 	// Pass the post contents to MDX
 	return (
-		<main className="flex flex-col items-center justify-between px-4 py-6 mx-auto max-w-7xl">
+		<main className="flex flex-col items-center justify-between px-4 py-32 pb-6 mx-auto max-w-7xl">
 			<article>
 				<PostBody>{props?.content}</PostBody>
 			</article>
