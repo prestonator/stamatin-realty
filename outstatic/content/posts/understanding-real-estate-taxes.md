@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Real Estate Taxes'
-status: 'published'
+status: 'draft'
 author:
   name: 'Alex Stamatin'
   picture: '/images/headshot-e2md-cwOD.webp'
