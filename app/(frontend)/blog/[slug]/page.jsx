@@ -79,7 +79,7 @@ export default async function PostPage({ params }) {
 	// Pass the post contents to MDX
 	return (
 		<>
-			<main className="flex flex-col items-center justify-between px-4 py-32 pb-6 mx-auto max-w-7xl">
+			<main className="flex flex-col items-center justify-center px-4 py-6 md:px-6 lg:py-16 md:py-12 ">
 				<div
 					className="blogMainImage"
 					style={{
@@ -98,7 +98,9 @@ export default async function PostPage({ params }) {
 						<span className="text-sm">Written by {singlePost.author.name}</span>
 					</div>
 				</div>
-				<article>{singlePost.content}</article>
+				<article className="max-w-5xl mx-auto mt-8 prose-lg">
+					{singlePost.content}
+				</article>
 				<section className="mt-16">
 					<h2 className="mb-6 text-3xl font-bold">Latest Blog</h2>
 				</section>
