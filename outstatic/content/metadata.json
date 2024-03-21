@@ -1,0 +1,42 @@
+{
+  "commit": "cb10bd8a8d6dda6128020bbde2b5fd714dd37c8d",
+  "generated": "Thu, 21 Mar 2024 18:18:05 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "91c386091ac334c7536e94e329efb87efcafaff7",
+        "hash": "703247974",
+        "path": "outstatic/content/posts/understanding-real-estate-taxes.md"
+      },
+      "author": {
+        "name": "Alex Stamatin",
+        "picture": "/images/headshot-e2md-cwOD.webp"
+      },
+      "collection": "posts",
+      "coverImage": "/images/1-k5Mj.webp",
+      "description": "",
+      "publishedAt": "2024-03-21T17:44:20.995Z",
+      "slug": "understanding-real-estate-taxes",
+      "status": "published",
+      "title": "Understanding Real Estate Taxes"
+    },
+    {
+      "__outstatic": {
+        "commit": "4dffe26ae8396336ef194093f8eada1ee687a7a1",
+        "hash": "3343048125",
+        "path": "outstatic/content/posts/the-future-of-real-estate.md"
+      },
+      "author": {
+        "name": "Alex Stamatin",
+        "picture": "/images/headshot-E2MD.webp"
+      },
+      "collection": "posts",
+      "coverImage": "/images/trust-I1ND.webp",
+      "description": "",
+      "publishedAt": "2024-03-21T16:04:43.627Z",
+      "slug": "the-future-of-real-estate",
+      "status": "published",
+      "title": "The Future of Real Estate"
+    }
+  ]
+}
