@@ -1,6 +1,6 @@
 {
-  "commit": "cb10bd8a8d6dda6128020bbde2b5fd714dd37c8d",
-  "generated": "Thu, 21 Mar 2024 18:18:27 GMT",
+  "commit": "2cbe6fa051d086f307af9a3086070d61a7bb6cd4",
+  "generated": "2024-03-21T18:20:27.392Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,6 +37,24 @@
       "slug": "the-future-of-real-estate",
       "status": "published",
       "title": "The Future of Real Estate"
+    },
+    {
+      "__outstatic": {
+        "commit": "2cbe6fa051d086f307af9a3086070d61a7bb6cd4",
+        "hash": "901146032",
+        "path": "outstatic/content/posts/investing-in-commercial-properties.md"
+      },
+      "author": {
+        "name": "Alex Stamatin",
+        "picture": "/images/headshot-Q3Mz.webp"
+      },
+      "collection": "posts",
+      "coverImage": "/images/quality-Q2Mz.webp",
+      "description": "",
+      "publishedAt": "2024-03-21T17:49:31.508Z",
+      "slug": "investing-in-commercial-properties",
+      "status": "published",
+      "title": "Investing in Commercial Properties"
     }
   ]
 }
