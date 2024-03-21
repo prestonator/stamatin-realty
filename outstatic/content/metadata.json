@@ -1,6 +1,6 @@
 {
-  "commit": "2cbe6fa051d086f307af9a3086070d61a7bb6cd4",
-  "generated": "2024-03-21T18:20:27.392Z",
+  "commit": "2c0d23350a55201bc426711884f7fb8ee9dedbcc",
+  "generated": "2024-03-21T18:20:37.075Z",
   "metadata": [
     {
       "__outstatic": {
@@ -40,7 +40,7 @@
     },
     {
       "__outstatic": {
-        "commit": "2cbe6fa051d086f307af9a3086070d61a7bb6cd4",
+        "commit": "2c0d23350a55201bc426711884f7fb8ee9dedbcc",
         "hash": "901146032",
         "path": "outstatic/content/posts/investing-in-commercial-properties.md"
       },
