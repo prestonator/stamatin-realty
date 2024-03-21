@@ -20,7 +20,7 @@ const Hero = () => {
 		<section
 			className="px-4 py-48 bg-blend-multiply"
 			style={{
-				backgroundImage: `url(/aboutHero.webp)`,
+				backgroundImage: `url(/HeroImages/aboutHero.webp)`,
 				backgroundSize: "cover",
 				backgroundColor: "rgba(11, 10, 7, 0.7)",
 				backgroundPositionY: "center",
