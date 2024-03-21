@@ -1,30 +1,20 @@
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
+import { getDocuments } from "outstatic/server";
 import Link from "next/link";
 
-const BlogListings = () => {
-	// 1) Set blogs directory
-	const blogDir = "blogs";
+async function getData() {
+	const posts = getDocuments("posts", [
+		"title",
+		"author",
+		"publishedAt",
+		"slug",
+		"coverImage",
+		"description",
+	]);
+	return posts;
+}
 
-	// 2) Find all files in the blog directory
-	const files = fs.readdirSync(path.join(blogDir));
-
-	// 3) For each blog found
-	const blogs = files.map((filename) => {
-		// 4) Read the content of that blog
-		const fileContent = fs.readFileSync(path.join(blogDir, filename), "utf-8");
-
-		// 5) Extract the metadata from the blog's content
-		const { data: frontMatter } = matter(fileContent);
-
-		// 6) Return the metadata and page slug
-		return {
-			meta: frontMatter,
-			slug: filename.replace(".mdx", ""),
-		};
-	});
-
+const BlogListings = async () => {
+	const posts = await getData();
 	return (
 		<main className="flex flex-col pt-32">
 			<h1 className="text-3xl font-bold">Posts by Alex Stamatin</h1>
@@ -33,15 +23,15 @@ const BlogListings = () => {
 				<h2 className="text-2xl font-bold">Latest Blogs</h2>
 
 				<div className="py-2">
-					{blogs.map((blog) => (
-						<Link href={"/blog/" + blog.slug} passHref key={blog.slug}>
+					{posts.map((post) => (
+						<Link href={"/blog/" + post.slug} passHref key={post.slug}>
 							<div className="flex justify-between gap-2 py-2 align-middle">
 								<div>
-									<h3 className="text-lg font-bold">{blog.meta.title}</h3>
-									<p className="text-gray-400">{blog.meta.description}</p>
+									<h3 className="text-lg font-bold">{post.title}</h3>
+									<p className="text-gray-400">{post.description}</p>
 								</div>
 								<div className="my-auto text-gray-400">
-									<p>{blog.meta.date}</p>
+									<p>{post.publishedAt}</p>
 								</div>
 							</div>
 						</Link>
