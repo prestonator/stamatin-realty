@@ -1,75 +1,81 @@
-import {
-	Card,
-	CardHeader,
-	CardDescription,
-	CardFooter,
-	CardTitle,
-} from "@/components/ui/card";
+import { formatDate, SafeHtml } from "@/lib/utils";
 import Link from "next/link";
 import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
 const LatestPosts = (posts) => {
-	const blogs = posts;
-	console.log(blogs);
+	const allPosts = posts;
 	return (
-		<section className="mt-16">
-			<h2 className="mb-6 text-3xl font-bold">Latest Blog</h2>
-			<div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-				<Card className="w-full">
-					<img
-						alt="Eco-Friendly Living"
-						className="object-cover w-full h-48"
-						src="/placeholder.svg"
-					/>
-					<CardHeader className="p-4">
-						<CardTitle className="text-lg font-semibold break-normal whitespace-normal">
-							<div>
-								Eco-Friendly Living: Sustainable Choices for a Greener Home
-							</div>
-						</CardTitle>
-						<CardDescription className="mt-2 text-sm">
-							Dive into the world of eco-friendly living. Explore sustainable
-							products and lifestyle choices that make a positive impact.
-						</CardDescription>
-					</CardHeader>
-					<CardFooter className="flex justify-between p-4">
-						<span className="text-sm text-gray-500">9 Min</span>
-						<span className="text-sm font-medium">
-							Written by Darrell Steward
-						</span>
-					</CardFooter>
-				</Card>
-				{blogs.map((blog) => (
-					<Card key={blog.slug} className="w-full">
+		<div className="flex flex-wrap justify-center gap-4 px-4 py-6 mx-auto max-w-7xl">
+			{allPosts.posts.map((post) => (
+				<div
+					key={post.slug}
+					className="flex flex-col w-full overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 md:w-1/3 lg:w-1/4"
+				>
+					<div className="flex-shrink-0">
 						<img
-							alt="Eco-Friendly Living"
+							alt="Blog post thumbnail"
 							className="object-cover w-full h-48"
-							src="/placeholder.svg"
+							height="200"
+							src={post.coverImage}
+							style={{
+								aspectRatio: "400/200",
+								objectFit: "cover",
+							}}
+							width="400"
 						/>
-						<CardHeader className="p-4">
-							<CardTitle className="text-lg font-semibold break-normal whitespace-normal">
-								<div>
-									{blog.meta.title}
+					</div>
+					<div className="flex flex-col justify-between flex-1 p-6 bg-white dark:bg-gray-800">
+						<div className="flex-1">
+							<p className="text-sm font-medium text-[#B40101]">
+								<a className="hover:underline" href="#">
+									Article
+								</a>
+							</p>
+							<Link className="block mt-2" href="#">
+								<p className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+									{post.title}
+								</p>
+								<p className="mt-3 text-base text-gray-500 dark:text-gray-400">
+									{post.description}
+								</p>
+							</Link>
+						</div>
+						<div className="flex items-center mt-6">
+							<div className="flex-shrink-0">
+								<Link href="#">
+									<span className="sr-only">{post.author.name}</span>
+									<img
+										alt=""
+										className="w-10 h-10 rounded-full"
+										height="40"
+										src={post.author.picture}
+										style={{
+											aspectRatio: "40/40",
+											objectFit: "cover",
+										}}
+										width="40"
+									/>
+								</Link>
+							</div>
+							<div className="ml-3">
+								<p className="text-sm font-medium text-gray-900 dark:text-gray-100">
+									<Link className="hover:underline" href="#">
+										{post.author.name}
+									</Link>
+								</p>
+								<div className="flex space-x-1 text-sm text-gray-500 dark:text-gray-400">
+									<time dateTime="2020-03-16">
+										{SafeHtml(formatDate(post.publishedAt))}
+									</time>
+									<span aria-hidden="true">·</span>
+									<span>6 min read</span>
 								</div>
-							</CardTitle>
-							<CardDescription className="mt-2 text-sm">
-								{blog.meta.description}
-							</CardDescription>
-						</CardHeader>
-						<CardFooter className="flex justify-between p-4">
-							<span className="text-sm text-gray-500">9 Min</span>
-							<span className="text-sm font-medium">
-								Written by Alex Stamatin
-							</span>
-						</CardFooter>
-					</Card>
-				))}
-			</div>
-			<div className="flex justify-center mt-6 space-x-4">
-				<LuArrowLeft className="w-6 h-6" />
-				<LuArrowRight className="w-6 h-6" />
-			</div>
-		</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			))}
+		</div>
 	);
 };
 
