@@ -1,12 +1,25 @@
 import { formatDate, SafeHtml } from "@/lib/utils";
+import { getDocuments } from "outstatic/server";
 import Link from "next/link";
 import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
-const LatestPosts = (posts) => {
-	const allPosts = posts;
+async function getAllPosts() {
+	const posts = getDocuments("posts", [
+		"title",
+		"author",
+		"publishedAt",
+		"slug",
+		"coverImage",
+		"description",
+	]);
+	return posts;
+}
+
+const LatestPosts = async() => {
+	const allPosts = await getAllPosts();
 	return (
 		<div className="flex flex-wrap justify-center gap-4 px-4 py-6 mx-auto max-w-7xl">
-			{allPosts.posts.map((post) => (
+			{allPosts.map((post) => (
 				<div
 					key={post.slug}
 					className="flex flex-col w-full overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 md:w-1/3 lg:w-1/4"

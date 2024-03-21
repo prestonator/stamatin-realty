@@ -1,16 +1,8 @@
 // app/blog/[slug]/page.jsx
-import Link from "next/link";
 import { getDocuments, getDocumentBySlug } from "outstatic/server";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { SafeHtml, formatDate } from "@/lib/utils";
 import LatestPosts from "./parts/latestPosts";
-import {
-	Card,
-	CardHeader,
-	CardDescription,
-	CardFooter,
-	CardTitle,
-} from "@/components/ui/card";
 import "./markdown.css";
 
 export async function generateStaticParams() {
@@ -98,14 +90,14 @@ export default async function PostPage({ params }) {
 						<span className="text-sm">Written by {singlePost.author.name}</span>
 					</div>
 				</div>
-				<article className="max-w-5xl mx-auto mt-8 prose-lg">
+				<article className="max-w-5xl mx-auto mt-8 prose-lg blogPost">
 					{singlePost.content}
 				</article>
 				<section className="mt-16">
 					<h2 className="mb-6 text-3xl font-bold">Latest Blog</h2>
 				</section>
 			</main>
-			<LatestPosts posts={allPosts} />
+			<LatestPosts />
 		</>
 	);
 }

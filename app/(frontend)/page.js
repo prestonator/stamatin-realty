@@ -11,7 +11,7 @@ import {
 	LuInstagram,
 	LuArrowUpRight,
 } from "react-icons/lu";
-import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar";
+import LatestPosts from "./blog/[slug]/parts/latestPosts";
 import {
 	SelectValue,
 	SelectTrigger,
@@ -225,114 +225,7 @@ const BlogPreview = ({ bgColor }) => {
 						</p>
 					</div>
 				</div>
-				<div className="grid items-start max-w-5xl gap-6 py-12 mx-auto lg:grid-cols-3 lg:gap-12">
-					<div className="relative flex flex-col h-full overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Blog post 1"
-							className="flex-shrink-0 object-cover w-full h-64"
-							height={300}
-							src="/StockImages/expertise.webp"
-							style={{
-								aspectRatio: "500/300",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="flex flex-col justify-between flex-grow p-4 bg-white dark:bg-gray-950">
-							<div>
-								<h3 className="text-xl font-bold">The Future of Real Estate</h3>
-								<p className="text-sm text-gray-500">
-									Published on February 1, 2024
-								</p>
-								<p className="mt-2 text-sm">
-									Discover the upcoming trends in the real estate market and how
-									they can impact your investments.
-								</p>
-							</div>
-							<Link
-								className="inline-flex items-center justify-center px-4 py-2 mt-4 text-sm font-medium transition-colors bg-gray-900 rounded-md shadow h-9 text-gray-50 hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-								href="#"
-							>
-								Read more
-							</Link>
-						</div>
-					</div>
-					<div className="relative flex flex-col h-full overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Blog post 2"
-							className="flex-shrink-0 object-cover w-full h-64"
-							height={300}
-							src="/StockImages/trust.webp"
-							style={{
-								aspectRatio: "500/300",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="flex flex-col justify-between flex-grow p-4 bg-white dark:bg-gray-950">
-							<div>
-								<h3 className="text-xl font-bold">
-									Investing in Commercial Properties
-								</h3>
-								<p className="text-sm text-gray-500">
-									Published on January 15, 2024
-								</p>
-								<p className="mt-2 text-sm">
-									Learn the basics of investing in commercial properties and the
-									potential benefits it can bring.
-								</p>
-							</div>
-							<Link
-								className="inline-flex items-center justify-center px-4 py-2 mt-4 text-sm font-medium transition-colors bg-gray-900 rounded-md shadow h-9 text-gray-50 hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-								href="#"
-							>
-								Read more
-							</Link>
-						</div>
-					</div>
-					<div className="relative flex flex-col h-full overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
-						<Link className="absolute inset-0 z-10" href="#">
-							<span className="sr-only">View</span>
-						</Link>
-						<Image
-							alt="Blog post 3"
-							className="flex-shrink-0 object-cover w-full h-64"
-							height={300}
-							src="/StockImages/quality.webp"
-							style={{
-								aspectRatio: "500/300",
-								objectFit: "cover",
-							}}
-							width={500}
-						/>
-						<div className="flex flex-col justify-between flex-grow p-4 bg-white dark:bg-gray-950">
-							<div>
-								<h3 className="text-xl font-bold">
-									Understanding Real Estate Taxes
-								</h3>
-								<p className="text-sm text-gray-500">
-									Published on January 1, 2024
-								</p>
-								<p className="mt-2 text-sm">
-									A comprehensive guide to understanding and navigating real
-									estate taxes.
-								</p>
-							</div>
-							<Link
-								className="inline-flex items-center justify-center px-4 py-2 mt-4 text-sm font-medium transition-colors bg-gray-900 rounded-md shadow h-9 text-gray-50 hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
-								href="#"
-							>
-								Read more
-							</Link>
-						</div>
-					</div>
-				</div>
+				<LatestPosts />
 				<div className="flex justify-center">
 					<Link href="/blog">
 						<Button>View All Posts</Button>

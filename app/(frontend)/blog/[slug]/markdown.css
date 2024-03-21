@@ -15,18 +15,18 @@
 	background-image: linear-gradient(to top, black 0% 50%, transparent 100%);
 }
 
-h2 {
+.blogPost h2 {
 	font-weight: 600;
 	font-size: 1.25rem;
 	margin-top: 15px;
 	margin-bottom: 5px;
 }
 
-li {
+.blogPost li {
 	list-style-type: disc;
 	list-style-position: inside;
 }
 
-ul {
+.blogPost ul {
 	margin: 10px 0;
 }
