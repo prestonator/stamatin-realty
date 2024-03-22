@@ -71,7 +71,7 @@ export default async function PostPage({ params }) {
 	// Pass the post contents to MDX
 	return (
 		<>
-			<main className="flex flex-col items-center justify-center px-4 py-6 md:px-6 lg:py-16 md:py-12 ">
+			<main className="flex flex-col items-center justify-center px-4 pt-6 md:px-6 lg:pt-16 md:pt-12 ">
 				<div
 					className="blogMainImage"
 					style={{
@@ -93,11 +93,12 @@ export default async function PostPage({ params }) {
 				<article className="max-w-5xl mx-auto mt-8 prose-lg blogPost">
 					{singlePost.content}
 				</article>
-				<section className="mt-16">
-					<h2 className="mb-6 text-3xl font-bold">Latest Blog</h2>
-				</section>
 			</main>
-			<LatestPosts />
+			<section className="flex flex-col items-center my-12">
+				<h2 className="text-3xl font-bold text-center">See the Latest Posts</h2>
+				<hr className="w-12 border-t-4 mt-2 mb-4 border-[--alex-color]" />
+				<LatestPosts />
+			</section>
 		</>
 	);
 }
