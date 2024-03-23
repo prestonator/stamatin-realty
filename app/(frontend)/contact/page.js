@@ -4,7 +4,7 @@ import ContactForm from "@/components/Cards/ContactForm/ContactForm";
 
 const Contact = () => {
 	return (
-		<main className="flex items-center py-48">
+		<main className="flex items-center justify-center py-48">
 			<ContactForm />
 		</main>
 	);

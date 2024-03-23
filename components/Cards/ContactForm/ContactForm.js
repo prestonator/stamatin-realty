@@ -35,7 +35,7 @@ const ContactForm = () => {
 
 		try {
 			const response = await fetch(
-				"https://n8n.do.prestonator.com/webhook-test/0ddaca68-e2a5-4dd7-b4b8-b39c8a37f910",
+				"https://n8n.do.prestonator.com/webhook/0ddaca68-e2a5-4dd7-b4b8-b39c8a37f910",
 				{
 					method: "POST",
 					headers: {},
@@ -63,10 +63,14 @@ const ContactForm = () => {
 	if (isSubmitted) {
 		return (
 			<section id="formSubmitted">
-				<h1 className="mb-6 font-light text-center">Thank You!</h1>
-				<p className="text-center">
-					Your request has been received, and we will be in touch soon.
-				</p>
+				<div className="text-center">
+					<p className="text-lg font-semibold">Thank you for reaching out!</p>
+					<p>
+						We appreciate you contacting us. One of our colleagues will get back
+						in touch with you soon!
+					</p>
+					<p>Have a great day!</p>
+				</div>
 			</section>
 		);
 	}
