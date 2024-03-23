@@ -1,6 +1,6 @@
 "use client";
 import { Children, cloneElement, isValidElement } from "react";
-import { useFormContext } from "react-hook-form";
+import { useFormContext, Controller } from "react-hook-form";
 import { HiExclamationCircle } from "react-icons/hi";
 import {
 	SelectValue,
@@ -16,6 +16,7 @@ export default function FormSelect({
 	helperText,
 	id,
 	placeholder,
+	defaultValue,
 	readOnly = false,
 	validation,
 	...rest
@@ -23,31 +24,43 @@ export default function FormSelect({
 	const {
 		register,
 		formState: { errors },
+		control,
 	} = useFormContext();
 
 	return (
 		<div>
 			<Label htmlFor={id}>{label}</Label>
 			<div>
-				<Select
-					{...register(id, validation)}
-					// defaultValue to value blank, will get overriden by ...rest if needed
-					defaultValue=""
-					{...rest}
+				<Controller
+					control={control}
+					rules={validation}
+					defaultValue={defaultValue}
 					name={id}
-					id={id}
-					aria-describedby={id}
-				>
-					<SelectTrigger className="w-full">
-						{placeholder && <SelectValue placeholder={placeholder} />}
-					</SelectTrigger>
-					<SelectContent>
-						<SelectItem value="social_media">Social Media</SelectItem>
-						<SelectItem value="friend">Friend</SelectItem>
-						<SelectItem value="advertisement">Advertisement</SelectItem>
-						<SelectItem value="other">Other</SelectItem>
-					</SelectContent>
-				</Select>
+					render={({ field: { onChange, onBlur, value } }) => (
+						<Select
+							{...register(id, validation)}
+							// defaultValue to value blank, will get overriden by ...rest if needed
+							{...rest}
+							name={id}
+							id={id}
+							aria-describedby={id}
+							onValueChange={onChange}
+							onBlur={onBlur}
+							value={value}
+							defaultValue={value}
+						>
+							<SelectTrigger className="w-full">
+								<SelectValue placeholder={placeholder} />
+							</SelectTrigger>
+							<SelectContent>
+								<SelectItem value="social_media">Social Media</SelectItem>
+								<SelectItem value="friend">Friend</SelectItem>
+								<SelectItem value="advertisement">Advertisement</SelectItem>
+								<SelectItem value="other">Other</SelectItem>
+							</SelectContent>
+						</Select>
+					)}
+				/>
 
 				{errors[id] && (
 					<div>

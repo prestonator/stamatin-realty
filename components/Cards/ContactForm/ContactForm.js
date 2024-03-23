@@ -4,7 +4,7 @@ import FormInput from "./parts/Input";
 import FormSelect from "./parts/Select";
 import FormTextarea from "./parts/Textarea";
 import FormButton from "./parts/Button";
-import { Form, useForm, FormProvider } from "react-hook-form";
+import { Form, useForm, FormProvider, SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { contactFormSchema } from "@/lib/yup";
 
@@ -35,11 +35,11 @@ const ContactForm = () => {
 
 		try {
 			const response = await fetch(
-				"https://n8n.do.prestonator.com/webhook/12cd7931-872b-400f-a05b-177bf8181a86",
+				"https://n8n.do.prestonator.com/webhook-test/0ddaca68-e2a5-4dd7-b4b8-b39c8a37f910",
 				{
 					method: "POST",
 					headers: {},
-					body: JSON.stringify({ stepOne, stepTwo, stepThree }),
+					body: JSON.stringify({ data }),
 				}
 			);
 
@@ -122,6 +122,7 @@ const ContactForm = () => {
 						id="formSubmitButton"
 						type="submit"
 						disabled={isSubmitting}
+						onClick={methods.handleSubmit(onSubmit)}
 					>
 						{isSubmitting ? "Submitting..." : "Send Message"}
 					</FormButton>
