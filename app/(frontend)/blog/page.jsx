@@ -1,4 +1,5 @@
 import { getDocuments } from "outstatic/server";
+import { formatDate, SafeHtml } from "@/lib/utils";
 import Link from "next/link";
 
 async function getData() {
@@ -31,7 +32,7 @@ const BlogListings = async () => {
 									<p className="text-gray-400">{post.description}</p>
 								</div>
 								<div className="my-auto text-gray-400">
-									<p>{post.publishedAt}</p>
+									<p>{SafeHtml(formatDate(post.publishedAt))}</p>
 								</div>
 							</div>
 						</Link>

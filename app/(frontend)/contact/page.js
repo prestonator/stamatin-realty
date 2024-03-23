@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import ContactForm from "@/components/Cards/ContactForm/ContactForm";
 
 const Contact = () => {
 	return (
-		<main className="flex-1">
-			
+		<main className="flex items-center py-48">
+			<ContactForm />
 		</main>
 	);
 };
